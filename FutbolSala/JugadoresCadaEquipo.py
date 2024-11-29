@@ -1,3 +1,4 @@
+import json
 import time
 
 from selenium import webdriver
@@ -18,19 +19,22 @@ def PlantillaEquipo(url): #Funcion que dada la URL con la plantilla devuelve una
     driver.get(url)
     Datos = driver.find_elements(By.CSS_SELECTOR, "table.table-squad tr")
     Jugadores = []
+    Equipo= driver.find_element(By.CSS_SELECTOR,"div.bg2.detail-header h1.title.color-white.ib")
     for i in range(2, len(Datos) - 1, 1):
         primeradivision = Datos[i].text.split("\n")
         segundadivision = primeradivision[3].split(" ")
         diccionario = {
+            "Equipo" :Equipo.text,
             "Dorsal": primeradivision[0],
-            "Nombre completo": primeradivision[1],
+            "Nombre": primeradivision[2],
             "Posicion": segundadivision[0],
             "Goles": segundadivision[1],
             "Goles en contra": segundadivision[2],
             "Tarjetas rojas": segundadivision[3],
             "Dobles amarillas": segundadivision[4],
-            "Partidos como titular": segundadivision[5],
-            "Partidos como suplente": segundadivision[6]
+            "Amarillas": segundadivision[5],
+            "Partidos como titular": segundadivision[6],
+            "Partidos como suplente": segundadivision[7]
         }
         Jugadores.append(diccionario)
     return Jugadores
@@ -76,8 +80,8 @@ def ObtenerResultados(url): #Funcion que saca todos los resultados de todas las 
             ListaURLCadaPartido.append(k.get_attribute("href"))
     for s in ListaURLCadaPartido:
         ListaEventosPorPartido.append(ObtenerEstadisticasPartido(s))
-    print(ListaEventosPorPartido) #Resultado del 3 apartado
-    return ListaResultadosPorJornada
+    #print(ListaEventosPorPartido) #Resultado del 3 apartado
+    return ListaResultadosPorJornada,ListaEventosPorPartido
 def ObtenerEstadisticasPartido(url): #Funcion que dada una URL de un partido devuelve un Diccionario con los eventos de ese partido
     driver.get(url)
     NombrePartido = driver.find_elements(By.CSS_SELECTOR, "div.content-match.bold.mb10")[0].text
@@ -100,22 +104,33 @@ def ObtenerEstadisticasPartido(url): #Funcion que dada una URL de un partido dev
     DiccionarioResultado = {
         "Partido": NombrePartido,
         "Goles": Goles,
-        "Amarrilas": Amarillas,
+        "Amarillas": Amarillas,
         "Rojas": Rojas,
         "GolesEnContra": GolesEnContra
     }
     return DiccionarioResultado
+def cargardatosenjson():
+    with open("Jugadores.json", "w") as archivo:
+        json.dump(ListaJugadores, archivo, indent=4)
+    with open("Resultados.json", "w") as archivo:
+        json.dump(ListaResultados, archivo, indent=4)
+    with open("Eventos.json", "w") as archivo:
+        json.dump(ListaEventos, archivo, indent=4)
 page_url = "https://www.lnfs.es/competicion/primera/2025/equipos"
 driver = webdriver.Chrome()
 driver.get(page_url)
 UrlEquipos=ObtenerUrlEquipos()
-ListaJugadores=[]
+ListaJugadoresv1=[]
 for i in UrlEquipos:
     UrlPLantillaCadaEquipo=ObtenerUrlPlantilla(i)
-    print(PlantillaEquipo(UrlPLantillaCadaEquipo))
-print(ObtenerResultados(ObtenerUrlResultados(page_url)))
+    ListaJugadoresv1.append(PlantillaEquipo(UrlPLantillaCadaEquipo))
+ListaJugadores=[]
+for sublista in ListaJugadoresv1:
+    for diccionario in sublista:
+        ListaJugadores.append(diccionario)
+ListaResultados, ListaEventos = ObtenerResultados(ObtenerUrlResultados(page_url))
+cargardatosenjson()
 driver.close()
-
 #"Desarrollo de un Sistema de Fantasy de Fútbol Sala: Extracción de Datos, Gestión de Información y Plataforma Web"
 #El trabajo desarrolla una solución integral que abarca la automatización de la recolección de datos deportivos,
 #su organización en una base de datos no relacional, y la implementación de una plataforma web para gestionar competiciones

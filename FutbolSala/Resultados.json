@@ -1,0 +1,386 @@
+[
+    {
+        "Numero de Jornada": 8,
+        "Equipo Local": "Islas Baleares Palma Futsal",
+        "Resultado": "2 - 2",
+        "Equipo Visitante": "ElPozo Murcia Costa C\u00e1lida"
+    },
+    {
+        "Numero de Jornada": 8,
+        "Equipo Local": "Osasuna Magna Xota",
+        "Resultado": "5 - 2",
+        "Equipo Visitante": "WANAPIX AD Sala 10"
+    },
+    {
+        "Numero de Jornada": 8,
+        "Equipo Local": "C\u00f3rdoba Patrimonio Humanidad",
+        "Resultado": "2 - 1",
+        "Equipo Visitante": "Pescados Rub\u00e9n Burela"
+    },
+    {
+        "Numero de Jornada": 8,
+        "Equipo Local": "Jimbee Cartagena Costa C\u00e1lida",
+        "Resultado": "3 - 2",
+        "Equipo Visitante": "Industrias Santa Coloma"
+    },
+    {
+        "Numero de Jornada": 8,
+        "Equipo Local": "Bar\u00e7a",
+        "Resultado": "4 - 3",
+        "Equipo Visitante": "Movistar Inter"
+    },
+    {
+        "Numero de Jornada": 8,
+        "Equipo Local": "Servigroup Pe\u00f1\u00edscola FS",
+        "Resultado": "8 - 6",
+        "Equipo Visitante": "Vi\u00f1a Albali Valdepe\u00f1as"
+    },
+    {
+        "Numero de Jornada": 8,
+        "Equipo Local": "Ja\u00e9n Para\u00edso Interior",
+        "Resultado": "5 - 5",
+        "Equipo Visitante": "ATP Ilum. Tudelano Ribera Navarra"
+    },
+    {
+        "Numero de Jornada": 8,
+        "Equipo Local": "Quesos Hidalgo Manzanares FS",
+        "Resultado": "2 - 0",
+        "Equipo Visitante": "Noia Portus Apostoli"
+    },
+    {
+        "Numero de Jornada": 7,
+        "Equipo Local": "ATP Ilum. Tudelano Ribera Navarra",
+        "Resultado": "2 - 3",
+        "Equipo Visitante": "Islas Baleares Palma Futsal"
+    },
+    {
+        "Numero de Jornada": 7,
+        "Equipo Local": "WANAPIX AD Sala 10",
+        "Resultado": "3 - 2",
+        "Equipo Visitante": "C\u00f3rdoba Patrimonio Humanidad"
+    },
+    {
+        "Numero de Jornada": 7,
+        "Equipo Local": "ElPozo Murcia Costa C\u00e1lida",
+        "Resultado": "4 - 2",
+        "Equipo Visitante": "Quesos Hidalgo Manzanares FS"
+    },
+    {
+        "Numero de Jornada": 7,
+        "Equipo Local": "Vi\u00f1a Albali Valdepe\u00f1as",
+        "Resultado": "2 - 3",
+        "Equipo Visitante": "Bar\u00e7a"
+    },
+    {
+        "Numero de Jornada": 7,
+        "Equipo Local": "Pescados Rub\u00e9n Burela",
+        "Resultado": "2 - 0",
+        "Equipo Visitante": "Osasuna Magna Xota"
+    },
+    {
+        "Numero de Jornada": 7,
+        "Equipo Local": "Noia Portus Apostoli",
+        "Resultado": "0 - 5",
+        "Equipo Visitante": "Jimbee Cartagena Costa C\u00e1lida"
+    },
+    {
+        "Numero de Jornada": 7,
+        "Equipo Local": "Movistar Inter",
+        "Resultado": "6 - 0",
+        "Equipo Visitante": "Servigroup Pe\u00f1\u00edscola FS"
+    },
+    {
+        "Numero de Jornada": 7,
+        "Equipo Local": "Industrias Santa Coloma",
+        "Resultado": "3 - 2",
+        "Equipo Visitante": "Ja\u00e9n Para\u00edso Interior"
+    },
+    {
+        "Numero de Jornada": 6,
+        "Equipo Local": "Islas Baleares Palma Futsal",
+        "Resultado": "3 - 2",
+        "Equipo Visitante": "WANAPIX AD Sala 10"
+    },
+    {
+        "Numero de Jornada": 6,
+        "Equipo Local": "ElPozo Murcia Costa C\u00e1lida",
+        "Resultado": "5 - 3",
+        "Equipo Visitante": "Industrias Santa Coloma"
+    },
+    {
+        "Numero de Jornada": 6,
+        "Equipo Local": "Osasuna Magna Xota",
+        "Resultado": "2 - 2",
+        "Equipo Visitante": "Jimbee Cartagena Costa C\u00e1lida"
+    },
+    {
+        "Numero de Jornada": 6,
+        "Equipo Local": "C\u00f3rdoba Patrimonio Humanidad",
+        "Resultado": "2 - 4",
+        "Equipo Visitante": "Movistar Inter"
+    },
+    {
+        "Numero de Jornada": 6,
+        "Equipo Local": "Ja\u00e9n Para\u00edso Interior",
+        "Resultado": "9 - 3",
+        "Equipo Visitante": "Vi\u00f1a Albali Valdepe\u00f1as"
+    },
+    {
+        "Numero de Jornada": 6,
+        "Equipo Local": "Servigroup Pe\u00f1\u00edscola FS",
+        "Resultado": "2 - 0",
+        "Equipo Visitante": "Noia Portus Apostoli"
+    },
+    {
+        "Numero de Jornada": 6,
+        "Equipo Local": "Bar\u00e7a",
+        "Resultado": "2 - 1",
+        "Equipo Visitante": "Pescados Rub\u00e9n Burela"
+    },
+    {
+        "Numero de Jornada": 6,
+        "Equipo Local": "Quesos Hidalgo Manzanares FS",
+        "Resultado": "4 - 1",
+        "Equipo Visitante": "ATP Ilum. Tudelano Ribera Navarra"
+    },
+    {
+        "Numero de Jornada": 5,
+        "Equipo Local": "Pescados Rub\u00e9n Burela",
+        "Resultado": "2 - 2",
+        "Equipo Visitante": "Islas Baleares Palma Futsal"
+    },
+    {
+        "Numero de Jornada": 5,
+        "Equipo Local": "ATP Ilum. Tudelano Ribera Navarra",
+        "Resultado": "2 - 3",
+        "Equipo Visitante": "C\u00f3rdoba Patrimonio Humanidad"
+    },
+    {
+        "Numero de Jornada": 5,
+        "Equipo Local": "Noia Portus Apostoli",
+        "Resultado": "0 - 4",
+        "Equipo Visitante": "Bar\u00e7a"
+    },
+    {
+        "Numero de Jornada": 5,
+        "Equipo Local": "Movistar Inter",
+        "Resultado": "6 - 2",
+        "Equipo Visitante": "Ja\u00e9n Para\u00edso Interior"
+    },
+    {
+        "Numero de Jornada": 5,
+        "Equipo Local": "Vi\u00f1a Albali Valdepe\u00f1as",
+        "Resultado": "1 - 3",
+        "Equipo Visitante": "ElPozo Murcia Costa C\u00e1lida"
+    },
+    {
+        "Numero de Jornada": 5,
+        "Equipo Local": "Jimbee Cartagena Costa C\u00e1lida",
+        "Resultado": "3 - 3",
+        "Equipo Visitante": "Quesos Hidalgo Manzanares FS"
+    },
+    {
+        "Numero de Jornada": 5,
+        "Equipo Local": "Industrias Santa Coloma",
+        "Resultado": "3 - 1",
+        "Equipo Visitante": "Osasuna Magna Xota"
+    },
+    {
+        "Numero de Jornada": 5,
+        "Equipo Local": "WANAPIX AD Sala 10",
+        "Resultado": "1 - 2",
+        "Equipo Visitante": "Servigroup Pe\u00f1\u00edscola FS"
+    },
+    {
+        "Numero de Jornada": 4,
+        "Equipo Local": "Bar\u00e7a",
+        "Resultado": "2 - 1",
+        "Equipo Visitante": "WANAPIX AD Sala 10"
+    },
+    {
+        "Numero de Jornada": 4,
+        "Equipo Local": "Osasuna Magna Xota",
+        "Resultado": "2 - 1",
+        "Equipo Visitante": "Noia Portus Apostoli"
+    },
+    {
+        "Numero de Jornada": 4,
+        "Equipo Local": "Movistar Inter",
+        "Resultado": "4 - 1",
+        "Equipo Visitante": "Industrias Santa Coloma"
+    },
+    {
+        "Numero de Jornada": 4,
+        "Equipo Local": "ElPozo Murcia Costa C\u00e1lida",
+        "Resultado": "4 - 1",
+        "Equipo Visitante": "Pescados Rub\u00e9n Burela"
+    },
+    {
+        "Numero de Jornada": 4,
+        "Equipo Local": "Servigroup Pe\u00f1\u00edscola FS",
+        "Resultado": "-",
+        "Equipo Visitante": "Jimbee Cartagena Costa C\u00e1lida"
+    },
+    {
+        "Numero de Jornada": 4,
+        "Equipo Local": "ATP Ilum. Tudelano Ribera Navarra",
+        "Resultado": "2 - 4",
+        "Equipo Visitante": "Vi\u00f1a Albali Valdepe\u00f1as"
+    },
+    {
+        "Numero de Jornada": 4,
+        "Equipo Local": "C\u00f3rdoba Patrimonio Humanidad",
+        "Resultado": "4 - 2",
+        "Equipo Visitante": "Quesos Hidalgo Manzanares FS"
+    },
+    {
+        "Numero de Jornada": 4,
+        "Equipo Local": "Ja\u00e9n Para\u00edso Interior",
+        "Resultado": "-",
+        "Equipo Visitante": "Islas Baleares Palma Futsal"
+    },
+    {
+        "Numero de Jornada": 3,
+        "Equipo Local": "Jimbee Cartagena Costa C\u00e1lida",
+        "Resultado": "4 - 0",
+        "Equipo Visitante": "C\u00f3rdoba Patrimonio Humanidad"
+    },
+    {
+        "Numero de Jornada": 3,
+        "Equipo Local": "Islas Baleares Palma Futsal",
+        "Resultado": "5 - 2",
+        "Equipo Visitante": "Servigroup Pe\u00f1\u00edscola FS"
+    },
+    {
+        "Numero de Jornada": 3,
+        "Equipo Local": "Vi\u00f1a Albali Valdepe\u00f1as",
+        "Resultado": "1 - 6",
+        "Equipo Visitante": "Movistar Inter"
+    },
+    {
+        "Numero de Jornada": 3,
+        "Equipo Local": "Pescados Rub\u00e9n Burela",
+        "Resultado": "3 - 1",
+        "Equipo Visitante": "ATP Ilum. Tudelano Ribera Navarra"
+    },
+    {
+        "Numero de Jornada": 3,
+        "Equipo Local": "Noia Portus Apostoli",
+        "Resultado": "3 - 3",
+        "Equipo Visitante": "ElPozo Murcia Costa C\u00e1lida"
+    },
+    {
+        "Numero de Jornada": 3,
+        "Equipo Local": "Quesos Hidalgo Manzanares FS",
+        "Resultado": "5 - 4",
+        "Equipo Visitante": "Osasuna Magna Xota"
+    },
+    {
+        "Numero de Jornada": 3,
+        "Equipo Local": "WANAPIX AD Sala 10",
+        "Resultado": "1 - 3",
+        "Equipo Visitante": "Ja\u00e9n Para\u00edso Interior"
+    },
+    {
+        "Numero de Jornada": 3,
+        "Equipo Local": "Industrias Santa Coloma",
+        "Resultado": "1 - 0",
+        "Equipo Visitante": "Bar\u00e7a"
+    },
+    {
+        "Numero de Jornada": 2,
+        "Equipo Local": "Bar\u00e7a",
+        "Resultado": "3 - 2",
+        "Equipo Visitante": "Quesos Hidalgo Manzanares FS"
+    },
+    {
+        "Numero de Jornada": 2,
+        "Equipo Local": "Jimbee Cartagena Costa C\u00e1lida",
+        "Resultado": "3 - 0",
+        "Equipo Visitante": "WANAPIX AD Sala 10"
+    },
+    {
+        "Numero de Jornada": 2,
+        "Equipo Local": "C\u00f3rdoba Patrimonio Humanidad",
+        "Resultado": "2 - 2",
+        "Equipo Visitante": "Industrias Santa Coloma"
+    },
+    {
+        "Numero de Jornada": 2,
+        "Equipo Local": "Movistar Inter",
+        "Resultado": "3 - 2",
+        "Equipo Visitante": "Pescados Rub\u00e9n Burela"
+    },
+    {
+        "Numero de Jornada": 2,
+        "Equipo Local": "ATP Ilum. Tudelano Ribera Navarra",
+        "Resultado": "0 - 1",
+        "Equipo Visitante": "ElPozo Murcia Costa C\u00e1lida"
+    },
+    {
+        "Numero de Jornada": 2,
+        "Equipo Local": "Servigroup Pe\u00f1\u00edscola FS",
+        "Resultado": "5 - 2",
+        "Equipo Visitante": "Osasuna Magna Xota"
+    },
+    {
+        "Numero de Jornada": 2,
+        "Equipo Local": "Ja\u00e9n Para\u00edso Interior",
+        "Resultado": "5 - 2",
+        "Equipo Visitante": "Noia Portus Apostoli"
+    },
+    {
+        "Numero de Jornada": 2,
+        "Equipo Local": "Islas Baleares Palma Futsal",
+        "Resultado": "3 - 2",
+        "Equipo Visitante": "Vi\u00f1a Albali Valdepe\u00f1as"
+    },
+    {
+        "Numero de Jornada": 1,
+        "Equipo Local": "Pescados Rub\u00e9n Burela",
+        "Resultado": "1 - 4",
+        "Equipo Visitante": "Ja\u00e9n Para\u00edso Interior"
+    },
+    {
+        "Numero de Jornada": 1,
+        "Equipo Local": "Osasuna Magna Xota",
+        "Resultado": "7 - 2",
+        "Equipo Visitante": "C\u00f3rdoba Patrimonio Humanidad"
+    },
+    {
+        "Numero de Jornada": 1,
+        "Equipo Local": "WANAPIX AD Sala 10",
+        "Resultado": "1 - 4",
+        "Equipo Visitante": "Movistar Inter"
+    },
+    {
+        "Numero de Jornada": 1,
+        "Equipo Local": "Quesos Hidalgo Manzanares FS",
+        "Resultado": "4 - 8",
+        "Equipo Visitante": "Servigroup Pe\u00f1\u00edscola FS"
+    },
+    {
+        "Numero de Jornada": 1,
+        "Equipo Local": "Vi\u00f1a Albali Valdepe\u00f1as",
+        "Resultado": "1 - 2",
+        "Equipo Visitante": "Jimbee Cartagena Costa C\u00e1lida"
+    },
+    {
+        "Numero de Jornada": 1,
+        "Equipo Local": "Noia Portus Apostoli",
+        "Resultado": "0 - 1",
+        "Equipo Visitante": "ATP Ilum. Tudelano Ribera Navarra"
+    },
+    {
+        "Numero de Jornada": 1,
+        "Equipo Local": "Industrias Santa Coloma",
+        "Resultado": "4 - 2",
+        "Equipo Visitante": "Islas Baleares Palma Futsal"
+    },
+    {
+        "Numero de Jornada": 1,
+        "Equipo Local": "ElPozo Murcia Costa C\u00e1lida",
+        "Resultado": "5 - 2",
+        "Equipo Visitante": "Bar\u00e7a"
+    }
+]

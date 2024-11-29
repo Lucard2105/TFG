@@ -1,0 +1,1220 @@
+[
+    {
+        "Partido": "Islas Baleares Palma Futsal 2 - 2 ElPozo Murcia Costa C\u00e1lida",
+        "Goles": [
+            "Gordillo",
+            "Ricardinho",
+            "Ricardo",
+            "Mateus Maia"
+        ],
+        "Amarillas": [
+            "Gordillo",
+            "C. Barr\u00f3n",
+            "Mateus Maia",
+            "Marlon",
+            "C\u00e9sar",
+            "Fabinho"
+        ],
+        "Rojas": [],
+        "GolesEnContra": []
+    },
+    {
+        "Partido": "Osasuna Magna Xota 5 - 2 WANAPIX AD Sala 10",
+        "Goles": [
+            "Ion Cervi\u00f1o",
+            "Alberto In\u00e9s",
+            "Ion Cervi\u00f1o",
+            "Ion Cervi\u00f1o",
+            "Pachu",
+            "Richi Felipe"
+        ],
+        "Amarillas": [
+            "Adri Ortego",
+            "Alberto In\u00e9s",
+            "Carlos Garc\u00eda",
+            "Tom\u00e1s Pescio"
+        ],
+        "Rojas": [],
+        "GolesEnContra": [
+            "Tom\u00e1s Pescio"
+        ]
+    },
+    {
+        "Partido": "C\u00f3rdoba Patrimonio Humanidad 2 - 1 Pescados Rub\u00e9n Burela",
+        "Goles": [
+            "Arnaldo B\u00e1ez",
+            "Bernardo Araya",
+            "Murilo Duarte"
+        ],
+        "Amarillas": [
+            "Malaguti",
+            "Murilo Duarte",
+            "Kau\u00ea",
+            "Pitero",
+            "Pablo Del Moral"
+        ],
+        "Rojas": [],
+        "GolesEnContra": []
+    },
+    {
+        "Partido": "Jimbee Cartagena Costa C\u00e1lida 3 - 2 Industrias Santa Coloma",
+        "Goles": [
+            "Povill",
+            "Mouhoudine",
+            "\u00c1lex Verdejo",
+            "Gon Castej\u00f3n",
+            "Tomaz"
+        ],
+        "Amarillas": [
+            "Corso",
+            "\u00c1lex Verdejo",
+            "Motta",
+            "Cardona",
+            "Cort\u00e9s"
+        ],
+        "Rojas": [],
+        "GolesEnContra": []
+    },
+    {
+        "Partido": "Bar\u00e7a 4 - 3 Movistar Inter",
+        "Goles": [
+            "Chaguinha",
+            "Antonio",
+            "Cecilio",
+            "Cecilio",
+            "Fits",
+            "\u00c1lex",
+            "Catela"
+        ],
+        "Amarillas": [
+            "Chaguinha",
+            "Carlos B.",
+            "Catela",
+            "Erick",
+            "Tour\u00e9"
+        ],
+        "Rojas": [],
+        "GolesEnContra": []
+    },
+    {
+        "Partido": "Servigroup Pe\u00f1\u00edscola FS 8 - 6 Vi\u00f1a Albali Valdepe\u00f1as",
+        "Goles": [
+            "V\u00edctor P\u00e9rez",
+            "Luciano Gauna",
+            "Carlos",
+            "Carlos",
+            "Yeray",
+            "Carrasco",
+            "Paniagua",
+            "El\u00edas",
+            "Quintela",
+            "Fernando",
+            "Solano",
+            "Pol Pacheco",
+            "Paniagua",
+            "Diego Sancho"
+        ],
+        "Amarillas": [
+            "Carrasco",
+            "Pol Pacheco",
+            "Yeray",
+            "V\u00edctor P\u00e9rez"
+        ],
+        "Rojas": [],
+        "GolesEnContra": []
+    },
+    {
+        "Partido": "Ja\u00e9n Para\u00edso Interior 5 - 5 ATP Ilum. Tudelano Ribera Navarra",
+        "Goles": [
+            "Alan Brandi",
+            "Alberto Lahuerta",
+            "Eric P\u00e9rez",
+            "L. Tripodi",
+            "Alberto Lahuerta",
+            "Gabriel Vasques",
+            "Alan Brandi",
+            "Mati Rosa",
+            "D. Zurdo",
+            "Chino"
+        ],
+        "Amarillas": [
+            "Gabriel Vasques",
+            "Camp\u00e0s",
+            "M\u00edchel"
+        ],
+        "Rojas": [
+            "Gabriel Vasques"
+        ],
+        "GolesEnContra": []
+    },
+    {
+        "Partido": "Quesos Hidalgo Manzanares FS 2 - 0 Noia Portus Apostoli",
+        "Goles": [
+            "Humberto",
+            "Anto\u00f1ito"
+        ],
+        "Amarillas": [
+            "Daniel",
+            "Zequi",
+            "Rubi Lemos",
+            "Javi Alonso",
+            "Pedro Herreros"
+        ],
+        "Rojas": [],
+        "GolesEnContra": []
+    },
+    {
+        "Partido": "ATP Ilum. Tudelano Ribera Navarra 2 - 3 Islas Baleares Palma Futsal",
+        "Goles": [
+            "Gordillo",
+            "Ernesto",
+            "Piqueras",
+            "L. Tripodi",
+            "Gabriel Vasques"
+        ],
+        "Amarillas": [
+            "Piqueras",
+            "Jo\u00e3o Batista",
+            "Sepe",
+            "Fabinho",
+            "L. Tripodi",
+            "Dani Fern\u00e1ndez",
+            "Bruno Gomes"
+        ],
+        "Rojas": [],
+        "GolesEnContra": []
+    },
+    {
+        "Partido": "WANAPIX AD Sala 10 3 - 2 C\u00f3rdoba Patrimonio Humanidad",
+        "Goles": [
+            "Rivera",
+            "Hugo",
+            "Juanan",
+            "Richi Felipe",
+            "Carlos Garc\u00eda"
+        ],
+        "Amarillas": [
+            "Pablo Del Moral"
+        ],
+        "Rojas": [],
+        "GolesEnContra": []
+    },
+    {
+        "Partido": "ElPozo Murcia Costa C\u00e1lida 4 - 2 Quesos Hidalgo Manzanares FS",
+        "Goles": [
+            "C\u00e9sar",
+            "Humberto",
+            "D. \u00c1lvarez",
+            "Ricardo",
+            "Antonio Navarro",
+            "D. \u00c1lvarez"
+        ],
+        "Amarillas": [
+            "Javi Alonso",
+            "Ricardinho",
+            "Juan Emilio"
+        ],
+        "Rojas": [],
+        "GolesEnContra": []
+    },
+    {
+        "Partido": "Vi\u00f1a Albali Valdepe\u00f1as 2 - 3 Bar\u00e7a",
+        "Goles": [
+            "\u00c1lex",
+            "Carrasco",
+            "Eloy Rojas",
+            "Catela",
+            "Fits"
+        ],
+        "Amarillas": [
+            "Dyego",
+            "Lolo",
+            "Carlos",
+            "Erick",
+            "Solano"
+        ],
+        "Rojas": [],
+        "GolesEnContra": []
+    },
+    {
+        "Partido": "Pescados Rub\u00e9n Burela 2 - 0 Osasuna Magna Xota",
+        "Goles": [
+            "Isma",
+            "Malaguti"
+        ],
+        "Amarillas": [
+            "Pitero",
+            "Ligeiro",
+            "Isma",
+            "Alberto",
+            "A. Geraghty"
+        ],
+        "Rojas": [],
+        "GolesEnContra": []
+    },
+    {
+        "Partido": "Noia Portus Apostoli 0 - 5 Jimbee Cartagena Costa C\u00e1lida",
+        "Goles": [
+            "Mouhoudine",
+            "Motta",
+            "Pablo Ram\u00edrez",
+            "Linhares",
+            "Pablo Ram\u00edrez"
+        ],
+        "Amarillas": [
+            "Pirata",
+            "Linhares"
+        ],
+        "Rojas": [],
+        "GolesEnContra": []
+    },
+    {
+        "Partido": "Movistar Inter 6 - 0 Servigroup Pe\u00f1\u00edscola FS",
+        "Goles": [
+            "Cecilio",
+            "Carlos B.",
+            "Cecilio",
+            "Cecilio",
+            "Chaguinha",
+            "Chaguinha"
+        ],
+        "Amarillas": [
+            "Terry",
+            "Pol Salas",
+            "Cecilio",
+            "Drahovsky"
+        ],
+        "Rojas": [],
+        "GolesEnContra": []
+    },
+    {
+        "Partido": "Industrias Santa Coloma 3 - 2 Ja\u00e9n Para\u00edso Interior",
+        "Goles": [
+            "\u00c1lex Verdejo",
+            "Alan Brandi",
+            "Franklin",
+            "Cardona",
+            "Cardona"
+        ],
+        "Amarillas": [
+            "Renato",
+            "Corso",
+            "\u00c0lex Lluch",
+            "Mati Rosa",
+            "Chino",
+            "Lemine",
+            "Nil",
+            "M\u00edchel",
+            "Carlos Sanz",
+            "Povill"
+        ],
+        "Rojas": [],
+        "GolesEnContra": []
+    },
+    {
+        "Partido": "Islas Baleares Palma Futsal 3 - 2 WANAPIX AD Sala 10",
+        "Goles": [
+            "Bruno Gomes",
+            "Rivillos",
+            "Nando Torres",
+            "Richi Felipe"
+        ],
+        "Amarillas": [
+            "Tom\u00e1s Pescio",
+            "Bruno Gomes",
+            "Iv\u00e1n Bernad",
+            "Rivillos",
+            "Esp\u00edn",
+            "Ernesto",
+            "Rivera"
+        ],
+        "Rojas": [
+            "Nando Torres",
+            "Marcelo"
+        ],
+        "GolesEnContra": [
+            "Iv\u00e1n Bernad"
+        ]
+    },
+    {
+        "Partido": "ElPozo Murcia Costa C\u00e1lida 5 - 3 Industrias Santa Coloma",
+        "Goles": [
+            "C\u00e9sar",
+            "Ricardo",
+            "Ricardo",
+            "D. \u00c1lvarez",
+            "F. Valerio",
+            "V\u00edctor Ramos",
+            "Povill"
+        ],
+        "Amarillas": [
+            "Gadeia",
+            "\u00c1lex Verdejo",
+            "Niel\u00b7lo"
+        ],
+        "Rojas": [],
+        "GolesEnContra": [
+            "Gadeia"
+        ]
+    },
+    {
+        "Partido": "Osasuna Magna Xota 2 - 2 Jimbee Cartagena Costa C\u00e1lida",
+        "Goles": [
+            "Ligeiro",
+            "Gon Castej\u00f3n",
+            "Pablo Ram\u00edrez",
+            "Korsun"
+        ],
+        "Amarillas": [
+            "Dar\u00edo",
+            "Jes\u00fas Izquierdo",
+            "Chemi",
+            "Linhares",
+            "Tomaz",
+            "A. Geraghty",
+            "R. Martil"
+        ],
+        "Rojas": [],
+        "GolesEnContra": []
+    },
+    {
+        "Partido": "C\u00f3rdoba Patrimonio Humanidad 2 - 4 Movistar Inter",
+        "Goles": [
+            "J. M\u00ednguez",
+            "Eloy",
+            "Kau\u00ea",
+            "Pablo Ord\u00f3\u00f1ez",
+            "Pablo Ord\u00f3\u00f1ez",
+            "Juanan"
+        ],
+        "Amarillas": [
+            "Carlos B."
+        ],
+        "Rojas": [],
+        "GolesEnContra": []
+    },
+    {
+        "Partido": "Ja\u00e9n Para\u00edso Interior 9 - 3 Vi\u00f1a Albali Valdepe\u00f1as",
+        "Goles": [
+            "M\u00edchel",
+            "Espindola",
+            "Espindola",
+            "Mati Rosa",
+            "Renato",
+            "Mati Rosa",
+            "Fernando",
+            "Jo\u00e3o Salla",
+            "Fernando",
+            "Chino",
+            "Fernando",
+            "Renato"
+        ],
+        "Amarillas": [
+            "Alberto Garc\u00eda",
+            "Lemine",
+            "Renato",
+            "Pol Pacheco",
+            "Franklin",
+            "Mati Rosa"
+        ],
+        "Rojas": [
+            "Pol Pacheco",
+            "Mati Rosa"
+        ],
+        "GolesEnContra": []
+    },
+    {
+        "Partido": "Servigroup Pe\u00f1\u00edscola FS 2 - 0 Noia Portus Apostoli",
+        "Goles": [
+            "Quintela",
+            "V\u00edctor P\u00e9rez"
+        ],
+        "Amarillas": [
+            "Montero",
+            "Matheus Pre\u00e1",
+            "Agust\u00edn Plaza",
+            "Rufino"
+        ],
+        "Rojas": [
+            "Agust\u00edn Plaza"
+        ],
+        "GolesEnContra": []
+    },
+    {
+        "Partido": "Bar\u00e7a 2 - 1 Pescados Rub\u00e9n Burela",
+        "Goles": [
+            "Alberto",
+            "Sergio Lozano",
+            "Fits"
+        ],
+        "Amarillas": [
+            "Catela",
+            "Sergio Lozano",
+            "Junhinho"
+        ],
+        "Rojas": [],
+        "GolesEnContra": []
+    },
+    {
+        "Partido": "Quesos Hidalgo Manzanares FS 4 - 1 ATP Ilum. Tudelano Ribera Navarra",
+        "Goles": [
+            "Humberto",
+            "Darrieer",
+            "Daniel",
+            "Juan Emilio",
+            "Alvaro L\u00f3pez"
+        ],
+        "Amarillas": [
+            "Zequi",
+            "Javi Alonso",
+            "Gabriel Vasques",
+            "Eric P\u00e9rez",
+            "Antonio Navarro",
+            "Jo\u00e3o Batista"
+        ],
+        "Rojas": [],
+        "GolesEnContra": []
+    },
+    {
+        "Partido": "Pescados Rub\u00e9n Burela 2 - 2 Islas Baleares Palma Futsal",
+        "Goles": [
+            "Piqueras",
+            "Ernesto",
+            "Isma",
+            "Alberto"
+        ],
+        "Amarillas": [
+            "Malaguti",
+            "Ernesto"
+        ],
+        "Rojas": [],
+        "GolesEnContra": []
+    },
+    {
+        "Partido": "ATP Ilum. Tudelano Ribera Navarra 2 - 3 C\u00f3rdoba Patrimonio Humanidad",
+        "Goles": [
+            "Pablo Del Moral",
+            "Tiago Macedo",
+            "Camp\u00e0s",
+            "Kau\u00ea",
+            "Jo\u00e3o Batista"
+        ],
+        "Amarillas": [
+            "Murilo Duarte",
+            "Kau\u00ea",
+            "Alberto Lahuerta",
+            "V\u00edctor Areales"
+        ],
+        "Rojas": [],
+        "GolesEnContra": []
+    },
+    {
+        "Partido": "Noia Portus Apostoli 0 - 4 Bar\u00e7a",
+        "Goles": [
+            "Antonio",
+            "Antonio",
+            "E. Martel",
+            "E. Martel"
+        ],
+        "Amarillas": [
+            "Antonio",
+            "Dyego",
+            "Power",
+            "Erick",
+            "Rubi Lemos",
+            "Rufino",
+            "Miquel Feixas",
+            "Attos"
+        ],
+        "Rojas": [
+            "Power"
+        ],
+        "GolesEnContra": []
+    },
+    {
+        "Partido": "Movistar Inter 6 - 2 Ja\u00e9n Para\u00edso Interior",
+        "Goles": [
+            "J. M\u00ednguez",
+            "J. M\u00ednguez",
+            "Renato",
+            "J. M\u00ednguez",
+            "Cecilio",
+            "Carlos B.",
+            "Cecilio"
+        ],
+        "Amarillas": [
+            "Espindola",
+            "Chaguinha",
+            "D. Zurdo",
+            "Drahovsky",
+            "Chino",
+            "Antoniazzi",
+            "Alan Brandi",
+            "Renato"
+        ],
+        "Rojas": [],
+        "GolesEnContra": [
+            "Bebe"
+        ]
+    },
+    {
+        "Partido": "Vi\u00f1a Albali Valdepe\u00f1as 1 - 3 ElPozo Murcia Costa C\u00e1lida",
+        "Goles": [
+            "Gadeia",
+            "Carrasco"
+        ],
+        "Amarillas": [
+            "Alberto Garc\u00eda",
+            "Carrasco",
+            "C\u00e9sar",
+            "Lolo"
+        ],
+        "Rojas": [],
+        "GolesEnContra": [
+            "Merino",
+            "Pol Pacheco"
+        ]
+    },
+    {
+        "Partido": "Jimbee Cartagena Costa C\u00e1lida 3 - 3 Quesos Hidalgo Manzanares FS",
+        "Goles": [
+            "Pedro Herreros",
+            "Cort\u00e9s",
+            "Humberto",
+            "Zequi",
+            "Waltinho",
+            "Pablo Ram\u00edrez"
+        ],
+        "Amarillas": [
+            "Motta",
+            "Juan Emilio",
+            "Alvaro L\u00f3pez",
+            "Javi Alonso",
+            "Tomaz"
+        ],
+        "Rojas": [],
+        "GolesEnContra": []
+    },
+    {
+        "Partido": "Industrias Santa Coloma 3 - 1 Osasuna Magna Xota",
+        "Goles": [
+            "D. Saldise",
+            "V\u00edctor Ramos",
+            "V\u00edctor Ramos",
+            "\u00c1lex Verdejo"
+        ],
+        "Amarillas": [
+            "Puigvert",
+            "Nil",
+            "Korsun",
+            "Cardona",
+            "Corso"
+        ],
+        "Rojas": [],
+        "GolesEnContra": []
+    },
+    {
+        "Partido": "WANAPIX AD Sala 10 1 - 2 Servigroup Pe\u00f1\u00edscola FS",
+        "Goles": [
+            "Adri Ortego",
+            "V\u00edctor P\u00e9rez",
+            "Paniagua"
+        ],
+        "Amarillas": [
+            "Nando Torres",
+            "Pol Salas",
+            "Rivera",
+            "Agust\u00edn Plaza",
+            "Esp\u00edn",
+            "Richi Felipe"
+        ],
+        "Rojas": [
+            "Rivera",
+            "Richi Felipe"
+        ],
+        "GolesEnContra": []
+    },
+    {
+        "Partido": "Bar\u00e7a 2 - 1 WANAPIX AD Sala 10",
+        "Goles": [
+            "Dyego",
+            "Antonio",
+            "Nando Torres"
+        ],
+        "Amarillas": [
+            "Catela",
+            "Carlos Garc\u00eda"
+        ],
+        "Rojas": [],
+        "GolesEnContra": []
+    },
+    {
+        "Partido": "Osasuna Magna Xota 2 - 1 Noia Portus Apostoli",
+        "Goles": [
+            "David Pazos",
+            "R. Martil",
+            "Pachu"
+        ],
+        "Amarillas": [
+            "Diego F\u00e1vero",
+            "Rubi Lemos",
+            "Attos",
+            "\u00c1lex Garc\u00eda",
+            "Matheus Pre\u00e1",
+            "Ligeiro",
+            "Asier"
+        ],
+        "Rojas": [],
+        "GolesEnContra": []
+    },
+    {
+        "Partido": "Movistar Inter 4 - 1 Industrias Santa Coloma",
+        "Goles": [
+            "Bebe",
+            "Chaguinha",
+            "Drahovsky",
+            "Eloy",
+            "\u00c1lex Verdejo"
+        ],
+        "Amarillas": [
+            "Leandrinho",
+            "Luc\u00e3o"
+        ],
+        "Rojas": [
+            "Pablo Ord\u00f3\u00f1ez"
+        ],
+        "GolesEnContra": []
+    },
+    {
+        "Partido": "ElPozo Murcia Costa C\u00e1lida 4 - 1 Pescados Rub\u00e9n Burela",
+        "Goles": [
+            "Marcel",
+            "Junhinho",
+            "D. \u00c1lvarez",
+            "F. Valerio",
+            "Rafa Santos"
+        ],
+        "Amarillas": [
+            "Isma",
+            "Meira",
+            "Rafa Santos",
+            "Bernardo Araya",
+            "C\u00e9sar"
+        ],
+        "Rojas": [],
+        "GolesEnContra": []
+    },
+    {
+        "Partido": "Servigroup Pe\u00f1\u00edscola FS - Jimbee Cartagena Costa C\u00e1lida",
+        "Goles": [],
+        "Amarillas": [],
+        "Rojas": [],
+        "GolesEnContra": []
+    },
+    {
+        "Partido": "ATP Ilum. Tudelano Ribera Navarra 2 - 4 Vi\u00f1a Albali Valdepe\u00f1as",
+        "Goles": [
+            "Alberto Garc\u00eda",
+            "Jo\u00e3o Batista",
+            "Pol Pacheco",
+            "Carlos",
+            "Pol Pacheco",
+            "David"
+        ],
+        "Amarillas": [
+            "David",
+            "Bynho",
+            "Eric P\u00e9rez",
+            "Sepe",
+            "Lolo",
+            "Alberto Lahuerta",
+            "Alberto Garc\u00eda"
+        ],
+        "Rojas": [
+            "Sepe"
+        ],
+        "GolesEnContra": []
+    },
+    {
+        "Partido": "C\u00f3rdoba Patrimonio Humanidad 4 - 2 Quesos Hidalgo Manzanares FS",
+        "Goles": [
+            "Ra\u00fal Campos",
+            "Kau\u00ea",
+            "Arnaldo B\u00e1ez",
+            "Mykytiuk",
+            "Zequi",
+            "Juanan"
+        ],
+        "Amarillas": [
+            "Antonio Navarro",
+            "Kau\u00ea",
+            "Echavarr\u00eda",
+            "Juanan",
+            "Javi Alonso",
+            "Ra\u00fal Campos",
+            "Juan Emilio"
+        ],
+        "Rojas": [],
+        "GolesEnContra": []
+    },
+    {
+        "Partido": "Ja\u00e9n Para\u00edso Interior - Islas Baleares Palma Futsal",
+        "Goles": [],
+        "Amarillas": [],
+        "Rojas": [],
+        "GolesEnContra": []
+    },
+    {
+        "Partido": "Jimbee Cartagena Costa C\u00e1lida 4 - 0 C\u00f3rdoba Patrimonio Humanidad",
+        "Goles": [
+            "Motta",
+            "Waltinho",
+            "Linhares",
+            "Motta"
+        ],
+        "Amarillas": [
+            "Echavarr\u00eda",
+            "Fabio",
+            "Arnaldo B\u00e1ez",
+            "Gon Castej\u00f3n"
+        ],
+        "Rojas": [],
+        "GolesEnContra": []
+    },
+    {
+        "Partido": "Islas Baleares Palma Futsal 5 - 2 Servigroup Pe\u00f1\u00edscola FS",
+        "Goles": [
+            "Neguinho",
+            "El\u00edas",
+            "Bruno Gomes",
+            "Paniagua",
+            "Bruno Gomes",
+            "Neguinho",
+            "Marcelo"
+        ],
+        "Amarillas": [
+            "Fabinho",
+            "David Pe\u00f1a",
+            "Neguinho",
+            "Juan Jos\u00e9",
+            "Piqueras"
+        ],
+        "Rojas": [],
+        "GolesEnContra": []
+    },
+    {
+        "Partido": "Vi\u00f1a Albali Valdepe\u00f1as 1 - 6 Movistar Inter",
+        "Goles": [
+            "J. Herrero",
+            "Bebe",
+            "Cecilio",
+            "Drahovsky",
+            "Cecilio",
+            "Solano",
+            "Drahovsky"
+        ],
+        "Amarillas": [
+            "Carrasco",
+            "J. Herrero",
+            "Cecilio",
+            "Eloy Rojas",
+            "Solano",
+            "Alberto Garc\u00eda"
+        ],
+        "Rojas": [],
+        "GolesEnContra": []
+    },
+    {
+        "Partido": "Pescados Rub\u00e9n Burela 3 - 1 ATP Ilum. Tudelano Ribera Navarra",
+        "Goles": [
+            "Jo\u00e3o Batista",
+            "M. Kaluza",
+            "M. Kaluza",
+            "Charly"
+        ],
+        "Amarillas": [
+            "Isma",
+            "Alberto",
+            "Quelle",
+            "Eric P\u00e9rez"
+        ],
+        "Rojas": [],
+        "GolesEnContra": []
+    },
+    {
+        "Partido": "Noia Portus Apostoli 3 - 3 ElPozo Murcia Costa C\u00e1lida",
+        "Goles": [
+            "L. Altamirano",
+            "Esteban",
+            "David Pazos",
+            "Marcel",
+            "Rafa Santos",
+            "Power"
+        ],
+        "Amarillas": [
+            "Pirata",
+            "F. Valerio",
+            "Esteban",
+            "Rufino",
+            "Power"
+        ],
+        "Rojas": [],
+        "GolesEnContra": []
+    },
+    {
+        "Partido": "Quesos Hidalgo Manzanares FS 5 - 4 Osasuna Magna Xota",
+        "Goles": [
+            "Pachu",
+            "Korsun",
+            "Humberto",
+            "Javi Alonso",
+            "Alvaro L\u00f3pez",
+            "Tony",
+            "Nefi Gon\u00e7alves",
+            "R. Martil",
+            "Daniel"
+        ],
+        "Amarillas": [
+            "Korsun",
+            "Antonio Navarro",
+            "Ion Cervi\u00f1o",
+            "Zequi",
+            "A. Geraghty"
+        ],
+        "Rojas": [
+            "A. Geraghty"
+        ],
+        "GolesEnContra": []
+    },
+    {
+        "Partido": "WANAPIX AD Sala 10 1 - 3 Ja\u00e9n Para\u00edso Interior",
+        "Goles": [
+            "Chino",
+            "M\u00edchel",
+            "M\u00edchel",
+            "Nando Torres"
+        ],
+        "Amarillas": [
+            "Dani \u00c1lvarez",
+            "Iv\u00e1n Bernad",
+            "Chino",
+            "Renato",
+            "Espindola",
+            "Antoniazzi",
+            "Richi Felipe",
+            "Franklin"
+        ],
+        "Rojas": [],
+        "GolesEnContra": []
+    },
+    {
+        "Partido": "Industrias Santa Coloma 1 - 0 Bar\u00e7a",
+        "Goles": [
+            "\u00c1lex Verdejo"
+        ],
+        "Amarillas": [
+            "Dyego"
+        ],
+        "Rojas": [],
+        "GolesEnContra": []
+    },
+    {
+        "Partido": "Bar\u00e7a 3 - 2 Quesos Hidalgo Manzanares FS",
+        "Goles": [
+            "Antonio",
+            "Daniel",
+            "Antonio",
+            "Tour\u00e9",
+            "Alvaro L\u00f3pez"
+        ],
+        "Amarillas": [
+            "Javi Alonso",
+            "Erick",
+            "Pedro Herreros",
+            "\u00c1lex"
+        ],
+        "Rojas": [],
+        "GolesEnContra": []
+    },
+    {
+        "Partido": "Jimbee Cartagena Costa C\u00e1lida 3 - 0 WANAPIX AD Sala 10",
+        "Goles": [
+            "Tomaz",
+            "Jes\u00fas Izquierdo",
+            "Pablo Ram\u00edrez"
+        ],
+        "Amarillas": [
+            "Richi Felipe",
+            "Waltinho",
+            "Adri Ortego"
+        ],
+        "Rojas": [],
+        "GolesEnContra": []
+    },
+    {
+        "Partido": "C\u00f3rdoba Patrimonio Humanidad 2 - 2 Industrias Santa Coloma",
+        "Goles": [
+            "Echavarr\u00eda",
+            "Juanan",
+            "Puigvert",
+            "Povill"
+        ],
+        "Amarillas": [
+            "Kau\u00ea",
+            "Echavarr\u00eda",
+            "Murilo Duarte",
+            "\u00c1lex Verdejo",
+            "Arnaldo B\u00e1ez"
+        ],
+        "Rojas": [],
+        "GolesEnContra": []
+    },
+    {
+        "Partido": "Movistar Inter 3 - 2 Pescados Rub\u00e9n Burela",
+        "Goles": [
+            "Drahovsky",
+            "Bebe",
+            "Chaguinha",
+            "Malaguti"
+        ],
+        "Amarillas": [
+            "Meira"
+        ],
+        "Rojas": [],
+        "GolesEnContra": [
+            "Jes\u00fas Garc\u00eda"
+        ]
+    },
+    {
+        "Partido": "ATP Ilum. Tudelano Ribera Navarra 0 - 1 ElPozo Murcia Costa C\u00e1lida",
+        "Goles": [
+            "Marcel"
+        ],
+        "Amarillas": [
+            "Ricardinho",
+            "L. Tripodi",
+            "F. Valerio",
+            "Alberto Lahuerta",
+            "D. \u00c1lvarez"
+        ],
+        "Rojas": [],
+        "GolesEnContra": []
+    },
+    {
+        "Partido": "Servigroup Pe\u00f1\u00edscola FS 5 - 2 Osasuna Magna Xota",
+        "Goles": [
+            "Ligeiro",
+            "V\u00edctor P\u00e9rez",
+            "Ligeiro",
+            "Diego Sancho",
+            "Agust\u00edn Plaza",
+            "El\u00edas",
+            "Quintela"
+        ],
+        "Amarillas": [
+            "El\u00edas",
+            "A. Geraghty",
+            "V\u00edctor P\u00e9rez",
+            "Juninho"
+        ],
+        "Rojas": [
+            "El\u00edas",
+            "Asier"
+        ],
+        "GolesEnContra": []
+    },
+    {
+        "Partido": "Ja\u00e9n Para\u00edso Interior 5 - 2 Noia Portus Apostoli",
+        "Goles": [
+            "Rubi Lemos",
+            "Mati Rosa",
+            "Alan Brandi",
+            "D. Zurdo",
+            "Mati Rosa",
+            "\u00c1lex Garc\u00eda",
+            "D. Zurdo"
+        ],
+        "Amarillas": [
+            "David Pazos",
+            "Diego F\u00e1vero",
+            "Pirata",
+            "M\u00edchel"
+        ],
+        "Rojas": [],
+        "GolesEnContra": []
+    },
+    {
+        "Partido": "Islas Baleares Palma Futsal 3 - 2 Vi\u00f1a Albali Valdepe\u00f1as",
+        "Goles": [
+            "Fernando",
+            "Fabinho",
+            "Fabinho",
+            "Bruno Gomes"
+        ],
+        "Amarillas": [
+            "Marcelo",
+            "Fernando",
+            "Neguinho",
+            "Alberto Garc\u00eda"
+        ],
+        "Rojas": [],
+        "GolesEnContra": [
+            "Fabinho"
+        ]
+    },
+    {
+        "Partido": "Pescados Rub\u00e9n Burela 1 - 4 Ja\u00e9n Para\u00edso Interior",
+        "Goles": [
+            "Renato",
+            "Alan Brandi",
+            "Renato",
+            "Rikelme",
+            "M\u00edchel"
+        ],
+        "Amarillas": [
+            "Alan Brandi"
+        ],
+        "Rojas": [],
+        "GolesEnContra": []
+    },
+    {
+        "Partido": "Osasuna Magna Xota 7 - 2 C\u00f3rdoba Patrimonio Humanidad",
+        "Goles": [
+            "D. Saldise",
+            "Ion Cervi\u00f1o",
+            "D. Saldise",
+            "Pachu",
+            "Pablo Del Moral",
+            "Juninho",
+            "D. Saldise",
+            "Echavarr\u00eda"
+        ],
+        "Amarillas": [
+            "Fabio",
+            "Tiago Macedo",
+            "Asier",
+            "Echavarr\u00eda"
+        ],
+        "Rojas": [],
+        "GolesEnContra": [
+            "Murilo Duarte"
+        ]
+    },
+    {
+        "Partido": "WANAPIX AD Sala 10 1 - 4 Movistar Inter",
+        "Goles": [
+            "Chaguinha",
+            "Chaguinha",
+            "Cecilio",
+            "Drahovsky"
+        ],
+        "Amarillas": [
+            "Nando Torres",
+            "Eloy",
+            "Drahovsky",
+            "Ra\u00fal G\u00f3mez"
+        ],
+        "Rojas": [],
+        "GolesEnContra": [
+            "Gonzalo"
+        ]
+    },
+    {
+        "Partido": "Quesos Hidalgo Manzanares FS 4 - 8 Servigroup Pe\u00f1\u00edscola FS",
+        "Goles": [
+            "Saladi\u00e9",
+            "Luciano Gauna",
+            "Diego Sancho",
+            "Quintela",
+            "Humberto",
+            "Daniel",
+            "V\u00edctor P\u00e9rez",
+            "Anto\u00f1ito",
+            "Saladi\u00e9",
+            "Pedro Herreros",
+            "Luciano Gauna",
+            "Diego Sancho"
+        ],
+        "Amarillas": [
+            "Daniel",
+            "Zequi",
+            "Diego Sancho",
+            "Rafa L\u00f3pez"
+        ],
+        "Rojas": [],
+        "GolesEnContra": []
+    },
+    {
+        "Partido": "Vi\u00f1a Albali Valdepe\u00f1as 1 - 2 Jimbee Cartagena Costa C\u00e1lida",
+        "Goles": [
+            "Alberto Garc\u00eda",
+            "Waltinho"
+        ],
+        "Amarillas": [
+            "Alberto Garc\u00eda",
+            "Cort\u00e9s",
+            "Motta",
+            "Bynho"
+        ],
+        "Rojas": [
+            "Motta"
+        ],
+        "GolesEnContra": [
+            "Alberto Garc\u00eda"
+        ]
+    },
+    {
+        "Partido": "Noia Portus Apostoli 0 - 1 ATP Ilum. Tudelano Ribera Navarra",
+        "Goles": [
+            "Alberto Lahuerta"
+        ],
+        "Amarillas": [
+            "David",
+            "Peixe",
+            "Joselito",
+            "Gabriel Vasques",
+            "L. Altamirano",
+            "Power"
+        ],
+        "Rojas": [],
+        "GolesEnContra": []
+    },
+    {
+        "Partido": "Industrias Santa Coloma 4 - 2 Islas Baleares Palma Futsal",
+        "Goles": [
+            "Povill",
+            "Povill",
+            "Bruno Gomes",
+            "Marcelo",
+            "V\u00edctor P\u00e9rez",
+            "Marc Tolr\u00e0"
+        ],
+        "Amarillas": [
+            "Marcelo",
+            "Povill",
+            "Rivillos",
+            "Fabinho"
+        ],
+        "Rojas": [],
+        "GolesEnContra": []
+    },
+    {
+        "Partido": "ElPozo Murcia Costa C\u00e1lida 5 - 2 Bar\u00e7a",
+        "Goles": [
+            "Matheus",
+            "D. \u00c1lvarez",
+            "Marcel",
+            "Marcel",
+            "Ricardo",
+            "Marlon",
+            "Antonio"
+        ],
+        "Amarillas": [
+            "Antonio",
+            "Esteban",
+            "Marlon"
+        ],
+        "Rojas": [],
+        "GolesEnContra": []
+    }
+]

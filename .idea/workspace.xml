@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="a2e54ca2-7218-4589-85aa-c5649cc6423a" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/FutbolSala/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FutbolSala/.idea/FutbolSala.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FutbolSala/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FutbolSala/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FutbolSala/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FutbolSala/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FutbolSala/Eventos.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FutbolSala/Jugadores.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FutbolSala/JugadoresCadaEquipo.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FutbolSala/Prueba.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FutbolSala/Prueba2.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FutbolSala/Pruebas.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FutbolSala/Resultados.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FutbolSala/Test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FutbolSala/jugadores_info.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 6
+}]]></component>
+  <component name="ProjectId" id="2yH6NxNHBN6bX8lxcpWxRkxIpD7" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "C:/Users/lucam/Documents/GitHub/TFG",
+    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\lucam\Documents\GitHub\TFG" />
+    </key>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-python-sdk-d68999036c7f-d3b881c8e49f-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-233.14475.56" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a2e54ca2-7218-4589-85aa-c5649cc6423a" name="Changes" comment="" />
+      <created>1749479114914</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1749479114914</updated>
+    </task>
+    <servers />
+  </component>
+</project>

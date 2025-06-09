@@ -1,0 +1,6371 @@
+[
+    {
+        "NombreEquipoLocal": "WANAPIX AD Sala 10",
+        "NombreEquipoVisitante": "Vi\u00f1a Albali Valdepe\u00f1as",
+        "GolesLocal": "4",
+        "GolesVisitante": "7",
+        "GoleadoresLocal": [
+            "Alberto In\u00e9s",
+            "Nando Torres",
+            "Ra\u00fal L\u00f3pez",
+            "Nando Torres"
+        ],
+        "GoleadoresVisitante": [
+            "Carlos",
+            "Carrasco",
+            "Pol Pacheco",
+            "Dani \u00c1lvarez",
+            "Eloy Rojas",
+            "Carlos",
+            "Nano"
+        ],
+        "Amarillas": [
+            "Pedro",
+            "Nando Torres",
+            "Carlos Garc\u00eda",
+            "Boyis",
+            "Carlos",
+            "Brasesco"
+        ],
+        "Rojas": [],
+        "GolesEnContraLocal": [
+            "Dani \u00c1lvarez"
+        ],
+        "GolesEnContraVisitante": []
+    },
+    {
+        "NombreEquipoLocal": "ATP Ilum. Tudelano Ribera Navarra",
+        "NombreEquipoVisitante": "Servigroup Pe\u00f1\u00edscola FS",
+        "GolesLocal": "3",
+        "GolesVisitante": "4",
+        "GoleadoresLocal": [
+            "Diego Sancho",
+            "Terry",
+            "Eric P\u00e9rez"
+        ],
+        "GoleadoresVisitante": [
+            "Agust\u00edn Plaza",
+            "Diego Sancho",
+            "Lucas Rocha",
+            "El\u00edas"
+        ],
+        "Amarillas": [
+            "Yeray",
+            "L. Tripodi",
+            "Yeray",
+            "Malaguti",
+            "Alberto Lahuerta",
+            "Lucas Rocha"
+        ],
+        "Rojas": [],
+        "GolesEnContraLocal": [],
+        "GolesEnContraVisitante": [
+            "Diego Sancho"
+        ]
+    },
+    {
+        "NombreEquipoLocal": "Bar\u00e7a",
+        "NombreEquipoVisitante": "C\u00f3rdoba Patrimonio Humanidad",
+        "GolesLocal": "3",
+        "GolesVisitante": "1",
+        "GoleadoresLocal": [
+            "J. Mareco",
+            "Dyego",
+            "Tour\u00e9"
+        ],
+        "GoleadoresVisitante": [
+            "Mykytiuk"
+        ],
+        "Amarillas": [
+            "Murilo Duarte"
+        ],
+        "Rojas": [],
+        "GolesEnContraLocal": [],
+        "GolesEnContraVisitante": [
+            "J. Mareco"
+        ]
+    },
+    {
+        "NombreEquipoLocal": "Ja\u00e9n Para\u00edso Interior",
+        "NombreEquipoVisitante": "Industrias Santa Coloma",
+        "GolesLocal": "6",
+        "GolesVisitante": "2",
+        "GoleadoresLocal": [
+            "Mati Rosa",
+            "Franklin",
+            "Carlos Sanz",
+            "Jo\u00e3o Salla",
+            "Renato",
+            "Mati Rosa"
+        ],
+        "GoleadoresVisitante": [
+            "M\u00edchel",
+            "Uri Santos"
+        ],
+        "Amarillas": [
+            "Mati Rosa",
+            "Attos",
+            "Povill",
+            "Renato",
+            "\u00c1lex Verdejo",
+            "Corso"
+        ],
+        "Rojas": [],
+        "GolesEnContraLocal": [
+            "M\u00edchel"
+        ],
+        "GolesEnContraVisitante": []
+    },
+    {
+        "NombreEquipoLocal": "Jimbee Cartagena Costa C\u00e1lida",
+        "NombreEquipoVisitante": "Burela FS",
+        "GolesLocal": "6",
+        "GolesVisitante": "2",
+        "GoleadoresLocal": [
+            "Mellado",
+            "Motta",
+            "Motta",
+            "Mouhoudine",
+            "Tomaz",
+            "Motta"
+        ],
+        "GoleadoresVisitante": [
+            "Junhinho",
+            "Charly"
+        ],
+        "Amarillas": [
+            "Quelle"
+        ],
+        "Rojas": [],
+        "GolesEnContraLocal": [],
+        "GolesEnContraVisitante": []
+    },
+    {
+        "NombreEquipoLocal": "Movistar Inter",
+        "NombreEquipoVisitante": "Noia Portus Apostoli",
+        "GolesLocal": "3",
+        "GolesVisitante": "3",
+        "GoleadoresLocal": [
+            "S. Barona",
+            "Cecilio",
+            "Ra\u00fal G\u00f3mez"
+        ],
+        "GoleadoresVisitante": [
+            "David Pazos",
+            "Pirata",
+            "Pirata"
+        ],
+        "Amarillas": [
+            "Power",
+            "Pirata",
+            "Ra\u00fal G\u00f3mez",
+            "Raya",
+            "J. M\u00ednguez"
+        ],
+        "Rojas": [],
+        "GolesEnContraLocal": [],
+        "GolesEnContraVisitante": []
+    },
+    {
+        "NombreEquipoLocal": "ElPozo Murcia Costa C\u00e1lida",
+        "NombreEquipoVisitante": "Osasuna Magna Xota",
+        "GolesLocal": "3",
+        "GolesVisitante": "4",
+        "GoleadoresLocal": [
+            "Marlon",
+            "F. Valerio",
+            "Marlon"
+        ],
+        "GoleadoresVisitante": [
+            "D. Saldise",
+            "D. Saldise",
+            "J. Mendive",
+            "Ion Cervi\u00f1o"
+        ],
+        "Amarillas": [
+            "Korsun",
+            "Marcel"
+        ],
+        "Rojas": [],
+        "GolesEnContraLocal": [],
+        "GolesEnContraVisitante": []
+    },
+    {
+        "NombreEquipoLocal": "Islas Baleares Palma Futsal",
+        "NombreEquipoVisitante": "Quesos Hidalgo Manzanares FS",
+        "GolesLocal": "6",
+        "GolesVisitante": "3",
+        "GoleadoresLocal": [
+            "David Pe\u00f1a",
+            "Mateus Maia",
+            "Mateus Maia",
+            "Neguinho",
+            "Ernesto",
+            "Fabinho"
+        ],
+        "GoleadoresVisitante": [
+            "Humberto",
+            "Daniel",
+            "Pedro"
+        ],
+        "Amarillas": [
+            "Javi Alonso",
+            "Neguinho",
+            "Robles",
+            "Marcelo",
+            "Javi Bule",
+            "Ra\u00fal Campos",
+            "Daniel",
+            "Pedro Herreros"
+        ],
+        "Rojas": [],
+        "GolesEnContraLocal": [],
+        "GolesEnContraVisitante": []
+    },
+    {
+        "NombreEquipoLocal": "Osasuna Magna Xota",
+        "NombreEquipoVisitante": "Islas Baleares Palma Futsal",
+        "GolesLocal": "6",
+        "GolesVisitante": "4",
+        "GoleadoresLocal": [
+            "Ion Cervi\u00f1o",
+            "Korsun",
+            "Juninho",
+            "Korsun",
+            "R. Martil",
+            "Ion Cervi\u00f1o"
+        ],
+        "GoleadoresVisitante": [
+            "Gordillo",
+            "Mateus Maia",
+            "Gordillo",
+            "Mateus Maia"
+        ],
+        "Amarillas": [
+            "Charuto",
+            "Mateus Maia",
+            "Gordillo",
+            "Marcelo",
+            "Ion Cervi\u00f1o"
+        ],
+        "Rojas": [],
+        "GolesEnContraLocal": [],
+        "GolesEnContraVisitante": []
+    },
+    {
+        "NombreEquipoLocal": "Noia Portus Apostoli",
+        "NombreEquipoVisitante": "WANAPIX AD Sala 10",
+        "GolesLocal": "3",
+        "GolesVisitante": "3",
+        "GoleadoresLocal": [
+            "Pirata",
+            "Montero",
+            "David Pazos"
+        ],
+        "GoleadoresVisitante": [
+            "Nando Torres",
+            "Nando Torres",
+            "Nando Torres"
+        ],
+        "Amarillas": [
+            "Rivera",
+            "David Pazos",
+            "Nando Torres"
+        ],
+        "Rojas": [],
+        "GolesEnContraLocal": [],
+        "GolesEnContraVisitante": []
+    },
+    {
+        "NombreEquipoLocal": "Quesos Hidalgo Manzanares FS",
+        "NombreEquipoVisitante": "Movistar Inter",
+        "GolesLocal": "2",
+        "GolesVisitante": "5",
+        "GoleadoresLocal": [
+            "Humberto",
+            "Javi Alonso"
+        ],
+        "GoleadoresVisitante": [
+            "Drahovsky",
+            "Carlos B.",
+            "Luc\u00e3o",
+            "Carlos B.",
+            "Raya"
+        ],
+        "Amarillas": [
+            "Pedro Herreros",
+            "Robles",
+            "Alvaro L\u00f3pez",
+            "Javi Alonso"
+        ],
+        "Rojas": [],
+        "GolesEnContraLocal": [],
+        "GolesEnContraVisitante": []
+    },
+    {
+        "NombreEquipoLocal": "Vi\u00f1a Albali Valdepe\u00f1as",
+        "NombreEquipoVisitante": "Ja\u00e9n Para\u00edso Interior",
+        "GolesLocal": "4",
+        "GolesVisitante": "4",
+        "GoleadoresLocal": [
+            "Lolo",
+            "Nano",
+            "Jos\u00e9 Mario",
+            "Carrasco"
+        ],
+        "GoleadoresVisitante": [
+            "Lemine",
+            "D. Zurdo",
+            "Mati Rosa",
+            "Alan Brandi"
+        ],
+        "Amarillas": [
+            "Jo\u00e3o Salla",
+            "Espindola",
+            "Eloy Rojas",
+            "Carlos Sanz",
+            "Attos",
+            "D. Zurdo",
+            "Jos\u00e9 Mario",
+            "Boyis"
+        ],
+        "Rojas": [],
+        "GolesEnContraLocal": [],
+        "GolesEnContraVisitante": []
+    },
+    {
+        "NombreEquipoLocal": "C\u00f3rdoba Patrimonio Humanidad",
+        "NombreEquipoVisitante": "Jimbee Cartagena Costa C\u00e1lida",
+        "GolesLocal": "1",
+        "GolesVisitante": "3",
+        "GoleadoresLocal": [
+            "Arnaldo B\u00e1ez"
+        ],
+        "GoleadoresVisitante": [
+            "Pablo Ram\u00edrez",
+            "Gon Castej\u00f3n",
+            "Pablo Ram\u00edrez"
+        ],
+        "Amarillas": [
+            "Motta",
+            "Murilo Duarte"
+        ],
+        "Rojas": [],
+        "GolesEnContraLocal": [],
+        "GolesEnContraVisitante": []
+    },
+    {
+        "NombreEquipoLocal": "Burela FS",
+        "NombreEquipoVisitante": "ElPozo Murcia Costa C\u00e1lida",
+        "GolesLocal": "2",
+        "GolesVisitante": "3",
+        "GoleadoresLocal": [
+            "Gadeia",
+            "Junhinho"
+        ],
+        "GoleadoresVisitante": [
+            "Esteban",
+            "F. Valerio",
+            "Marcel"
+        ],
+        "Amarillas": [
+            "Quelle",
+            "Rikelme",
+            "Alberto"
+        ],
+        "Rojas": [],
+        "GolesEnContraLocal": [],
+        "GolesEnContraVisitante": [
+            "Gadeia"
+        ]
+    },
+    {
+        "NombreEquipoLocal": "Industrias Santa Coloma",
+        "NombreEquipoVisitante": "ATP Ilum. Tudelano Ribera Navarra",
+        "GolesLocal": "5",
+        "GolesVisitante": "8",
+        "GoleadoresLocal": [
+            "Borja Puerta",
+            "Leandrinho",
+            "Povill",
+            "Puigvert",
+            "Puigvert"
+        ],
+        "GoleadoresVisitante": [
+            "Eric P\u00e9rez",
+            "Terry",
+            "Sepe",
+            "Alberto Lahuerta",
+            "Malaguti",
+            "Terry",
+            "David",
+            "Terry"
+        ],
+        "Amarillas": [
+            "Gabriel Vasques",
+            "Puigvert"
+        ],
+        "Rojas": [],
+        "GolesEnContraLocal": [],
+        "GolesEnContraVisitante": []
+    },
+    {
+        "NombreEquipoLocal": "Servigroup Pe\u00f1\u00edscola FS",
+        "NombreEquipoVisitante": "Bar\u00e7a",
+        "GolesLocal": "3",
+        "GolesVisitante": "2",
+        "GoleadoresLocal": [
+            "Pablo Mu\u00f1oz",
+            "Paniagua",
+            "Juanqui"
+        ],
+        "GoleadoresVisitante": [
+            "Dyego",
+            "Dyego"
+        ],
+        "Amarillas": [
+            "Khalid",
+            "Pito",
+            "Juanqui",
+            "Matheus",
+            "Agust\u00edn Plaza"
+        ],
+        "Rojas": [],
+        "GolesEnContraLocal": [],
+        "GolesEnContraVisitante": []
+    },
+    {
+        "NombreEquipoLocal": "Islas Baleares Palma Futsal",
+        "NombreEquipoVisitante": "Industrias Santa Coloma",
+        "GolesLocal": "5",
+        "GolesVisitante": "3",
+        "GoleadoresLocal": [
+            "Marc Tolr\u00e0",
+            "Gordillo",
+            "Piqueras",
+            "Neguinho",
+            "Bruno Gomes"
+        ],
+        "GoleadoresVisitante": [
+            "Cardona",
+            "V\u00edctor Ramos",
+            "\u00c1lex Verdejo"
+        ],
+        "Amarillas": [
+            "Ernesto",
+            "C. Barr\u00f3n",
+            "Puigvert",
+            "Bruno Gomes",
+            "Charuto",
+            "Neguinho"
+        ],
+        "Rojas": [],
+        "GolesEnContraLocal": [],
+        "GolesEnContraVisitante": [
+            "Marc Tolr\u00e0"
+        ]
+    },
+    {
+        "NombreEquipoLocal": "Jimbee Cartagena Costa C\u00e1lida",
+        "NombreEquipoVisitante": "Osasuna Magna Xota",
+        "GolesLocal": "2",
+        "GolesVisitante": "2",
+        "GoleadoresLocal": [
+            "Pablo Ram\u00edrez",
+            "Cort\u00e9s"
+        ],
+        "GoleadoresVisitante": [
+            "Pachu",
+            "R. Martil"
+        ],
+        "Amarillas": [
+            "Jes\u00fas Izquierdo",
+            "Motta",
+            "Juninho",
+            "Ion Cervi\u00f1o",
+            "Tony",
+            "Gon Castej\u00f3n",
+            "Tomaz",
+            "Chemi"
+        ],
+        "Rojas": [],
+        "GolesEnContraLocal": [],
+        "GolesEnContraVisitante": []
+    },
+    {
+        "NombreEquipoLocal": "Movistar Inter",
+        "NombreEquipoVisitante": "Vi\u00f1a Albali Valdepe\u00f1as",
+        "GolesLocal": "4",
+        "GolesVisitante": "0",
+        "GoleadoresLocal": [
+            "Ra\u00fal G\u00f3mez",
+            "S. Barona",
+            "Cecilio",
+            "Drahovsky"
+        ],
+        "GoleadoresVisitante": [],
+        "Amarillas": [
+            "Raya",
+            "Solano",
+            "Cecilio"
+        ],
+        "Rojas": [],
+        "GolesEnContraLocal": [],
+        "GolesEnContraVisitante": []
+    },
+    {
+        "NombreEquipoLocal": "ElPozo Murcia Costa C\u00e1lida",
+        "NombreEquipoVisitante": "C\u00f3rdoba Patrimonio Humanidad",
+        "GolesLocal": "2",
+        "GolesVisitante": "2",
+        "GoleadoresLocal": [
+            "F. Valerio",
+            "J. Mareco"
+        ],
+        "GoleadoresVisitante": [
+            "Ricardo",
+            "Titi"
+        ],
+        "Amarillas": [],
+        "Rojas": [],
+        "GolesEnContraLocal": [
+            "Ricardo"
+        ],
+        "GolesEnContraVisitante": [
+            "J. Mareco"
+        ]
+    },
+    {
+        "NombreEquipoLocal": "WANAPIX AD Sala 10",
+        "NombreEquipoVisitante": "Quesos Hidalgo Manzanares FS",
+        "GolesLocal": "0",
+        "GolesVisitante": "0",
+        "GoleadoresLocal": [],
+        "GoleadoresVisitante": [],
+        "Amarillas": [
+            "Adri Ortego",
+            "Esp\u00edn",
+            "Pedro"
+        ],
+        "Rojas": [],
+        "GolesEnContraLocal": [],
+        "GolesEnContraVisitante": []
+    },
+    {
+        "NombreEquipoLocal": "ATP Ilum. Tudelano Ribera Navarra",
+        "NombreEquipoVisitante": "Burela FS",
+        "GolesLocal": "7",
+        "GolesVisitante": "0",
+        "GoleadoresLocal": [
+            "David",
+            "Alberto Lahuerta",
+            "Charly",
+            "Malaguti",
+            "Terry",
+            "Alberto Lahuerta",
+            "Terry"
+        ],
+        "GoleadoresVisitante": [],
+        "Amarillas": [
+            "Isma",
+            "Bernardo Araya",
+            "Sepe",
+            "Gabriel Vasques",
+            "Alberto Lahuerta",
+            "Terry",
+            "Rikelme",
+            "Malaguti"
+        ],
+        "Rojas": [
+            "Sepe"
+        ],
+        "GolesEnContraLocal": [],
+        "GolesEnContraVisitante": [
+            "Charly"
+        ]
+    },
+    {
+        "NombreEquipoLocal": "Ja\u00e9n Para\u00edso Interior",
+        "NombreEquipoVisitante": "Servigroup Pe\u00f1\u00edscola FS",
+        "GolesLocal": "3",
+        "GolesVisitante": "2",
+        "GoleadoresLocal": [
+            "D. Zurdo",
+            "Alan Brandi",
+            "Carlos Sanz"
+        ],
+        "GoleadoresVisitante": [
+            "Luciano Gauna",
+            "El\u00edas"
+        ],
+        "Amarillas": [
+            "D. Zurdo",
+            "A. Bingyoba",
+            "Diego Sancho",
+            "M\u00edchel",
+            "Juanqui",
+            "Lemine"
+        ],
+        "Rojas": [],
+        "GolesEnContraLocal": [],
+        "GolesEnContraVisitante": []
+    },
+    {
+        "NombreEquipoLocal": "Bar\u00e7a",
+        "NombreEquipoVisitante": "Noia Portus Apostoli",
+        "GolesLocal": "4",
+        "GolesVisitante": "1",
+        "GoleadoresLocal": [
+            "Dyego",
+            "E. Martel",
+            "Erick",
+            "Sergio Gonz\u00e1lez"
+        ],
+        "GoleadoresVisitante": [
+            "David Pazos"
+        ],
+        "Amarillas": [
+            "Douglas Silva",
+            "Rufino",
+            "Pito"
+        ],
+        "Rojas": [],
+        "GolesEnContraLocal": [],
+        "GolesEnContraVisitante": []
+    },
+    {
+        "NombreEquipoLocal": "Osasuna Magna Xota",
+        "NombreEquipoVisitante": "ATP Ilum. Tudelano Ribera Navarra",
+        "GolesLocal": "1",
+        "GolesVisitante": "6",
+        "GoleadoresLocal": [
+            "Pachu"
+        ],
+        "GoleadoresVisitante": [
+            "Terry",
+            "Alberto Lahuerta",
+            "Alberto Lahuerta",
+            "L. Tripodi",
+            "David",
+            "Terry"
+        ],
+        "Amarillas": [
+            "Ra\u00fal Jim\u00e9nez",
+            "Tony",
+            "Kokoro",
+            "Terry",
+            "Ion Cervi\u00f1o",
+            "Juninho",
+            "Malaguti",
+            "David"
+        ],
+        "Rojas": [],
+        "GolesEnContraLocal": [],
+        "GolesEnContraVisitante": []
+    },
+    {
+        "NombreEquipoLocal": "Islas Baleares Palma Futsal",
+        "NombreEquipoVisitante": "Bar\u00e7a",
+        "GolesLocal": "5",
+        "GolesVisitante": "1",
+        "GoleadoresLocal": [
+            "Fabinho",
+            "Bruno Gomes",
+            "Fabinho",
+            "Neguinho",
+            "Gordillo"
+        ],
+        "GoleadoresVisitante": [
+            "Antonio"
+        ],
+        "Amarillas": [
+            "D\u00eddac",
+            "Marcelo",
+            "Rub\u00e9n Rod\u00f3",
+            "Antonio",
+            "Rivillos",
+            "Bruno Gomes"
+        ],
+        "Rojas": [],
+        "GolesEnContraLocal": [],
+        "GolesEnContraVisitante": []
+    },
+    {
+        "NombreEquipoLocal": "Jimbee Cartagena Costa C\u00e1lida",
+        "NombreEquipoVisitante": "ElPozo Murcia Costa C\u00e1lida",
+        "GolesLocal": "4",
+        "GolesVisitante": "3",
+        "GoleadoresLocal": [
+            "Motta",
+            "Motta",
+            "Mellado",
+            "Mellado"
+        ],
+        "GoleadoresVisitante": [
+            "Marcel",
+            "Ricardo",
+            "Ricardo"
+        ],
+        "Amarillas": [
+            "Ricardo",
+            "Bruno",
+            "Gon Castej\u00f3n",
+            "Tomaz"
+        ],
+        "Rojas": [],
+        "GolesEnContraLocal": [],
+        "GolesEnContraVisitante": []
+    },
+    {
+        "NombreEquipoLocal": "Quesos Hidalgo Manzanares FS",
+        "NombreEquipoVisitante": "Ja\u00e9n Para\u00edso Interior",
+        "GolesLocal": "3",
+        "GolesVisitante": "3",
+        "GoleadoresLocal": [
+            "Alvaro L\u00f3pez",
+            "Daniel",
+            "Humberto"
+        ],
+        "GoleadoresVisitante": [
+            "Carlos Sanz",
+            "Pedro",
+            "Lemine"
+        ],
+        "Amarillas": [
+            "Lemine",
+            "Carlos Sanz",
+            "Robles",
+            "Deiv\u00e3o",
+            "M\u00edchel",
+            "Daniel",
+            "Espindola",
+            "Antoniazzi",
+            "Alvaro L\u00f3pez",
+            "Mati Rosa"
+        ],
+        "Rojas": [],
+        "GolesEnContraLocal": [
+            "Pedro"
+        ],
+        "GolesEnContraVisitante": []
+    },
+    {
+        "NombreEquipoLocal": "Vi\u00f1a Albali Valdepe\u00f1as",
+        "NombreEquipoVisitante": "Noia Portus Apostoli",
+        "GolesLocal": "4",
+        "GolesVisitante": "1",
+        "GoleadoresLocal": [
+            "Carrasco",
+            "Pol Pacheco",
+            "Carrasco",
+            "Eloy Rojas"
+        ],
+        "GoleadoresVisitante": [
+            "Nano"
+        ],
+        "Amarillas": [
+            "Jos\u00e9 Mario",
+            "Pirata",
+            "Douglas Silva",
+            "Lolo",
+            "Carrasco",
+            "Solano",
+            "Power",
+            "Pol Pacheco"
+        ],
+        "Rojas": [],
+        "GolesEnContraLocal": [
+            "Nano"
+        ],
+        "GolesEnContraVisitante": []
+    },
+    {
+        "NombreEquipoLocal": "C\u00f3rdoba Patrimonio Humanidad",
+        "NombreEquipoVisitante": "Servigroup Pe\u00f1\u00edscola FS",
+        "GolesLocal": "5",
+        "GolesVisitante": "6",
+        "GoleadoresLocal": [
+            "Murilo Duarte",
+            "Titi",
+            "Lucas Flores",
+            "Arnaldo B\u00e1ez",
+            "Murilo Duarte"
+        ],
+        "GoleadoresVisitante": [
+            "Luciano Gauna",
+            "Pablo Mu\u00f1oz",
+            "Cristian",
+            "Lucas Rocha",
+            "Diego Sancho",
+            "V\u00edctor P\u00e9rez"
+        ],
+        "Amarillas": [
+            "Murilo Duarte",
+            "V\u00edctor P\u00e9rez",
+            "Kau\u00ea",
+            "Gio",
+            "Tiago Macedo",
+            "Arnaldo B\u00e1ez",
+            "Juanqui"
+        ],
+        "Rojas": [],
+        "GolesEnContraLocal": [],
+        "GolesEnContraVisitante": [
+            "Lucas Flores"
+        ]
+    },
+    {
+        "NombreEquipoLocal": "Burela FS",
+        "NombreEquipoVisitante": "WANAPIX AD Sala 10",
+        "GolesLocal": "3",
+        "GolesVisitante": "3",
+        "GoleadoresLocal": [
+            "Pitero",
+            "Carlos Garc\u00eda",
+            "Charly"
+        ],
+        "GoleadoresVisitante": [
+            "Rivera",
+            "Brasesco",
+            "Nando Torres"
+        ],
+        "Amarillas": [
+            "Alberto",
+            "Rivera",
+            "Richi Felipe",
+            "Alberto",
+            "Brasesco",
+            "\u00d3scar Villanueva",
+            "Ra\u00fal L\u00f3pez",
+            "Alberto In\u00e9s",
+            "Carlos Garc\u00eda",
+            "Bernardo Araya",
+            "Adri Ortego"
+        ],
+        "Rojas": [],
+        "GolesEnContraLocal": [],
+        "GolesEnContraVisitante": [
+            "Carlos Garc\u00eda"
+        ]
+    },
+    {
+        "NombreEquipoLocal": "Industrias Santa Coloma",
+        "NombreEquipoVisitante": "Movistar Inter",
+        "GolesLocal": "2",
+        "GolesVisitante": "5",
+        "GoleadoresLocal": [
+            "Povill",
+            "Leandrinho"
+        ],
+        "GoleadoresVisitante": [
+            "Pablo Ord\u00f3\u00f1ez",
+            "Drahovsky",
+            "Cecilio",
+            "Raya",
+            "J. Herrero"
+        ],
+        "Amarillas": [
+            "Cecilio",
+            "\u00c1lex Verdejo",
+            "Povill",
+            "Corso",
+            "Carlos B.",
+            "Cardona",
+            "Uri Santos",
+            "Leandrinho",
+            "Pablo Ord\u00f3\u00f1ez",
+            "Raya"
+        ],
+        "Rojas": [
+            "Povill"
+        ],
+        "GolesEnContraLocal": [],
+        "GolesEnContraVisitante": []
+    },
+    {
+        "NombreEquipoLocal": "Vi\u00f1a Albali Valdepe\u00f1as",
+        "NombreEquipoVisitante": "Industrias Santa Coloma",
+        "GolesLocal": "3",
+        "GolesVisitante": "3",
+        "GoleadoresLocal": [
+            "Pol Pacheco",
+            "Pol Pacheco",
+            "Marc Tolr\u00e0"
+        ],
+        "GoleadoresVisitante": [
+            "Cardona",
+            "Puigvert",
+            "\u00c1lex Verdejo"
+        ],
+        "Amarillas": [
+            "Eloy Rojas",
+            "Lolo",
+            "\u00c1lex Verdejo",
+            "Jos\u00e9 Mario",
+            "Bynho",
+            "Solano",
+            "Uri Santos",
+            "Leandrinho",
+            "Saura"
+        ],
+        "Rojas": [
+            "Alberto Garc\u00eda",
+            "Povill"
+        ],
+        "GolesEnContraLocal": [],
+        "GolesEnContraVisitante": [
+            "Marc Tolr\u00e0"
+        ]
+    },
+    {
+        "NombreEquipoLocal": "Ja\u00e9n Para\u00edso Interior",
+        "NombreEquipoVisitante": "Burela FS",
+        "GolesLocal": "2",
+        "GolesVisitante": "1",
+        "GoleadoresLocal": [
+            "Alan Brandi",
+            "Jo\u00e3o Salla"
+        ],
+        "GoleadoresVisitante": [
+            "Rikelme"
+        ],
+        "Amarillas": [
+            "Antoniazzi",
+            "M\u00edchel",
+            "Pitero",
+            "Carlos Sanz"
+        ],
+        "Rojas": [],
+        "GolesEnContraLocal": [],
+        "GolesEnContraVisitante": []
+    },
+    {
+        "NombreEquipoLocal": "Servigroup Pe\u00f1\u00edscola FS",
+        "NombreEquipoVisitante": "ElPozo Murcia Costa C\u00e1lida",
+        "GolesLocal": "5",
+        "GolesVisitante": "4",
+        "GoleadoresLocal": [
+            "Juan Jos\u00e9",
+            "Pablo Mu\u00f1oz",
+            "Juan Jos\u00e9",
+            "Juan Jos\u00e9",
+            "V\u00edctor P\u00e9rez"
+        ],
+        "GoleadoresVisitante": [
+            "F. Valerio",
+            "Bruno",
+            "Ricardo",
+            "F. Valerio"
+        ],
+        "Amarillas": [
+            "Diego Sancho",
+            "V\u00edctor P\u00e9rez"
+        ],
+        "Rojas": [
+            "Gadeia"
+        ],
+        "GolesEnContraLocal": [],
+        "GolesEnContraVisitante": []
+    },
+    {
+        "NombreEquipoLocal": "WANAPIX AD Sala 10",
+        "NombreEquipoVisitante": "Islas Baleares Palma Futsal",
+        "GolesLocal": "2",
+        "GolesVisitante": "5",
+        "GoleadoresLocal": [
+            "Rivera",
+            "Brasesco"
+        ],
+        "GoleadoresVisitante": [
+            "Mateus Maia",
+            "Piqueras",
+            "Bruno Gomes",
+            "Fabinho",
+            "Piqueras"
+        ],
+        "Amarillas": [
+            "Brasesco",
+            "Fabinho",
+            "Gordillo",
+            "Neguinho",
+            "Marcelo",
+            "Ra\u00fal L\u00f3pez",
+            "Machado"
+        ],
+        "Rojas": [
+            "Neguinho"
+        ],
+        "GolesEnContraLocal": [],
+        "GolesEnContraVisitante": []
+    },
+    {
+        "NombreEquipoLocal": "Movistar Inter",
+        "NombreEquipoVisitante": "C\u00f3rdoba Patrimonio Humanidad",
+        "GolesLocal": "2",
+        "GolesVisitante": "3",
+        "GoleadoresLocal": [
+            "Bebe",
+            "Cecilio"
+        ],
+        "GoleadoresVisitante": [
+            "Arnaldo B\u00e1ez",
+            "Kau\u00ea",
+            "Arnaldo B\u00e1ez"
+        ],
+        "Amarillas": [
+            "Carlos B.",
+            "J. Herrero"
+        ],
+        "Rojas": [],
+        "GolesEnContraLocal": [],
+        "GolesEnContraVisitante": []
+    },
+    {
+        "NombreEquipoLocal": "ATP Ilum. Tudelano Ribera Navarra",
+        "NombreEquipoVisitante": "Jimbee Cartagena Costa C\u00e1lida",
+        "GolesLocal": "5",
+        "GolesVisitante": "3",
+        "GoleadoresLocal": [
+            "Terry",
+            "David",
+            "Alberto Lahuerta",
+            "Sepe",
+            "L. Tripodi"
+        ],
+        "GoleadoresVisitante": [
+            "L. Tripodi",
+            "Linhares",
+            "Motta"
+        ],
+        "Amarillas": [
+            "Chemi",
+            "Pablo Ram\u00edrez",
+            "Terry",
+            "Tomaz",
+            "Malaguti"
+        ],
+        "Rojas": [],
+        "GolesEnContraLocal": [],
+        "GolesEnContraVisitante": [
+            "L. Tripodi"
+        ]
+    },
+    {
+        "NombreEquipoLocal": "Bar\u00e7a",
+        "NombreEquipoVisitante": "Osasuna Magna Xota",
+        "GolesLocal": "5",
+        "GolesVisitante": "2",
+        "GoleadoresLocal": [
+            "Sergio Gonz\u00e1lez",
+            "Dyego",
+            "Dyego",
+            "Sergio Gonz\u00e1lez",
+            "Sergio Gonz\u00e1lez"
+        ],
+        "GoleadoresVisitante": [
+            "Ligeiro",
+            "Pachu"
+        ],
+        "Amarillas": [
+            "Asier",
+            "Palaz\u00f3n",
+            "A. Geraghty",
+            "Ligeiro",
+            "D. Saldise"
+        ],
+        "Rojas": [],
+        "GolesEnContraLocal": [],
+        "GolesEnContraVisitante": []
+    },
+    {
+        "NombreEquipoLocal": "Noia Portus Apostoli",
+        "NombreEquipoVisitante": "Quesos Hidalgo Manzanares FS",
+        "GolesLocal": "4",
+        "GolesVisitante": "2",
+        "GoleadoresLocal": [
+            "Pirata",
+            "Pirata",
+            "Pirata",
+            "Rufino"
+        ],
+        "GoleadoresVisitante": [
+            "Javi Alonso",
+            "Daniel"
+        ],
+        "Amarillas": [
+            "Pirata",
+            "Deiv\u00e3o",
+            "Rufino",
+            "Humberto",
+            "Javi Alonso",
+            "David Pazos",
+            "Alvaro L\u00f3pez",
+            "Zequi"
+        ],
+        "Rojas": [],
+        "GolesEnContraLocal": [],
+        "GolesEnContraVisitante": []
+    },
+    {
+        "NombreEquipoLocal": "Islas Baleares Palma Futsal",
+        "NombreEquipoVisitante": "Noia Portus Apostoli",
+        "GolesLocal": "4",
+        "GolesVisitante": "2",
+        "GoleadoresLocal": [
+            "Machado",
+            "Bruno Gomes",
+            "Rivillos",
+            "David Pe\u00f1a"
+        ],
+        "GoleadoresVisitante": [
+            "Pirata",
+            "Machado"
+        ],
+        "Amarillas": [
+            "Neguinho",
+            "Douglas Silva",
+            "Thierry",
+            "Rufino",
+            "Pirata",
+            "Marcelo",
+            "Power",
+            "Bruno Gomes",
+            "Luan Muller"
+        ],
+        "Rojas": [
+            "Rubi Lemos"
+        ],
+        "GolesEnContraLocal": [],
+        "GolesEnContraVisitante": [
+            "Machado"
+        ]
+    },
+    {
+        "NombreEquipoLocal": "ElPozo Murcia Costa C\u00e1lida",
+        "NombreEquipoVisitante": "ATP Ilum. Tudelano Ribera Navarra",
+        "GolesLocal": "7",
+        "GolesVisitante": "4",
+        "GoleadoresLocal": [
+            "Marlon",
+            "F. Valerio",
+            "F. Valerio",
+            "Gadeia",
+            "Marcel",
+            "F. Valerio",
+            "Marcel"
+        ],
+        "GoleadoresVisitante": [
+            "Jo\u00e3o Batista",
+            "Sepe",
+            "Eric P\u00e9rez",
+            "Jo\u00e3o Batista"
+        ],
+        "Amarillas": [
+            "Sepe",
+            "Malaguti",
+            "Terry",
+            "L. Tripodi"
+        ],
+        "Rojas": [],
+        "GolesEnContraLocal": [],
+        "GolesEnContraVisitante": []
+    },
+    {
+        "NombreEquipoLocal": "Quesos Hidalgo Manzanares FS",
+        "NombreEquipoVisitante": "Vi\u00f1a Albali Valdepe\u00f1as",
+        "GolesLocal": "3",
+        "GolesVisitante": "7",
+        "GoleadoresLocal": [
+            "Ra\u00fal Campos",
+            "Pedro Herreros",
+            "Javi Alonso"
+        ],
+        "GoleadoresVisitante": [
+            "Pol Pacheco",
+            "Carrasco",
+            "Saura",
+            "Pol Pacheco",
+            "Solano",
+            "Alberto Garc\u00eda",
+            "Jos\u00e9 Mario"
+        ],
+        "Amarillas": [
+            "Robles",
+            "Carrasco",
+            "Daniel",
+            "Boyis",
+            "Javi Alonso",
+            "Pol Pacheco",
+            "Saura"
+        ],
+        "Rojas": [
+            "Pedro"
+        ],
+        "GolesEnContraLocal": [],
+        "GolesEnContraVisitante": []
+    },
+    {
+        "NombreEquipoLocal": "C\u00f3rdoba Patrimonio Humanidad",
+        "NombreEquipoVisitante": "Ja\u00e9n Para\u00edso Interior",
+        "GolesLocal": "4",
+        "GolesVisitante": "1",
+        "GoleadoresLocal": [
+            "Arnaldo B\u00e1ez",
+            "Aranda",
+            "Echavarr\u00eda",
+            "Aranda"
+        ],
+        "GoleadoresVisitante": [
+            "M\u00edchel"
+        ],
+        "Amarillas": [
+            "Alan Brandi",
+            "M\u00edchel",
+            "Echavarr\u00eda"
+        ],
+        "Rojas": [],
+        "GolesEnContraLocal": [],
+        "GolesEnContraVisitante": []
+    },
+    {
+        "NombreEquipoLocal": "Osasuna Magna Xota",
+        "NombreEquipoVisitante": "Movistar Inter",
+        "GolesLocal": "4",
+        "GolesVisitante": "2",
+        "GoleadoresLocal": [
+            "Pachu",
+            "Tony",
+            "D. Saldise",
+            "Asier"
+        ],
+        "GoleadoresVisitante": [
+            "Raya",
+            "Raya"
+        ],
+        "Amarillas": [
+            "Drahovsky",
+            "A. Geraghty",
+            "Cecilio",
+            "R. Martil"
+        ],
+        "Rojas": [],
+        "GolesEnContraLocal": [],
+        "GolesEnContraVisitante": []
+    },
+    {
+        "NombreEquipoLocal": "Burela FS",
+        "NombreEquipoVisitante": "Servigroup Pe\u00f1\u00edscola FS",
+        "GolesLocal": "5",
+        "GolesVisitante": "2",
+        "GoleadoresLocal": [
+            "Charly",
+            "Bernardo Araya",
+            "Rikelme",
+            "Charly",
+            "Pitero"
+        ],
+        "GoleadoresVisitante": [
+            "Juan Jos\u00e9",
+            "Pablo Mu\u00f1oz"
+        ],
+        "Amarillas": [
+            "Agust\u00edn Plaza",
+            "Juanqui"
+        ],
+        "Rojas": [],
+        "GolesEnContraLocal": [],
+        "GolesEnContraVisitante": []
+    },
+    {
+        "NombreEquipoLocal": "Industrias Santa Coloma",
+        "NombreEquipoVisitante": "WANAPIX AD Sala 10",
+        "GolesLocal": "2",
+        "GolesVisitante": "1",
+        "GoleadoresLocal": [
+            "\u00c1lex Verdejo",
+            "Uri Santos"
+        ],
+        "GoleadoresVisitante": [
+            "Esp\u00edn"
+        ],
+        "Amarillas": [
+            "\u00d3scar Villanueva",
+            "Nando Torres",
+            "Puigvert",
+            "Nacho G\u00f3mez",
+            "Povill"
+        ],
+        "Rojas": [],
+        "GolesEnContraLocal": [],
+        "GolesEnContraVisitante": []
+    },
+    {
+        "NombreEquipoLocal": "Jimbee Cartagena Costa C\u00e1lida",
+        "NombreEquipoVisitante": "Bar\u00e7a",
+        "GolesLocal": "2",
+        "GolesVisitante": "3",
+        "GoleadoresLocal": [
+            "Mellado",
+            "Ossamanmusa"
+        ],
+        "GoleadoresVisitante": [
+            "Matheus",
+            "Pito",
+            "E. Martel"
+        ],
+        "Amarillas": [
+            "Linhares",
+            "Antonio",
+            "Ossamanmusa"
+        ],
+        "Rojas": [],
+        "GolesEnContraLocal": [],
+        "GolesEnContraVisitante": []
+    },
+    {
+        "NombreEquipoLocal": "Bar\u00e7a",
+        "NombreEquipoVisitante": "ATP Ilum. Tudelano Ribera Navarra",
+        "GolesLocal": "3",
+        "GolesVisitante": "3",
+        "GoleadoresLocal": [
+            "E. Martel",
+            "Pito",
+            "Sergio Gonz\u00e1lez"
+        ],
+        "GoleadoresVisitante": [
+            "Alberto Lahuerta",
+            "L. Tripodi",
+            "Terry"
+        ],
+        "Amarillas": [
+            "Sepe",
+            "Matheus",
+            "Malaguti",
+            "Pito"
+        ],
+        "Rojas": [],
+        "GolesEnContraLocal": [],
+        "GolesEnContraVisitante": []
+    },
+    {
+        "NombreEquipoLocal": "Servigroup Pe\u00f1\u00edscola FS",
+        "NombreEquipoVisitante": "Islas Baleares Palma Futsal",
+        "GolesLocal": "3",
+        "GolesVisitante": "3",
+        "GoleadoresLocal": [
+            "Diego Sancho",
+            "Lucas Flores",
+            "Yeray"
+        ],
+        "GoleadoresVisitante": [
+            "Machado",
+            "Diego Sancho",
+            "Rivillos"
+        ],
+        "Amarillas": [
+            "Rivillos",
+            "Bruno Gomes",
+            "Gordillo",
+            "David Pe\u00f1a",
+            "Yeray",
+            "Piqueras",
+            "Gus"
+        ],
+        "Rojas": [
+            "Yeray"
+        ],
+        "GolesEnContraLocal": [],
+        "GolesEnContraVisitante": [
+            "Diego Sancho"
+        ]
+    },
+    {
+        "NombreEquipoLocal": "Noia Portus Apostoli",
+        "NombreEquipoVisitante": "Industrias Santa Coloma",
+        "GolesLocal": "4",
+        "GolesVisitante": "3",
+        "GoleadoresLocal": [
+            "David Pazos",
+            "Marc Tolr\u00e0",
+            "David Pazos",
+            "Pirata"
+        ],
+        "GoleadoresVisitante": [
+            "Povill",
+            "Power",
+            "Puigvert"
+        ],
+        "Amarillas": [
+            "Sch\u00fctt",
+            "Leandrinho",
+            "Uri Santos",
+            "Niel\u00b7lo",
+            "David Pazos",
+            "Rufino"
+        ],
+        "Rojas": [],
+        "GolesEnContraLocal": [
+            "Power"
+        ],
+        "GolesEnContraVisitante": [
+            "Marc Tolr\u00e0"
+        ]
+    },
+    {
+        "NombreEquipoLocal": "Movistar Inter",
+        "NombreEquipoVisitante": "ElPozo Murcia Costa C\u00e1lida",
+        "GolesLocal": "5",
+        "GolesVisitante": "2",
+        "GoleadoresLocal": [
+            "Cecilio",
+            "Carlos B.",
+            "Cecilio",
+            "Cecilio",
+            "Bebe"
+        ],
+        "GoleadoresVisitante": [
+            "Marlon",
+            "Marcel"
+        ],
+        "Amarillas": [
+            "Raya",
+            "Marlon",
+            "J. Herrero",
+            "Marcel",
+            "Gadeia"
+        ],
+        "Rojas": [],
+        "GolesEnContraLocal": [],
+        "GolesEnContraVisitante": []
+    },
+    {
+        "NombreEquipoLocal": "WANAPIX AD Sala 10",
+        "NombreEquipoVisitante": "Osasuna Magna Xota",
+        "GolesLocal": "2",
+        "GolesVisitante": "3",
+        "GoleadoresLocal": [
+            "Tom\u00e1s Pescio",
+            "Tom\u00e1s Pescio"
+        ],
+        "GoleadoresVisitante": [
+            "Korsun",
+            "A. Geraghty",
+            "Pachu"
+        ],
+        "Amarillas": [
+            "Tony",
+            "Iv\u00e1n Bernad",
+            "Tom\u00e1s Pescio",
+            "Brasesco",
+            "Carlos Garc\u00eda",
+            "Ra\u00fal L\u00f3pez",
+            "Pachu",
+            "Asier",
+            "Ligeiro"
+        ],
+        "Rojas": [],
+        "GolesEnContraLocal": [],
+        "GolesEnContraVisitante": []
+    },
+    {
+        "NombreEquipoLocal": "Quesos Hidalgo Manzanares FS",
+        "NombreEquipoVisitante": "C\u00f3rdoba Patrimonio Humanidad",
+        "GolesLocal": "1",
+        "GolesVisitante": "2",
+        "GoleadoresLocal": [
+            "Zequi"
+        ],
+        "GoleadoresVisitante": [
+            "Juanan",
+            "Mykytiuk"
+        ],
+        "Amarillas": [
+            "Arnaldo B\u00e1ez",
+            "Zequi",
+            "Pablo Del Moral",
+            "Javi Alonso"
+        ],
+        "Rojas": [
+            "Anto\u00f1ito"
+        ],
+        "GolesEnContraLocal": [],
+        "GolesEnContraVisitante": []
+    },
+    {
+        "NombreEquipoLocal": "Ja\u00e9n Para\u00edso Interior",
+        "NombreEquipoVisitante": "Jimbee Cartagena Costa C\u00e1lida",
+        "GolesLocal": "2",
+        "GolesVisitante": "6",
+        "GoleadoresLocal": [
+            "Mouhoudine",
+            "D. Zurdo"
+        ],
+        "GoleadoresVisitante": [
+            "Motta",
+            "Waltinho",
+            "Waltinho",
+            "Waltinho",
+            "Mouhoudine",
+            "Tomaz"
+        ],
+        "Amarillas": [
+            "Pablo Ram\u00edrez",
+            "Alan Brandi",
+            "D. Zurdo",
+            "Espindola",
+            "M\u00edchel"
+        ],
+        "Rojas": [],
+        "GolesEnContraLocal": [],
+        "GolesEnContraVisitante": [
+            "Mouhoudine"
+        ]
+    },
+    {
+        "NombreEquipoLocal": "Vi\u00f1a Albali Valdepe\u00f1as",
+        "NombreEquipoVisitante": "Burela FS",
+        "GolesLocal": "3",
+        "GolesVisitante": "1",
+        "GoleadoresLocal": [
+            "Solano",
+            "Carrasco",
+            "Saura"
+        ],
+        "GoleadoresVisitante": [
+            "Junhinho"
+        ],
+        "Amarillas": [
+            "Quelle"
+        ],
+        "Rojas": [],
+        "GolesEnContraLocal": [],
+        "GolesEnContraVisitante": []
+    },
+    {
+        "NombreEquipoLocal": "Industrias Santa Coloma",
+        "NombreEquipoVisitante": "Quesos Hidalgo Manzanares FS",
+        "GolesLocal": "6",
+        "GolesVisitante": "0",
+        "GoleadoresLocal": [
+            "Puigvert",
+            "Povill",
+            "Leandrinho",
+            "Povill",
+            "Povill",
+            "Niel\u00b7lo"
+        ],
+        "GoleadoresVisitante": [],
+        "Amarillas": [
+            "Cardona",
+            "Povill",
+            "Daniel",
+            "Leandrinho",
+            "Uri Santos"
+        ],
+        "Rojas": [],
+        "GolesEnContraLocal": [],
+        "GolesEnContraVisitante": []
+    },
+    {
+        "NombreEquipoLocal": "ATP Ilum. Tudelano Ribera Navarra",
+        "NombreEquipoVisitante": "Movistar Inter",
+        "GolesLocal": "7",
+        "GolesVisitante": "4",
+        "GoleadoresLocal": [
+            "Malaguti",
+            "Malaguti",
+            "Sepe",
+            "L. Tripodi",
+            "L. Tripodi",
+            "David",
+            "L. Tripodi"
+        ],
+        "GoleadoresVisitante": [
+            "Carlos B.",
+            "Drahovsky",
+            "Carlos B.",
+            "Drahovsky"
+        ],
+        "Amarillas": [
+            "Terry",
+            "Malaguti",
+            "Alberto Lahuerta",
+            "Bebe",
+            "L. Tripodi"
+        ],
+        "Rojas": [
+            "Bebe"
+        ],
+        "GolesEnContraLocal": [],
+        "GolesEnContraVisitante": []
+    },
+    {
+        "NombreEquipoLocal": "Jimbee Cartagena Costa C\u00e1lida",
+        "NombreEquipoVisitante": "Vi\u00f1a Albali Valdepe\u00f1as",
+        "GolesLocal": "2",
+        "GolesVisitante": "1",
+        "GoleadoresLocal": [
+            "Pablo Ram\u00edrez",
+            "Motta"
+        ],
+        "GoleadoresVisitante": [
+            "Lolo"
+        ],
+        "Amarillas": [
+            "Pol Pacheco",
+            "Dar\u00edo",
+            "Waltinho",
+            "Bynho"
+        ],
+        "Rojas": [
+            "Waltinho"
+        ],
+        "GolesEnContraLocal": [],
+        "GolesEnContraVisitante": []
+    },
+    {
+        "NombreEquipoLocal": "Islas Baleares Palma Futsal",
+        "NombreEquipoVisitante": "Ja\u00e9n Para\u00edso Interior",
+        "GolesLocal": "5",
+        "GolesVisitante": "2",
+        "GoleadoresLocal": [
+            "Gordillo",
+            "Gordillo",
+            "Neguinho",
+            "Rivillos",
+            "Neguinho"
+        ],
+        "GoleadoresVisitante": [
+            "Mateus Maia",
+            "M\u00edchel"
+        ],
+        "Amarillas": [
+            "Gordillo",
+            "Attos",
+            "Lemine",
+            "Carlos Sanz",
+            "Renato"
+        ],
+        "Rojas": [],
+        "GolesEnContraLocal": [
+            "Mateus Maia"
+        ],
+        "GolesEnContraVisitante": []
+    },
+    {
+        "NombreEquipoLocal": "ElPozo Murcia Costa C\u00e1lida",
+        "NombreEquipoVisitante": "Noia Portus Apostoli",
+        "GolesLocal": "3",
+        "GolesVisitante": "1",
+        "GoleadoresLocal": [
+            "Gadeia",
+            "Bruno",
+            "D. \u00c1lvarez"
+        ],
+        "GoleadoresVisitante": [
+            "Pirata"
+        ],
+        "Amarillas": [
+            "Pirata",
+            "Rufino",
+            "Gadeia",
+            "Rafa Santos",
+            "Marlon"
+        ],
+        "Rojas": [],
+        "GolesEnContraLocal": [],
+        "GolesEnContraVisitante": []
+    },
+    {
+        "NombreEquipoLocal": "Burela FS",
+        "NombreEquipoVisitante": "Bar\u00e7a",
+        "GolesLocal": "3",
+        "GolesVisitante": "4",
+        "GoleadoresLocal": [
+            "Charly",
+            "Junhinho",
+            "Rikelme"
+        ],
+        "GoleadoresVisitante": [
+            "Dyego",
+            "Sergio Gonz\u00e1lez",
+            "Charly",
+            "Dyego"
+        ],
+        "Amarillas": [
+            "Dyego",
+            "Bernardo Araya"
+        ],
+        "Rojas": [],
+        "GolesEnContraLocal": [],
+        "GolesEnContraVisitante": [
+            "Charly"
+        ]
+    },
+    {
+        "NombreEquipoLocal": "C\u00f3rdoba Patrimonio Humanidad",
+        "NombreEquipoVisitante": "WANAPIX AD Sala 10",
+        "GolesLocal": "5",
+        "GolesVisitante": "4",
+        "GoleadoresLocal": [
+            "Titi",
+            "Kau\u00ea",
+            "Mykytiuk",
+            "Juanan",
+            "Juanan"
+        ],
+        "GoleadoresVisitante": [
+            "Adri Ortego",
+            "\u00d3scar Villanueva",
+            "\u00d3scar Villanueva",
+            "Ra\u00fal L\u00f3pez"
+        ],
+        "Amarillas": [
+            "Ra\u00fal L\u00f3pez",
+            "Richi Felipe",
+            "Dani \u00c1lvarez",
+            "Adri Ortego",
+            "Murilo Duarte",
+            "Arnaldo B\u00e1ez"
+        ],
+        "Rojas": [
+            "Brasesco"
+        ],
+        "GolesEnContraLocal": [],
+        "GolesEnContraVisitante": []
+    },
+    {
+        "NombreEquipoLocal": "Osasuna Magna Xota",
+        "NombreEquipoVisitante": "Servigroup Pe\u00f1\u00edscola FS",
+        "GolesLocal": "6",
+        "GolesVisitante": "6",
+        "GoleadoresLocal": [
+            "R. Martil",
+            "A. Geraghty",
+            "Pachu",
+            "D. Saldise",
+            "Ligeiro",
+            "Ligeiro"
+        ],
+        "GoleadoresVisitante": [
+            "V\u00edctor P\u00e9rez",
+            "Agust\u00edn Plaza",
+            "Diego Sancho",
+            "Luciano Gauna",
+            "Juan Jos\u00e9",
+            "Asier"
+        ],
+        "Amarillas": [
+            "Juanqui",
+            "Luciano Gauna",
+            "R. Martil",
+            "Juninho",
+            "Korsun",
+            "Pol Salas"
+        ],
+        "Rojas": [
+            "Gio"
+        ],
+        "GolesEnContraLocal": [
+            "Asier"
+        ],
+        "GolesEnContraVisitante": []
+    },
+    {
+        "NombreEquipoLocal": "Movistar Inter",
+        "NombreEquipoVisitante": "Islas Baleares Palma Futsal",
+        "GolesLocal": "3",
+        "GolesVisitante": "3",
+        "GoleadoresLocal": [
+            "Chaguinha",
+            "Chaguinha",
+            "Bebe"
+        ],
+        "GoleadoresVisitante": [
+            "Fabinho",
+            "Luan Muller",
+            "Mateus Maia"
+        ],
+        "Amarillas": [
+            "Mateus Maia",
+            "Gordillo",
+            "Piqueras",
+            "C. Barr\u00f3n",
+            "Carlos B.",
+            "David Pe\u00f1a",
+            "Rivillos",
+            "Bruno Gomes"
+        ],
+        "Rojas": [
+            "Bruno Gomes",
+            "Luan Muller"
+        ],
+        "GolesEnContraLocal": [],
+        "GolesEnContraVisitante": []
+    },
+    {
+        "NombreEquipoLocal": "Servigroup Pe\u00f1\u00edscola FS",
+        "NombreEquipoVisitante": "Industrias Santa Coloma",
+        "GolesLocal": "4",
+        "GolesVisitante": "2",
+        "GoleadoresLocal": [
+            "El\u00edas",
+            "Diego Sancho",
+            "Juanqui",
+            "Quintela"
+        ],
+        "GoleadoresVisitante": [
+            "Cardona",
+            "Leandrinho"
+        ],
+        "Amarillas": [
+            "Diego Sancho"
+        ],
+        "Rojas": [],
+        "GolesEnContraLocal": [],
+        "GolesEnContraVisitante": []
+    },
+    {
+        "NombreEquipoLocal": "Quesos Hidalgo Manzanares FS",
+        "NombreEquipoVisitante": "Jimbee Cartagena Costa C\u00e1lida",
+        "GolesLocal": "3",
+        "GolesVisitante": "4",
+        "GoleadoresLocal": [
+            "Daniel",
+            "Alvaro L\u00f3pez",
+            "Daniel"
+        ],
+        "GoleadoresVisitante": [
+            "Pablo Ram\u00edrez",
+            "Ossamanmusa",
+            "Pablo Ram\u00edrez",
+            "Mouhoudine"
+        ],
+        "Amarillas": [
+            "Chemi",
+            "Mouhoudine",
+            "Motta",
+            "Anto\u00f1ito",
+            "Mellado",
+            "Pedro",
+            "Cort\u00e9s",
+            "Ossamanmusa",
+            "Javi Alonso"
+        ],
+        "Rojas": [],
+        "GolesEnContraLocal": [],
+        "GolesEnContraVisitante": []
+    },
+    {
+        "NombreEquipoLocal": "WANAPIX AD Sala 10",
+        "NombreEquipoVisitante": "ATP Ilum. Tudelano Ribera Navarra",
+        "GolesLocal": "1",
+        "GolesVisitante": "2",
+        "GoleadoresLocal": [
+            "Tom\u00e1s Pescio"
+        ],
+        "GoleadoresVisitante": [
+            "Terry",
+            "Terry"
+        ],
+        "Amarillas": [
+            "Alberto Lahuerta",
+            "Malaguti",
+            "Terry",
+            "Carlos Garc\u00eda",
+            "Gabriel Vasques",
+            "Jo\u00e3o Batista"
+        ],
+        "Rojas": [],
+        "GolesEnContraLocal": [],
+        "GolesEnContraVisitante": []
+    },
+    {
+        "NombreEquipoLocal": "Bar\u00e7a",
+        "NombreEquipoVisitante": "ElPozo Murcia Costa C\u00e1lida",
+        "GolesLocal": "3",
+        "GolesVisitante": "3",
+        "GoleadoresLocal": [
+            "Antonio",
+            "Antonio",
+            "Fits"
+        ],
+        "GoleadoresVisitante": [
+            "F. Valerio",
+            "C\u00e9sar",
+            "Rafa Santos"
+        ],
+        "Amarillas": [
+            "Rafa Santos",
+            "Juanjo",
+            "C\u00e9sar"
+        ],
+        "Rojas": [],
+        "GolesEnContraLocal": [],
+        "GolesEnContraVisitante": []
+    },
+    {
+        "NombreEquipoLocal": "Ja\u00e9n Para\u00edso Interior",
+        "NombreEquipoVisitante": "Osasuna Magna Xota",
+        "GolesLocal": "4",
+        "GolesVisitante": "2",
+        "GoleadoresLocal": [
+            "Lemine",
+            "Carlos Sanz",
+            "D. Zurdo",
+            "Mati Rosa"
+        ],
+        "GoleadoresVisitante": [
+            "Tony",
+            "A. Geraghty"
+        ],
+        "Amarillas": [
+            "Carlos Sanz"
+        ],
+        "Rojas": [],
+        "GolesEnContraLocal": [],
+        "GolesEnContraVisitante": []
+    },
+    {
+        "NombreEquipoLocal": "Noia Portus Apostoli",
+        "NombreEquipoVisitante": "Burela FS",
+        "GolesLocal": "3",
+        "GolesVisitante": "2",
+        "GoleadoresLocal": [
+            "Pirata",
+            "Power",
+            "Pirata"
+        ],
+        "GoleadoresVisitante": [
+            "Rikelme",
+            "Pitero"
+        ],
+        "Amarillas": [
+            "David Pazos",
+            "Bernardo Araya",
+            "Quelle",
+            "Junhinho",
+            "Pitero",
+            "Rikelme",
+            "Pirata",
+            "Rufino",
+            "Isma",
+            "Mika",
+            "Alberto",
+            "Douglas Silva"
+        ],
+        "Rojas": [],
+        "GolesEnContraLocal": [],
+        "GolesEnContraVisitante": []
+    },
+    {
+        "NombreEquipoLocal": "Vi\u00f1a Albali Valdepe\u00f1as",
+        "NombreEquipoVisitante": "C\u00f3rdoba Patrimonio Humanidad",
+        "GolesLocal": "3",
+        "GolesVisitante": "2",
+        "GoleadoresLocal": [
+            "Boyis",
+            "Pol Pacheco",
+            "Saura"
+        ],
+        "GoleadoresVisitante": [
+            "Mykytiuk",
+            "Arnaldo B\u00e1ez"
+        ],
+        "Amarillas": [
+            "Mykytiuk"
+        ],
+        "Rojas": [],
+        "GolesEnContraLocal": [],
+        "GolesEnContraVisitante": []
+    },
+    {
+        "NombreEquipoLocal": "Osasuna Magna Xota",
+        "NombreEquipoVisitante": "Vi\u00f1a Albali Valdepe\u00f1as",
+        "GolesLocal": "2",
+        "GolesVisitante": "2",
+        "GoleadoresLocal": [
+            "D. Saldise",
+            "Ligeiro"
+        ],
+        "GoleadoresVisitante": [
+            "Pol Pacheco",
+            "Pol Pacheco"
+        ],
+        "Amarillas": [
+            "Marcao",
+            "Bynho",
+            "Carrasco",
+            "Juninho"
+        ],
+        "Rojas": [],
+        "GolesEnContraLocal": [],
+        "GolesEnContraVisitante": []
+    },
+    {
+        "NombreEquipoLocal": "ElPozo Murcia Costa C\u00e1lida",
+        "NombreEquipoVisitante": "WANAPIX AD Sala 10",
+        "GolesLocal": "10",
+        "GolesVisitante": "1",
+        "GoleadoresLocal": [
+            "F. Valerio",
+            "Rafa Santos",
+            "Rafa Santos",
+            "D. \u00c1lvarez",
+            "Esteban",
+            "D. \u00c1lvarez",
+            "Ricardinho",
+            "Gadeia",
+            "\u00c1lvaro",
+            "Ricardinho"
+        ],
+        "GoleadoresVisitante": [
+            "Nando Torres"
+        ],
+        "Amarillas": [
+            "Nando Torres",
+            "Ricardinho",
+            "C\u00e9sar"
+        ],
+        "Rojas": [],
+        "GolesEnContraLocal": [],
+        "GolesEnContraVisitante": []
+    },
+    {
+        "NombreEquipoLocal": "Bar\u00e7a",
+        "NombreEquipoVisitante": "Ja\u00e9n Para\u00edso Interior",
+        "GolesLocal": "4",
+        "GolesVisitante": "2",
+        "GoleadoresLocal": [
+            "Antonio",
+            "E. Martel",
+            "Fits",
+            "Antonio"
+        ],
+        "GoleadoresVisitante": [
+            "Mati Rosa",
+            "Alan Brandi"
+        ],
+        "Amarillas": [
+            "Carlos Sanz",
+            "Espindola",
+            "Mati Rosa",
+            "Renato",
+            "E. Martel",
+            "Jo\u00e3o Salla",
+            "Sergio Gonz\u00e1lez"
+        ],
+        "Rojas": [
+            "D\u00eddac"
+        ],
+        "GolesEnContraLocal": [],
+        "GolesEnContraVisitante": []
+    },
+    {
+        "NombreEquipoLocal": "Jimbee Cartagena Costa C\u00e1lida",
+        "NombreEquipoVisitante": "Noia Portus Apostoli",
+        "GolesLocal": "2",
+        "GolesVisitante": "2",
+        "GoleadoresLocal": [
+            "Chemi",
+            "Ossamanmusa"
+        ],
+        "GoleadoresVisitante": [
+            "Power",
+            "L. Altamirano"
+        ],
+        "Amarillas": [
+            "Power",
+            "Cort\u00e9s",
+            "Mellado",
+            "Douglas Silva",
+            "Dar\u00edo",
+            "Pirata",
+            "Ossamanmusa",
+            "Gon Castej\u00f3n"
+        ],
+        "Rojas": [],
+        "GolesEnContraLocal": [],
+        "GolesEnContraVisitante": []
+    },
+    {
+        "NombreEquipoLocal": "ATP Ilum. Tudelano Ribera Navarra",
+        "NombreEquipoVisitante": "Quesos Hidalgo Manzanares FS",
+        "GolesLocal": "3",
+        "GolesVisitante": "4",
+        "GoleadoresLocal": [
+            "Terry",
+            "L. Tripodi",
+            "Malaguti"
+        ],
+        "GoleadoresVisitante": [
+            "Daniel",
+            "Robles",
+            "Zequi",
+            "Juan Emilio"
+        ],
+        "Amarillas": [
+            "L. Tripodi",
+            "L. Tripodi",
+            "Malaguti",
+            "Robles",
+            "Anto\u00f1ito",
+            "Juan Emilio",
+            "Javi Alonso"
+        ],
+        "Rojas": [],
+        "GolesEnContraLocal": [],
+        "GolesEnContraVisitante": []
+    },
+    {
+        "NombreEquipoLocal": "C\u00f3rdoba Patrimonio Humanidad",
+        "NombreEquipoVisitante": "Islas Baleares Palma Futsal",
+        "GolesLocal": "2",
+        "GolesVisitante": "5",
+        "GoleadoresLocal": [
+            "Kau\u00ea",
+            "Murilo Duarte"
+        ],
+        "GoleadoresVisitante": [
+            "Kau\u00ea",
+            "David Pe\u00f1a",
+            "Echavarr\u00eda",
+            "David Pe\u00f1a",
+            "Ernesto"
+        ],
+        "Amarillas": [
+            "Tiago Macedo",
+            "Machado",
+            "Fabinho"
+        ],
+        "Rojas": [],
+        "GolesEnContraLocal": [
+            "Echavarr\u00eda"
+        ],
+        "GolesEnContraVisitante": [
+            "Kau\u00ea"
+        ]
+    },
+    {
+        "NombreEquipoLocal": "Burela FS",
+        "NombreEquipoVisitante": "Industrias Santa Coloma",
+        "GolesLocal": "1",
+        "GolesVisitante": "1",
+        "GoleadoresLocal": [
+            "Isma"
+        ],
+        "GoleadoresVisitante": [
+            "Marc Tolr\u00e0"
+        ],
+        "Amarillas": [],
+        "Rojas": [],
+        "GolesEnContraLocal": [],
+        "GolesEnContraVisitante": []
+    },
+    {
+        "NombreEquipoLocal": "Servigroup Pe\u00f1\u00edscola FS",
+        "NombreEquipoVisitante": "Movistar Inter",
+        "GolesLocal": "2",
+        "GolesVisitante": "1",
+        "GoleadoresLocal": [
+            "Luciano Gauna",
+            "Paniagua"
+        ],
+        "GoleadoresVisitante": [
+            "Bebe"
+        ],
+        "Amarillas": [
+            "Quintela",
+            "Bebe",
+            "V\u00edctor P\u00e9rez",
+            "Diego Sancho"
+        ],
+        "Rojas": [],
+        "GolesEnContraLocal": [],
+        "GolesEnContraVisitante": []
+    },
+    {
+        "NombreEquipoLocal": "WANAPIX AD Sala 10",
+        "NombreEquipoVisitante": "Bar\u00e7a",
+        "GolesLocal": "1",
+        "GolesVisitante": "2",
+        "GoleadoresLocal": [
+            "Adri Ortego"
+        ],
+        "GoleadoresVisitante": [
+            "E. Martel",
+            "Sergio Gonz\u00e1lez"
+        ],
+        "Amarillas": [
+            "Tour\u00e9"
+        ],
+        "Rojas": [],
+        "GolesEnContraLocal": [],
+        "GolesEnContraVisitante": []
+    },
+    {
+        "NombreEquipoLocal": "Movistar Inter",
+        "NombreEquipoVisitante": "Jimbee Cartagena Costa C\u00e1lida",
+        "GolesLocal": "0",
+        "GolesVisitante": "0",
+        "GoleadoresLocal": [],
+        "GoleadoresVisitante": [],
+        "Amarillas": [
+            "J. M\u00ednguez",
+            "Chaguinha",
+            "Ossamanmusa",
+            "Raya",
+            "Pablo Ram\u00edrez"
+        ],
+        "Rojas": [],
+        "GolesEnContraLocal": [],
+        "GolesEnContraVisitante": []
+    },
+    {
+        "NombreEquipoLocal": "Noia Portus Apostoli",
+        "NombreEquipoVisitante": "Osasuna Magna Xota",
+        "GolesLocal": "5",
+        "GolesVisitante": "1",
+        "GoleadoresLocal": [
+            "David Pazos",
+            "Power",
+            "Pirata",
+            "L. Altamirano",
+            "Rubi Lemos"
+        ],
+        "GoleadoresVisitante": [
+            "Ion Cervi\u00f1o"
+        ],
+        "Amarillas": [
+            "Douglas Silva",
+            "Ion Cervi\u00f1o"
+        ],
+        "Rojas": [],
+        "GolesEnContraLocal": [],
+        "GolesEnContraVisitante": []
+    },
+    {
+        "NombreEquipoLocal": "Vi\u00f1a Albali Valdepe\u00f1as",
+        "NombreEquipoVisitante": "Servigroup Pe\u00f1\u00edscola FS",
+        "GolesLocal": "2",
+        "GolesVisitante": "7",
+        "GoleadoresLocal": [
+            "Pol Pacheco",
+            "Pol Pacheco"
+        ],
+        "GoleadoresVisitante": [
+            "Paniagua",
+            "Diego Sancho",
+            "Paniagua",
+            "Lucas Rocha",
+            "Paniagua",
+            "Lucas Rocha",
+            "El\u00edas"
+        ],
+        "Amarillas": [
+            "Nano",
+            "Jos\u00e9 Mario",
+            "Pol Pacheco"
+        ],
+        "Rojas": [],
+        "GolesEnContraLocal": [],
+        "GolesEnContraVisitante": []
+    },
+    {
+        "NombreEquipoLocal": "Ja\u00e9n Para\u00edso Interior",
+        "NombreEquipoVisitante": "ElPozo Murcia Costa C\u00e1lida",
+        "GolesLocal": "2",
+        "GolesVisitante": "2",
+        "GoleadoresLocal": [
+            "D. Zurdo",
+            "Alan Brandi"
+        ],
+        "GoleadoresVisitante": [
+            "Gadeia",
+            "F. Valerio"
+        ],
+        "Amarillas": [
+            "Renato",
+            "Rafa Santos",
+            "D. Zurdo",
+            "Carlos Sanz"
+        ],
+        "Rojas": [
+            "Carlos Sanz"
+        ],
+        "GolesEnContraLocal": [],
+        "GolesEnContraVisitante": []
+    },
+    {
+        "NombreEquipoLocal": "Islas Baleares Palma Futsal",
+        "NombreEquipoVisitante": "ATP Ilum. Tudelano Ribera Navarra",
+        "GolesLocal": "3",
+        "GolesVisitante": "2",
+        "GoleadoresLocal": [
+            "Gordillo",
+            "Mateus Maia",
+            "Henrique"
+        ],
+        "GoleadoresVisitante": [
+            "Eric P\u00e9rez",
+            "David"
+        ],
+        "Amarillas": [
+            "Terry",
+            "Ra\u00fal Jim\u00e9nez",
+            "Mateus Maia",
+            "Piqueras"
+        ],
+        "Rojas": [],
+        "GolesEnContraLocal": [],
+        "GolesEnContraVisitante": []
+    },
+    {
+        "NombreEquipoLocal": "Industrias Santa Coloma",
+        "NombreEquipoVisitante": "C\u00f3rdoba Patrimonio Humanidad",
+        "GolesLocal": "5",
+        "GolesVisitante": "1",
+        "GoleadoresLocal": [
+            "\u00c1lex Verdejo",
+            "Marc Tolr\u00e0",
+            "Marc Tolr\u00e0",
+            "Povill",
+            "Marc Tolr\u00e0"
+        ],
+        "GoleadoresVisitante": [
+            "Echavarr\u00eda"
+        ],
+        "Amarillas": [
+            "Tiago Macedo",
+            "Echavarr\u00eda",
+            "Leandrinho",
+            "Kau\u00ea"
+        ],
+        "Rojas": [
+            "Echavarr\u00eda"
+        ],
+        "GolesEnContraLocal": [],
+        "GolesEnContraVisitante": []
+    },
+    {
+        "NombreEquipoLocal": "Quesos Hidalgo Manzanares FS",
+        "NombreEquipoVisitante": "Burela FS",
+        "GolesLocal": "1",
+        "GolesVisitante": "1",
+        "GoleadoresLocal": [
+            "Alvaro L\u00f3pez"
+        ],
+        "GoleadoresVisitante": [
+            "Pitero"
+        ],
+        "Amarillas": [
+            "Juan Emilio",
+            "Zequi",
+            "Isma"
+        ],
+        "Rojas": [],
+        "GolesEnContraLocal": [],
+        "GolesEnContraVisitante": []
+    },
+    {
+        "NombreEquipoLocal": "Osasuna Magna Xota",
+        "NombreEquipoVisitante": "Quesos Hidalgo Manzanares FS",
+        "GolesLocal": "1",
+        "GolesVisitante": "2",
+        "GoleadoresLocal": [
+            "Juninho"
+        ],
+        "GoleadoresVisitante": [
+            "Pedro",
+            "Juan Emilio"
+        ],
+        "Amarillas": [
+            "A. Geraghty",
+            "Robles",
+            "Ligeiro",
+            "R. Martil",
+            "Pedro Herreros",
+            "Javi Alonso"
+        ],
+        "Rojas": [],
+        "GolesEnContraLocal": [],
+        "GolesEnContraVisitante": []
+    },
+    {
+        "NombreEquipoLocal": "ElPozo Murcia Costa C\u00e1lida",
+        "NombreEquipoVisitante": "Vi\u00f1a Albali Valdepe\u00f1as",
+        "GolesLocal": "5",
+        "GolesVisitante": "3",
+        "GoleadoresLocal": [
+            "Pol Pacheco",
+            "F. Valerio",
+            "Gadeia",
+            "Esteban",
+            "C\u00e9sar"
+        ],
+        "GoleadoresVisitante": [
+            "Nano",
+            "Saura",
+            "Eloy Rojas"
+        ],
+        "Amarillas": [
+            "Gadeia",
+            "Marlon",
+            "Ricardinho",
+            "Bynho",
+            "Carrasco",
+            "C\u00e9sar"
+        ],
+        "Rojas": [],
+        "GolesEnContraLocal": [],
+        "GolesEnContraVisitante": [
+            "Pol Pacheco"
+        ]
+    },
+    {
+        "NombreEquipoLocal": "Servigroup Pe\u00f1\u00edscola FS",
+        "NombreEquipoVisitante": "WANAPIX AD Sala 10",
+        "GolesLocal": "7",
+        "GolesVisitante": "3",
+        "GoleadoresLocal": [
+            "Juanqui",
+            "Paniagua",
+            "Lucas Rocha",
+            "Rivera",
+            "Lucas Rocha",
+            "Paniagua",
+            "Juan Jos\u00e9"
+        ],
+        "GoleadoresVisitante": [
+            "Nacho G\u00f3mez",
+            "Rivera",
+            "Nando Torres"
+        ],
+        "Amarillas": [
+            "Juanqui"
+        ],
+        "Rojas": [],
+        "GolesEnContraLocal": [],
+        "GolesEnContraVisitante": [
+            "Rivera"
+        ]
+    },
+    {
+        "NombreEquipoLocal": "C\u00f3rdoba Patrimonio Humanidad",
+        "NombreEquipoVisitante": "Noia Portus Apostoli",
+        "GolesLocal": "2",
+        "GolesVisitante": "2",
+        "GoleadoresLocal": [
+            "Juanan",
+            "Juanan"
+        ],
+        "GoleadoresVisitante": [
+            "Pirata",
+            "Thierry"
+        ],
+        "Amarillas": [
+            "Douglas Silva",
+            "Pirata",
+            "Giu Santos",
+            "Mykytiuk",
+            "Rufino",
+            "Power",
+            "Arnaldo B\u00e1ez",
+            "Thierry",
+            "J. Mareco"
+        ],
+        "Rojas": [
+            "Power"
+        ],
+        "GolesEnContraLocal": [],
+        "GolesEnContraVisitante": []
+    },
+    {
+        "NombreEquipoLocal": "Burela FS",
+        "NombreEquipoVisitante": "Movistar Inter",
+        "GolesLocal": "0",
+        "GolesVisitante": "3",
+        "GoleadoresLocal": [],
+        "GoleadoresVisitante": [
+            "Chaguinha",
+            "Bebe",
+            "Cecilio"
+        ],
+        "Amarillas": [
+            "Isma",
+            "Alberto",
+            "Pablo Ord\u00f3\u00f1ez"
+        ],
+        "Rojas": [],
+        "GolesEnContraLocal": [],
+        "GolesEnContraVisitante": []
+    },
+    {
+        "NombreEquipoLocal": "Bar\u00e7a",
+        "NombreEquipoVisitante": "Industrias Santa Coloma",
+        "GolesLocal": "9",
+        "GolesVisitante": "3",
+        "GoleadoresLocal": [
+            "Sergio Gonz\u00e1lez",
+            "E. Martel",
+            "V\u00edctor Ramos",
+            "Antonio",
+            "Fits",
+            "Catela",
+            "Khalid",
+            "Khalid",
+            "Catela"
+        ],
+        "GoleadoresVisitante": [
+            "Puigvert",
+            "Marc Tolr\u00e0",
+            "\u00c1lex Verdejo"
+        ],
+        "Amarillas": [
+            "\u00c1lex Verdejo",
+            "Puigvert",
+            "V\u00edctor P\u00e9rez"
+        ],
+        "Rojas": [],
+        "GolesEnContraLocal": [],
+        "GolesEnContraVisitante": [
+            "V\u00edctor Ramos"
+        ]
+    },
+    {
+        "NombreEquipoLocal": "ATP Ilum. Tudelano Ribera Navarra",
+        "NombreEquipoVisitante": "Ja\u00e9n Para\u00edso Interior",
+        "GolesLocal": "6",
+        "GolesVisitante": "3",
+        "GoleadoresLocal": [
+            "Sepe",
+            "Terry",
+            "Malaguti",
+            "L. Tripodi",
+            "L. Tripodi",
+            "Terry"
+        ],
+        "GoleadoresVisitante": [
+            "Lemine",
+            "Alan Brandi",
+            "Mati Rosa"
+        ],
+        "Amarillas": [
+            "David",
+            "D. Zurdo",
+            "Terry",
+            "Espindola",
+            "Eric P\u00e9rez",
+            "Lemine"
+        ],
+        "Rojas": [],
+        "GolesEnContraLocal": [],
+        "GolesEnContraVisitante": []
+    },
+    {
+        "NombreEquipoLocal": "Jimbee Cartagena Costa C\u00e1lida",
+        "NombreEquipoVisitante": "Islas Baleares Palma Futsal",
+        "GolesLocal": "2",
+        "GolesVisitante": "2",
+        "GoleadoresLocal": [
+            "Cort\u00e9s",
+            "Pablo Ram\u00edrez"
+        ],
+        "GoleadoresVisitante": [
+            "David Pe\u00f1a",
+            "Neguinho"
+        ],
+        "Amarillas": [
+            "Cort\u00e9s",
+            "Piqueras",
+            "Marcelo",
+            "Luan Muller"
+        ],
+        "Rojas": [],
+        "GolesEnContraLocal": [],
+        "GolesEnContraVisitante": []
+    },
+    {
+        "NombreEquipoLocal": "Industrias Santa Coloma",
+        "NombreEquipoVisitante": "Jimbee Cartagena Costa C\u00e1lida",
+        "GolesLocal": "3",
+        "GolesVisitante": "2",
+        "GoleadoresLocal": [
+            "\u00c1lex Verdejo",
+            "Cardona",
+            "Povill"
+        ],
+        "GoleadoresVisitante": [
+            "Ossamanmusa",
+            "Ossamanmusa"
+        ],
+        "Amarillas": [
+            "Leandrinho",
+            "Nil",
+            "Motta",
+            "Cort\u00e9s",
+            "Chemi",
+            "Corso"
+        ],
+        "Rojas": [
+            "Cort\u00e9s"
+        ],
+        "GolesEnContraLocal": [],
+        "GolesEnContraVisitante": []
+    },
+    {
+        "NombreEquipoLocal": "Quesos Hidalgo Manzanares FS",
+        "NombreEquipoVisitante": "ElPozo Murcia Costa C\u00e1lida",
+        "GolesLocal": "2",
+        "GolesVisitante": "1",
+        "GoleadoresLocal": [
+            "Juan Emilio",
+            "Daniel"
+        ],
+        "GoleadoresVisitante": [
+            "Ricardo"
+        ],
+        "Amarillas": [
+            "Gadeia",
+            "C\u00e9sar",
+            "Marlon"
+        ],
+        "Rojas": [],
+        "GolesEnContraLocal": [],
+        "GolesEnContraVisitante": []
+    },
+    {
+        "NombreEquipoLocal": "Movistar Inter",
+        "NombreEquipoVisitante": "Bar\u00e7a",
+        "GolesLocal": "3",
+        "GolesVisitante": "4",
+        "GoleadoresLocal": [
+            "Chaguinha",
+            "Drahovsky",
+            "Cecilio"
+        ],
+        "GoleadoresVisitante": [
+            "Catela",
+            "E. Martel",
+            "Sergio Gonz\u00e1lez",
+            "Sergio Gonz\u00e1lez"
+        ],
+        "Amarillas": [
+            "Chaguinha",
+            "Raya",
+            "Drahovsky",
+            "Matheus"
+        ],
+        "Rojas": [],
+        "GolesEnContraLocal": [],
+        "GolesEnContraVisitante": []
+    },
+    {
+        "NombreEquipoLocal": "Vi\u00f1a Albali Valdepe\u00f1as",
+        "NombreEquipoVisitante": "ATP Ilum. Tudelano Ribera Navarra",
+        "GolesLocal": "1",
+        "GolesVisitante": "6",
+        "GoleadoresLocal": [
+            "Bynho"
+        ],
+        "GoleadoresVisitante": [
+            "Sepe",
+            "Sepe",
+            "Marcao",
+            "L. Tripodi",
+            "Terry",
+            "Terry"
+        ],
+        "Amarillas": [
+            "Lolo",
+            "Pol Pacheco"
+        ],
+        "Rojas": [],
+        "GolesEnContraLocal": [
+            "Marcao"
+        ],
+        "GolesEnContraVisitante": []
+    },
+    {
+        "NombreEquipoLocal": "C\u00f3rdoba Patrimonio Humanidad",
+        "NombreEquipoVisitante": "Osasuna Magna Xota",
+        "GolesLocal": "0",
+        "GolesVisitante": "3",
+        "GoleadoresLocal": [],
+        "GoleadoresVisitante": [
+            "Juninho",
+            "A. Geraghty",
+            "Ion Cervi\u00f1o"
+        ],
+        "Amarillas": [
+            "Pablo Del Moral",
+            "Korsun",
+            "Ion Cervi\u00f1o"
+        ],
+        "Rojas": [],
+        "GolesEnContraLocal": [],
+        "GolesEnContraVisitante": []
+    },
+    {
+        "NombreEquipoLocal": "Ja\u00e9n Para\u00edso Interior",
+        "NombreEquipoVisitante": "WANAPIX AD Sala 10",
+        "GolesLocal": "3",
+        "GolesVisitante": "3",
+        "GoleadoresLocal": [
+            "Mati Rosa",
+            "Alan Brandi",
+            "Alan Brandi"
+        ],
+        "GoleadoresVisitante": [
+            "Nacho G\u00f3mez",
+            "Richi Felipe",
+            "Nando Torres"
+        ],
+        "Amarillas": [
+            "Adri Ortego",
+            "M\u00edchel",
+            "Richi Felipe",
+            "Dud\u00fa",
+            "Brasesco"
+        ],
+        "Rojas": [
+            "Brasesco"
+        ],
+        "GolesEnContraLocal": [],
+        "GolesEnContraVisitante": []
+    },
+    {
+        "NombreEquipoLocal": "Islas Baleares Palma Futsal",
+        "NombreEquipoVisitante": "Burela FS",
+        "GolesLocal": "5",
+        "GolesVisitante": "2",
+        "GoleadoresLocal": [
+            "Ernesto",
+            "Fabinho",
+            "Fabinho",
+            "Charuto",
+            "Gordillo"
+        ],
+        "GoleadoresVisitante": [
+            "Pitero",
+            "Bernardo Araya"
+        ],
+        "Amarillas": [],
+        "Rojas": [],
+        "GolesEnContraLocal": [],
+        "GolesEnContraVisitante": []
+    },
+    {
+        "NombreEquipoLocal": "Noia Portus Apostoli",
+        "NombreEquipoVisitante": "Servigroup Pe\u00f1\u00edscola FS",
+        "GolesLocal": "2",
+        "GolesVisitante": "5",
+        "GoleadoresLocal": [
+            "Pirata",
+            "Pirata"
+        ],
+        "GoleadoresVisitante": [
+            "Paniagua",
+            "V\u00edctor P\u00e9rez",
+            "Paniagua",
+            "Quintela",
+            "V\u00edctor P\u00e9rez"
+        ],
+        "Amarillas": [
+            "David Pazos",
+            "L. Altamirano",
+            "Juanqui",
+            "Pirata",
+            "Lucas Flores",
+            "Pol Salas"
+        ],
+        "Rojas": [
+            "Agust\u00edn Plaza"
+        ],
+        "GolesEnContraLocal": [],
+        "GolesEnContraVisitante": []
+    },
+    {
+        "NombreEquipoLocal": "Osasuna Magna Xota",
+        "NombreEquipoVisitante": "Industrias Santa Coloma",
+        "GolesLocal": "6",
+        "GolesVisitante": "1",
+        "GoleadoresLocal": [
+            "A. Geraghty",
+            "Pachu",
+            "Pachu",
+            "D. Saldise",
+            "Juninho",
+            "Tony"
+        ],
+        "GoleadoresVisitante": [
+            "Povill"
+        ],
+        "Amarillas": [
+            "\u00c1lex Verdejo",
+            "Tony",
+            "Povill",
+            "A. Geraghty",
+            "D. Saldise",
+            "Puigvert"
+        ],
+        "Rojas": [],
+        "GolesEnContraLocal": [],
+        "GolesEnContraVisitante": []
+    },
+    {
+        "NombreEquipoLocal": "Bar\u00e7a",
+        "NombreEquipoVisitante": "Vi\u00f1a Albali Valdepe\u00f1as",
+        "GolesLocal": "1",
+        "GolesVisitante": "2",
+        "GoleadoresLocal": [
+            "Matheus"
+        ],
+        "GoleadoresVisitante": [
+            "Pol Pacheco",
+            "Saura"
+        ],
+        "Amarillas": [
+            "Jos\u00e9 Mario",
+            "Alberto Garc\u00eda",
+            "Sergio Lozano",
+            "Antonio"
+        ],
+        "Rojas": [],
+        "GolesEnContraLocal": [],
+        "GolesEnContraVisitante": []
+    },
+    {
+        "NombreEquipoLocal": "Ja\u00e9n Para\u00edso Interior",
+        "NombreEquipoVisitante": "Movistar Inter",
+        "GolesLocal": "3",
+        "GolesVisitante": "4",
+        "GoleadoresLocal": [
+            "Alan Brandi",
+            "Alan Brandi",
+            "Mati Rosa"
+        ],
+        "GoleadoresVisitante": [
+            "Carlos B.",
+            "Drahovsky",
+            "Chaguinha",
+            "Chaguinha"
+        ],
+        "Amarillas": [
+            "D. Zurdo",
+            "Lemine",
+            "J. M\u00ednguez",
+            "J. Herrero",
+            "Cecilio",
+            "Raya",
+            "Espindola",
+            "Carlos B.",
+            "M\u00edchel",
+            "Carlos Sanz"
+        ],
+        "Rojas": [],
+        "GolesEnContraLocal": [],
+        "GolesEnContraVisitante": []
+    },
+    {
+        "NombreEquipoLocal": "Burela FS",
+        "NombreEquipoVisitante": "C\u00f3rdoba Patrimonio Humanidad",
+        "GolesLocal": "3",
+        "GolesVisitante": "2",
+        "GoleadoresLocal": [
+            "Rikelme",
+            "Pitero",
+            "Rikelme"
+        ],
+        "GoleadoresVisitante": [
+            "Titi",
+            "Titi"
+        ],
+        "Amarillas": [
+            "Echavarr\u00eda"
+        ],
+        "Rojas": [
+            "V\u00edctor Areales"
+        ],
+        "GolesEnContraLocal": [],
+        "GolesEnContraVisitante": []
+    },
+    {
+        "NombreEquipoLocal": "ATP Ilum. Tudelano Ribera Navarra",
+        "NombreEquipoVisitante": "Noia Portus Apostoli",
+        "GolesLocal": "0",
+        "GolesVisitante": "3",
+        "GoleadoresLocal": [],
+        "GoleadoresVisitante": [
+            "Rubi Lemos",
+            "Pirata",
+            "Power"
+        ],
+        "Amarillas": [
+            "L. Tripodi",
+            "Power",
+            "Dani Fern\u00e1ndez",
+            "L. Altamirano",
+            "Terry",
+            "Thierry"
+        ],
+        "Rojas": [],
+        "GolesEnContraLocal": [],
+        "GolesEnContraVisitante": []
+    },
+    {
+        "NombreEquipoLocal": "ElPozo Murcia Costa C\u00e1lida",
+        "NombreEquipoVisitante": "Islas Baleares Palma Futsal",
+        "GolesLocal": "3",
+        "GolesVisitante": "3",
+        "GoleadoresLocal": [
+            "Rafa Santos",
+            "Gadeia",
+            "D. \u00c1lvarez"
+        ],
+        "GoleadoresVisitante": [
+            "Charuto",
+            "Mateus Maia",
+            "Marcelo"
+        ],
+        "Amarillas": [
+            "Ricardo",
+            "Charuto",
+            "Rafa Santos",
+            "C\u00e9sar"
+        ],
+        "Rojas": [],
+        "GolesEnContraLocal": [],
+        "GolesEnContraVisitante": []
+    },
+    {
+        "NombreEquipoLocal": "Servigroup Pe\u00f1\u00edscola FS",
+        "NombreEquipoVisitante": "Quesos Hidalgo Manzanares FS",
+        "GolesLocal": "3",
+        "GolesVisitante": "1",
+        "GoleadoresLocal": [
+            "Juanqui",
+            "Paniagua",
+            "Juanqui"
+        ],
+        "GoleadoresVisitante": [
+            "Daniel"
+        ],
+        "Amarillas": [
+            "V\u00edctor P\u00e9rez",
+            "Juanqui",
+            "Agust\u00edn Plaza",
+            "Javi Alonso",
+            "Gus",
+            "Cristian"
+        ],
+        "Rojas": [],
+        "GolesEnContraLocal": [],
+        "GolesEnContraVisitante": []
+    },
+    {
+        "NombreEquipoLocal": "WANAPIX AD Sala 10",
+        "NombreEquipoVisitante": "Jimbee Cartagena Costa C\u00e1lida",
+        "GolesLocal": "3",
+        "GolesVisitante": "3",
+        "GoleadoresLocal": [
+            "Adri Ortego",
+            "Tom\u00e1s Pescio",
+            "Nando Torres"
+        ],
+        "GoleadoresVisitante": [
+            "Pablo Ram\u00edrez",
+            "Dar\u00edo",
+            "Pablo Ram\u00edrez"
+        ],
+        "Amarillas": [
+            "Waltinho",
+            "Cort\u00e9s",
+            "Rivera"
+        ],
+        "Rojas": [
+            "Gon Castej\u00f3n"
+        ],
+        "GolesEnContraLocal": [],
+        "GolesEnContraVisitante": []
+    },
+    {
+        "NombreEquipoLocal": "Osasuna Magna Xota",
+        "NombreEquipoVisitante": "Burela FS",
+        "GolesLocal": "3",
+        "GolesVisitante": "2",
+        "GoleadoresLocal": [
+            "Pachu",
+            "Korsun",
+            "Korsun"
+        ],
+        "GoleadoresVisitante": [
+            "Junhinho",
+            "Junhinho"
+        ],
+        "Amarillas": [
+            "Pachu",
+            "Asier",
+            "A. Geraghty",
+            "Ion Cervi\u00f1o",
+            "Tony"
+        ],
+        "Rojas": [],
+        "GolesEnContraLocal": [],
+        "GolesEnContraVisitante": []
+    },
+    {
+        "NombreEquipoLocal": "Noia Portus Apostoli",
+        "NombreEquipoVisitante": "Ja\u00e9n Para\u00edso Interior",
+        "GolesLocal": "1",
+        "GolesVisitante": "1",
+        "GoleadoresLocal": [
+            "David Pazos"
+        ],
+        "GoleadoresVisitante": [
+            "Renato"
+        ],
+        "Amarillas": [
+            "Rubi Lemos",
+            "Mati Rosa",
+            "Sch\u00fctt",
+            "Dud\u00fa",
+            "Antoniazzi",
+            "David Pazos",
+            "Renato",
+            "Jo\u00e3o Salla",
+            "Diego F\u00e1vero",
+            "Carlos Sanz"
+        ],
+        "Rojas": [
+            "Diego F\u00e1vero"
+        ],
+        "GolesEnContraLocal": [],
+        "GolesEnContraVisitante": []
+    },
+    {
+        "NombreEquipoLocal": "C\u00f3rdoba Patrimonio Humanidad",
+        "NombreEquipoVisitante": "ATP Ilum. Tudelano Ribera Navarra",
+        "GolesLocal": "4",
+        "GolesVisitante": "3",
+        "GoleadoresLocal": [
+            "Kau\u00ea",
+            "Murilo Duarte",
+            "Eric P\u00e9rez",
+            "Echavarr\u00eda"
+        ],
+        "GoleadoresVisitante": [
+            "Alberto Lahuerta",
+            "Jo\u00e3o Batista",
+            "Terry"
+        ],
+        "Amarillas": [
+            "Giu Santos",
+            "J. Mareco",
+            "L. Tripodi"
+        ],
+        "Rojas": [
+            "Kau\u00ea"
+        ],
+        "GolesEnContraLocal": [],
+        "GolesEnContraVisitante": [
+            "Eric P\u00e9rez"
+        ]
+    },
+    {
+        "NombreEquipoLocal": "Jimbee Cartagena Costa C\u00e1lida",
+        "NombreEquipoVisitante": "Servigroup Pe\u00f1\u00edscola FS",
+        "GolesLocal": "4",
+        "GolesVisitante": "4",
+        "GoleadoresLocal": [
+            "Pablo Ram\u00edrez",
+            "Pablo Ram\u00edrez",
+            "Cort\u00e9s",
+            "Motta"
+        ],
+        "GoleadoresVisitante": [
+            "El\u00edas",
+            "V\u00edctor P\u00e9rez",
+            "Diego Sancho",
+            "Paniagua"
+        ],
+        "Amarillas": [
+            "Mouhoudine",
+            "V\u00edctor P\u00e9rez",
+            "Mellado",
+            "Chemi",
+            "Pol Salas",
+            "Waltinho"
+        ],
+        "Rojas": [],
+        "GolesEnContraLocal": [],
+        "GolesEnContraVisitante": []
+    },
+    {
+        "NombreEquipoLocal": "Movistar Inter",
+        "NombreEquipoVisitante": "WANAPIX AD Sala 10",
+        "GolesLocal": "7",
+        "GolesVisitante": "4",
+        "GoleadoresLocal": [
+            "Drahovsky",
+            "J. M\u00ednguez",
+            "Drahovsky",
+            "Cecilio",
+            "Bebe",
+            "Drahovsky",
+            "Drahovsky"
+        ],
+        "GoleadoresVisitante": [
+            "Adri Ortego",
+            "Carlos Garc\u00eda",
+            "Rivera",
+            "Nando Torres"
+        ],
+        "Amarillas": [
+            "Richi Felipe",
+            "Brasesco",
+            "Jes\u00fas Garc\u00eda",
+            "Bebe",
+            "Eloy",
+            "Tom\u00e1s Pescio",
+            "Carlos Garc\u00eda",
+            "Raya",
+            "J. Herrero"
+        ],
+        "Rojas": [],
+        "GolesEnContraLocal": [],
+        "GolesEnContraVisitante": []
+    },
+    {
+        "NombreEquipoLocal": "Vi\u00f1a Albali Valdepe\u00f1as",
+        "NombreEquipoVisitante": "Islas Baleares Palma Futsal",
+        "GolesLocal": "4",
+        "GolesVisitante": "3",
+        "GoleadoresLocal": [
+            "Lolo",
+            "Alberto Garc\u00eda",
+            "Jos\u00e9 Mario",
+            "Alberto Garc\u00eda"
+        ],
+        "GoleadoresVisitante": [
+            "Bruno Gomes",
+            "Fabinho",
+            "Fabinho"
+        ],
+        "Amarillas": [
+            "Marcelo",
+            "Carrasco",
+            "Alberto Garc\u00eda",
+            "Boyis",
+            "Neguinho"
+        ],
+        "Rojas": [],
+        "GolesEnContraLocal": [],
+        "GolesEnContraVisitante": []
+    },
+    {
+        "NombreEquipoLocal": "Quesos Hidalgo Manzanares FS",
+        "NombreEquipoVisitante": "Bar\u00e7a",
+        "GolesLocal": "2",
+        "GolesVisitante": "7",
+        "GoleadoresLocal": [
+            "Juan Emilio",
+            "Daniel"
+        ],
+        "GoleadoresVisitante": [
+            "Fits",
+            "Javi Alonso",
+            "Sergio Gonz\u00e1lez",
+            "Khalid",
+            "Tour\u00e9",
+            "Sergio Gonz\u00e1lez",
+            "Catela"
+        ],
+        "Amarillas": [
+            "Juan Emilio",
+            "Daniel",
+            "Robles",
+            "Khalid",
+            "Ortas",
+            "Anto\u00f1ito"
+        ],
+        "Rojas": [],
+        "GolesEnContraLocal": [
+            "Javi Alonso"
+        ],
+        "GolesEnContraVisitante": []
+    },
+    {
+        "NombreEquipoLocal": "Industrias Santa Coloma",
+        "NombreEquipoVisitante": "ElPozo Murcia Costa C\u00e1lida",
+        "GolesLocal": "2",
+        "GolesVisitante": "2",
+        "GoleadoresLocal": [
+            "Povill",
+            "Leandrinho"
+        ],
+        "GoleadoresVisitante": [
+            "Esteban",
+            "Rafa Santos"
+        ],
+        "Amarillas": [
+            "C\u00e9sar",
+            "V\u00edctor P\u00e9rez",
+            "F. Valerio",
+            "Ricardinho",
+            "Rafa Santos",
+            "Esteban",
+            "Corso",
+            "Ricardo"
+        ],
+        "Rojas": [],
+        "GolesEnContraLocal": [],
+        "GolesEnContraVisitante": []
+    },
+    {
+        "NombreEquipoLocal": "ATP Ilum. Tudelano Ribera Navarra",
+        "NombreEquipoVisitante": "Industrias Santa Coloma",
+        "GolesLocal": "3",
+        "GolesVisitante": "3",
+        "GoleadoresLocal": [
+            "L. Tripodi",
+            "Malaguti",
+            "Eric P\u00e9rez"
+        ],
+        "GoleadoresVisitante": [
+            "Povill",
+            "Puigvert",
+            "Leandrinho"
+        ],
+        "Amarillas": [
+            "Malaguti",
+            "Cardona",
+            "Povill",
+            "L. Tripodi",
+            "David",
+            "V\u00edctor P\u00e9rez",
+            "Sepe",
+            "Eric P\u00e9rez"
+        ],
+        "Rojas": [],
+        "GolesEnContraLocal": [],
+        "GolesEnContraVisitante": []
+    },
+    {
+        "NombreEquipoLocal": "Bar\u00e7a",
+        "NombreEquipoVisitante": "Jimbee Cartagena Costa C\u00e1lida",
+        "GolesLocal": "3",
+        "GolesVisitante": "1",
+        "GoleadoresLocal": [
+            "Dyego",
+            "Adolfo",
+            "Catela"
+        ],
+        "GoleadoresVisitante": [
+            "E. Martel"
+        ],
+        "Amarillas": [
+            "Jes\u00fas Izquierdo",
+            "Chemi",
+            "Pablo Ram\u00edrez"
+        ],
+        "Rojas": [],
+        "GolesEnContraLocal": [
+            "E. Martel"
+        ],
+        "GolesEnContraVisitante": []
+    },
+    {
+        "NombreEquipoLocal": "Burela FS",
+        "NombreEquipoVisitante": "Vi\u00f1a Albali Valdepe\u00f1as",
+        "GolesLocal": "2",
+        "GolesVisitante": "2",
+        "GoleadoresLocal": [
+            "Isma",
+            "Junhinho"
+        ],
+        "GoleadoresVisitante": [
+            "Carlos",
+            "Carlos"
+        ],
+        "Amarillas": [
+            "Boyis",
+            "Isma",
+            "Lolo",
+            "Pol Pacheco",
+            "Bernardo Araya",
+            "Alberto Garc\u00eda",
+            "\u00c1lex Gonz\u00e1lez"
+        ],
+        "Rojas": [],
+        "GolesEnContraLocal": [],
+        "GolesEnContraVisitante": []
+    },
+    {
+        "NombreEquipoLocal": "Islas Baleares Palma Futsal",
+        "NombreEquipoVisitante": "Osasuna Magna Xota",
+        "GolesLocal": "3",
+        "GolesVisitante": "2",
+        "GoleadoresLocal": [
+            "Fabinho",
+            "Bruno Gomes",
+            "Fabinho"
+        ],
+        "GoleadoresVisitante": [
+            "Ion Cervi\u00f1o",
+            "Fabinho"
+        ],
+        "Amarillas": [
+            "Asier",
+            "C. Barr\u00f3n",
+            "Fabinho"
+        ],
+        "Rojas": [],
+        "GolesEnContraLocal": [],
+        "GolesEnContraVisitante": [
+            "Fabinho"
+        ]
+    },
+    {
+        "NombreEquipoLocal": "Servigroup Pe\u00f1\u00edscola FS",
+        "NombreEquipoVisitante": "C\u00f3rdoba Patrimonio Humanidad",
+        "GolesLocal": "5",
+        "GolesVisitante": "5",
+        "GoleadoresLocal": [
+            "Paniagua",
+            "Paniagua",
+            "Paniagua",
+            "Luciano Gauna",
+            "Diego Sancho"
+        ],
+        "GoleadoresVisitante": [
+            "Titi",
+            "Murilo Duarte",
+            "Murilo Duarte",
+            "Echavarr\u00eda",
+            "Arnaldo B\u00e1ez"
+        ],
+        "Amarillas": [
+            "Juanqui",
+            "Murilo Duarte",
+            "Yeray",
+            "Gus",
+            "Luciano Gauna",
+            "Agust\u00edn Plaza",
+            "Juanqui",
+            "Diego Sancho"
+        ],
+        "Rojas": [
+            "Gus"
+        ],
+        "GolesEnContraLocal": [],
+        "GolesEnContraVisitante": []
+    },
+    {
+        "NombreEquipoLocal": "ElPozo Murcia Costa C\u00e1lida",
+        "NombreEquipoVisitante": "Movistar Inter",
+        "GolesLocal": "2",
+        "GolesVisitante": "3",
+        "GoleadoresLocal": [
+            "Gadeia",
+            "Marlon"
+        ],
+        "GoleadoresVisitante": [
+            "Luc\u00e3o",
+            "Rafa Santos",
+            "Cecilio"
+        ],
+        "Amarillas": [
+            "A. Carri\u00f3n",
+            "Marlon",
+            "F. Valerio",
+            "Gadeia"
+        ],
+        "Rojas": [],
+        "GolesEnContraLocal": [
+            "Rafa Santos"
+        ],
+        "GolesEnContraVisitante": []
+    },
+    {
+        "NombreEquipoLocal": "WANAPIX AD Sala 10",
+        "NombreEquipoVisitante": "Noia Portus Apostoli",
+        "GolesLocal": "1",
+        "GolesVisitante": "3",
+        "GoleadoresLocal": [
+            "Tom\u00e1s Pescio"
+        ],
+        "GoleadoresVisitante": [
+            "Rubi Lemos",
+            "Power",
+            "Pirata"
+        ],
+        "Amarillas": [
+            "Pirata",
+            "Nando Torres",
+            "Alberto In\u00e9s",
+            "Tom\u00e1s Pescio",
+            "Douglas Silva",
+            "Sch\u00fctt",
+            "Alberto In\u00e9s",
+            "Rivera",
+            "Power"
+        ],
+        "Rojas": [],
+        "GolesEnContraLocal": [],
+        "GolesEnContraVisitante": []
+    },
+    {
+        "NombreEquipoLocal": "Ja\u00e9n Para\u00edso Interior",
+        "NombreEquipoVisitante": "Quesos Hidalgo Manzanares FS",
+        "GolesLocal": "0",
+        "GolesVisitante": "0",
+        "GoleadoresLocal": [],
+        "GoleadoresVisitante": [],
+        "Amarillas": [
+            "Pedro Herreros",
+            "Ra\u00fal Campos",
+            "D. Zurdo",
+            "Javi Alonso"
+        ],
+        "Rojas": [],
+        "GolesEnContraLocal": [],
+        "GolesEnContraVisitante": []
+    },
+    {
+        "NombreEquipoLocal": "Osasuna Magna Xota",
+        "NombreEquipoVisitante": "ElPozo Murcia Costa C\u00e1lida",
+        "GolesLocal": "1",
+        "GolesVisitante": "1",
+        "GoleadoresLocal": [
+            "Ligeiro"
+        ],
+        "GoleadoresVisitante": [
+            "Ricardo"
+        ],
+        "Amarillas": [
+            "Edu",
+            "Marcel",
+            "Esteban",
+            "Ricardo",
+            "A. Geraghty",
+            "Gadeia",
+            "Pachu"
+        ],
+        "Rojas": [],
+        "GolesEnContraLocal": [],
+        "GolesEnContraVisitante": []
+    },
+    {
+        "NombreEquipoLocal": "Industrias Santa Coloma",
+        "NombreEquipoVisitante": "Vi\u00f1a Albali Valdepe\u00f1as",
+        "GolesLocal": "3",
+        "GolesVisitante": "2",
+        "GoleadoresLocal": [
+            "Leandrinho",
+            "\u00c1lex Verdejo",
+            "Leandrinho"
+        ],
+        "GoleadoresVisitante": [
+            "Lolo",
+            "Bynho"
+        ],
+        "Amarillas": [
+            "\u00c1lex Verdejo",
+            "Pol Pacheco"
+        ],
+        "Rojas": [],
+        "GolesEnContraLocal": [],
+        "GolesEnContraVisitante": []
+    },
+    {
+        "NombreEquipoLocal": "Noia Portus Apostoli",
+        "NombreEquipoVisitante": "Islas Baleares Palma Futsal",
+        "GolesLocal": "3",
+        "GolesVisitante": "3",
+        "GoleadoresLocal": [
+            "Thierry",
+            "Power",
+            "Pirata"
+        ],
+        "GoleadoresVisitante": [
+            "Piqueras",
+            "David Pe\u00f1a",
+            "Fabinho"
+        ],
+        "Amarillas": [
+            "Gordillo",
+            "Mateus Maia",
+            "Ernesto",
+            "Bruno Gomes",
+            "Pirata",
+            "Marcelo",
+            "Power",
+            "Rubi Lemos"
+        ],
+        "Rojas": [],
+        "GolesEnContraLocal": [],
+        "GolesEnContraVisitante": []
+    },
+    {
+        "NombreEquipoLocal": "Quesos Hidalgo Manzanares FS",
+        "NombreEquipoVisitante": "WANAPIX AD Sala 10",
+        "GolesLocal": "4",
+        "GolesVisitante": "3",
+        "GoleadoresLocal": [
+            "Juan Emilio",
+            "Daniel",
+            "Ra\u00fal Campos",
+            "Daniel"
+        ],
+        "GoleadoresVisitante": [
+            "Nando Torres",
+            "Nando Torres",
+            "Alberto In\u00e9s"
+        ],
+        "Amarillas": [
+            "Pedro",
+            "Nacho G\u00f3mez",
+            "Nando Torres",
+            "Juan Emilio"
+        ],
+        "Rojas": [],
+        "GolesEnContraLocal": [],
+        "GolesEnContraVisitante": []
+    },
+    {
+        "NombreEquipoLocal": "Movistar Inter",
+        "NombreEquipoVisitante": "ATP Ilum. Tudelano Ribera Navarra",
+        "GolesLocal": "3",
+        "GolesVisitante": "2",
+        "GoleadoresLocal": [
+            "Eloy",
+            "S. Barona",
+            "Drahovsky"
+        ],
+        "GoleadoresVisitante": [
+            "L. Tripodi",
+            "David"
+        ],
+        "Amarillas": [
+            "Sego",
+            "Malaguti",
+            "Gabriel Vasques",
+            "J. Herrero",
+            "David"
+        ],
+        "Rojas": [
+            "J. Herrero"
+        ],
+        "GolesEnContraLocal": [],
+        "GolesEnContraVisitante": []
+    },
+    {
+        "NombreEquipoLocal": "C\u00f3rdoba Patrimonio Humanidad",
+        "NombreEquipoVisitante": "Bar\u00e7a",
+        "GolesLocal": "2",
+        "GolesVisitante": "5",
+        "GoleadoresLocal": [
+            "Kau\u00ea",
+            "Arnaldo B\u00e1ez"
+        ],
+        "GoleadoresVisitante": [
+            "Catela",
+            "Antonio",
+            "Pito",
+            "Sergio Gonz\u00e1lez",
+            "Adolfo"
+        ],
+        "Amarillas": [
+            "Kau\u00ea",
+            "Pito",
+            "Khalid",
+            "Murilo Duarte"
+        ],
+        "Rojas": [],
+        "GolesEnContraLocal": [],
+        "GolesEnContraVisitante": []
+    },
+    {
+        "NombreEquipoLocal": "Jimbee Cartagena Costa C\u00e1lida",
+        "NombreEquipoVisitante": "Ja\u00e9n Para\u00edso Interior",
+        "GolesLocal": "1",
+        "GolesVisitante": "2",
+        "GoleadoresLocal": [
+            "Ossamanmusa"
+        ],
+        "GoleadoresVisitante": [
+            "D. Zurdo",
+            "Renato"
+        ],
+        "Amarillas": [
+            "Chemi",
+            "Jo\u00e3o Salla"
+        ],
+        "Rojas": [],
+        "GolesEnContraLocal": [],
+        "GolesEnContraVisitante": []
+    },
+    {
+        "NombreEquipoLocal": "Servigroup Pe\u00f1\u00edscola FS",
+        "NombreEquipoVisitante": "Burela FS",
+        "GolesLocal": "1",
+        "GolesVisitante": "4",
+        "GoleadoresLocal": [
+            "Paniagua"
+        ],
+        "GoleadoresVisitante": [
+            "Alberto",
+            "Rikelme",
+            "Isma",
+            "Bernardo Araya"
+        ],
+        "Amarillas": [
+            "Bernardo Araya",
+            "Diego Sancho",
+            "Luciano Gauna",
+            "Rikelme",
+            "Charly"
+        ],
+        "Rojas": [],
+        "GolesEnContraLocal": [],
+        "GolesEnContraVisitante": []
+    },
+    {
+        "NombreEquipoLocal": "Ja\u00e9n Para\u00edso Interior",
+        "NombreEquipoVisitante": "C\u00f3rdoba Patrimonio Humanidad",
+        "GolesLocal": "3",
+        "GolesVisitante": "2",
+        "GoleadoresLocal": [
+            "Renato",
+            "Antoniazzi",
+            "Antoniazzi"
+        ],
+        "GoleadoresVisitante": [
+            "Murilo Duarte",
+            "Kau\u00ea"
+        ],
+        "Amarillas": [
+            "Dud\u00fa",
+            "Mati Rosa",
+            "Tiago Macedo",
+            "Giu Santos",
+            "Renato",
+            "Kau\u00ea",
+            "Antoniazzi"
+        ],
+        "Rojas": [
+            "Carlos Sanz",
+            "Arnaldo B\u00e1ez"
+        ],
+        "GolesEnContraLocal": [],
+        "GolesEnContraVisitante": []
+    },
+    {
+        "NombreEquipoLocal": "Islas Baleares Palma Futsal",
+        "NombreEquipoVisitante": "Movistar Inter",
+        "GolesLocal": "4",
+        "GolesVisitante": "4",
+        "GoleadoresLocal": [
+            "Piqueras",
+            "Rivillos",
+            "Mateus Maia",
+            "Piqueras"
+        ],
+        "GoleadoresVisitante": [
+            "Bebe",
+            "Ra\u00fal G\u00f3mez",
+            "Drahovsky",
+            "Drahovsky"
+        ],
+        "Amarillas": [
+            "Fabinho",
+            "Bebe",
+            "Gordillo",
+            "Ra\u00fal G\u00f3mez",
+            "Rivillos",
+            "Drahovsky",
+            "Piqueras"
+        ],
+        "Rojas": [],
+        "GolesEnContraLocal": [],
+        "GolesEnContraVisitante": []
+    },
+    {
+        "NombreEquipoLocal": "WANAPIX AD Sala 10",
+        "NombreEquipoVisitante": "Industrias Santa Coloma",
+        "GolesLocal": "4",
+        "GolesVisitante": "4",
+        "GoleadoresLocal": [
+            "Nacho G\u00f3mez",
+            "Adri Ortego",
+            "Rivera",
+            "Nacho G\u00f3mez"
+        ],
+        "GoleadoresVisitante": [
+            "Puigvert",
+            "Leandrinho",
+            "Puigvert",
+            "\u00c1lex Verdejo"
+        ],
+        "Amarillas": [
+            "\u00c1lex Verdejo",
+            "Rivera",
+            "Marc Tolr\u00e0",
+            "Corso",
+            "V\u00edctor Ramos",
+            "Nando Torres",
+            "Leandrinho"
+        ],
+        "Rojas": [
+            "Marc Tolr\u00e0"
+        ],
+        "GolesEnContraLocal": [],
+        "GolesEnContraVisitante": []
+    },
+    {
+        "NombreEquipoLocal": "Bar\u00e7a",
+        "NombreEquipoVisitante": "Servigroup Pe\u00f1\u00edscola FS",
+        "GolesLocal": "3",
+        "GolesVisitante": "7",
+        "GoleadoresLocal": [
+            "Fits",
+            "Fits",
+            "Adolfo"
+        ],
+        "GoleadoresVisitante": [
+            "Diego Sancho",
+            "Luciano Gauna",
+            "Juanqui",
+            "Paniagua",
+            "Juanqui",
+            "Agust\u00edn Plaza",
+            "El\u00edas"
+        ],
+        "Amarillas": [
+            "El\u00edas",
+            "Antonio",
+            "Agust\u00edn Plaza",
+            "Gus",
+            "Adolfo",
+            "Diego Sancho"
+        ],
+        "Rojas": [],
+        "GolesEnContraLocal": [],
+        "GolesEnContraVisitante": []
+    },
+    {
+        "NombreEquipoLocal": "ElPozo Murcia Costa C\u00e1lida",
+        "NombreEquipoVisitante": "Jimbee Cartagena Costa C\u00e1lida",
+        "GolesLocal": "3",
+        "GolesVisitante": "3",
+        "GoleadoresLocal": [
+            "Ricardo",
+            "Gadeia",
+            "Gadeia"
+        ],
+        "GoleadoresVisitante": [
+            "Cort\u00e9s",
+            "Gon Castej\u00f3n",
+            "Pablo Ram\u00edrez"
+        ],
+        "Amarillas": [
+            "Gon Castej\u00f3n",
+            "Mouhoudine",
+            "Chispi",
+            "Marcel",
+            "Dar\u00edo"
+        ],
+        "Rojas": [],
+        "GolesEnContraLocal": [],
+        "GolesEnContraVisitante": []
+    },
+    {
+        "NombreEquipoLocal": "Burela FS",
+        "NombreEquipoVisitante": "Noia Portus Apostoli",
+        "GolesLocal": "2",
+        "GolesVisitante": "2",
+        "GoleadoresLocal": [
+            "Junhinho",
+            "Junhinho"
+        ],
+        "GoleadoresVisitante": [
+            "Power",
+            "Pirata"
+        ],
+        "Amarillas": [
+            "Douglas Silva",
+            "Power",
+            "L. Altamirano",
+            "Pirata",
+            "Malaguti",
+            "Bernardo Araya",
+            "Alberto",
+            "Rubi Lemos"
+        ],
+        "Rojas": [
+            "Douglas Silva",
+            "Bernardo Araya",
+            "Rubi Lemos"
+        ],
+        "GolesEnContraLocal": [],
+        "GolesEnContraVisitante": []
+    },
+    {
+        "NombreEquipoLocal": "Vi\u00f1a Albali Valdepe\u00f1as",
+        "NombreEquipoVisitante": "Quesos Hidalgo Manzanares FS",
+        "GolesLocal": "5",
+        "GolesVisitante": "2",
+        "GoleadoresLocal": [
+            "Lolo",
+            "Pol Pacheco",
+            "Pol Pacheco",
+            "Pol Pacheco",
+            "Lolo"
+        ],
+        "GoleadoresVisitante": [
+            "Humberto",
+            "Pol Pacheco"
+        ],
+        "Amarillas": [
+            "Jos\u00e9 Mario",
+            "Antonio Navarro",
+            "Alvaro L\u00f3pez",
+            "Javi Alonso",
+            "Zequi",
+            "Anto\u00f1ito"
+        ],
+        "Rojas": [
+            "Alvaro L\u00f3pez"
+        ],
+        "GolesEnContraLocal": [],
+        "GolesEnContraVisitante": [
+            "Pol Pacheco"
+        ]
+    },
+    {
+        "NombreEquipoLocal": "ATP Ilum. Tudelano Ribera Navarra",
+        "NombreEquipoVisitante": "Osasuna Magna Xota",
+        "GolesLocal": "3",
+        "GolesVisitante": "3",
+        "GoleadoresLocal": [
+            "Alberto Lahuerta",
+            "L. Tripodi",
+            "Eric P\u00e9rez"
+        ],
+        "GoleadoresVisitante": [
+            "Pachu",
+            "Korsun",
+            "Ligeiro"
+        ],
+        "Amarillas": [
+            "Joselito",
+            "Sepe",
+            "Ion Cervi\u00f1o",
+            "Tony",
+            "L. Tripodi",
+            "Eric P\u00e9rez",
+            "A. Geraghty",
+            "David",
+            "R. Martil"
+        ],
+        "Rojas": [
+            "Ion Cervi\u00f1o",
+            "L. Tripodi"
+        ],
+        "GolesEnContraLocal": [],
+        "GolesEnContraVisitante": []
+    },
+    {
+        "NombreEquipoLocal": "Industrias Santa Coloma",
+        "NombreEquipoVisitante": "Burela FS",
+        "GolesLocal": "3",
+        "GolesVisitante": "4",
+        "GoleadoresLocal": [
+            "Uri Santos",
+            "Puigvert",
+            "Cardona"
+        ],
+        "GoleadoresVisitante": [
+            "Pitero",
+            "Pitero",
+            "Malaguti",
+            "Isma"
+        ],
+        "Amarillas": [
+            "Povill",
+            "\u00c0lex Lluch"
+        ],
+        "Rojas": [],
+        "GolesEnContraLocal": [],
+        "GolesEnContraVisitante": []
+    },
+    {
+        "NombreEquipoLocal": "Osasuna Magna Xota",
+        "NombreEquipoVisitante": "Bar\u00e7a",
+        "GolesLocal": "4",
+        "GolesVisitante": "3",
+        "GoleadoresLocal": [
+            "Pachu",
+            "A. Geraghty",
+            "D. Saldise",
+            "Pachu"
+        ],
+        "GoleadoresVisitante": [
+            "Antonio",
+            "Dyego",
+            "Fits"
+        ],
+        "Amarillas": [
+            "Antonio",
+            "Ion Cervi\u00f1o",
+            "Dyego"
+        ],
+        "Rojas": [],
+        "GolesEnContraLocal": [],
+        "GolesEnContraVisitante": []
+    },
+    {
+        "NombreEquipoLocal": "Noia Portus Apostoli",
+        "NombreEquipoVisitante": "Movistar Inter",
+        "GolesLocal": "3",
+        "GolesVisitante": "7",
+        "GoleadoresLocal": [
+            "Carlos B.",
+            "Pirata",
+            "L. Altamirano"
+        ],
+        "GoleadoresVisitante": [
+            "Ra\u00fal G\u00f3mez",
+            "Ra\u00fal G\u00f3mez",
+            "Cecilio",
+            "Drahovsky",
+            "Bebe",
+            "Pablo Ord\u00f3\u00f1ez",
+            "J. M\u00ednguez"
+        ],
+        "Amarillas": [
+            "Pirata",
+            "Rubi Lemos",
+            "Power"
+        ],
+        "Rojas": [],
+        "GolesEnContraLocal": [],
+        "GolesEnContraVisitante": [
+            "Carlos B."
+        ]
+    },
+    {
+        "NombreEquipoLocal": "Quesos Hidalgo Manzanares FS",
+        "NombreEquipoVisitante": "Islas Baleares Palma Futsal",
+        "GolesLocal": "2",
+        "GolesVisitante": "3",
+        "GoleadoresLocal": [
+            "Javi Alonso",
+            "Daniel"
+        ],
+        "GoleadoresVisitante": [
+            "Bruno Gomes",
+            "Bruno Gomes",
+            "Bruno Gomes"
+        ],
+        "Amarillas": [
+            "Machado",
+            "Antonio Navarro",
+            "Alvaro L\u00f3pez",
+            "Humberto",
+            "Rivillos",
+            "Daniel",
+            "Gordillo"
+        ],
+        "Rojas": [
+            "Neguinho"
+        ],
+        "GolesEnContraLocal": [],
+        "GolesEnContraVisitante": []
+    },
+    {
+        "NombreEquipoLocal": "C\u00f3rdoba Patrimonio Humanidad",
+        "NombreEquipoVisitante": "Vi\u00f1a Albali Valdepe\u00f1as",
+        "GolesLocal": "3",
+        "GolesVisitante": "3",
+        "GoleadoresLocal": [
+            "Murilo Duarte",
+            "Echavarr\u00eda",
+            "Juanan"
+        ],
+        "GoleadoresVisitante": [
+            "Carrasco",
+            "Carrasco",
+            "Carlos"
+        ],
+        "Amarillas": [],
+        "Rojas": [],
+        "GolesEnContraLocal": [],
+        "GolesEnContraVisitante": []
+    },
+    {
+        "NombreEquipoLocal": "WANAPIX AD Sala 10",
+        "NombreEquipoVisitante": "ElPozo Murcia Costa C\u00e1lida",
+        "GolesLocal": "2",
+        "GolesVisitante": "1",
+        "GoleadoresLocal": [
+            "Adri Ortego",
+            "Adri Ortego"
+        ],
+        "GoleadoresVisitante": [
+            "F. Valerio"
+        ],
+        "Amarillas": [
+            "Nacho G\u00f3mez",
+            "Gadeia",
+            "Iv\u00e1n Bernad",
+            "Marcel",
+            "Nando Torres"
+        ],
+        "Rojas": [],
+        "GolesEnContraLocal": [],
+        "GolesEnContraVisitante": []
+    },
+    {
+        "NombreEquipoLocal": "Jimbee Cartagena Costa C\u00e1lida",
+        "NombreEquipoVisitante": "ATP Ilum. Tudelano Ribera Navarra",
+        "GolesLocal": "5",
+        "GolesVisitante": "4",
+        "GoleadoresLocal": [
+            "Mouhoudine",
+            "Mellado",
+            "Cort\u00e9s",
+            "Tomaz",
+            "Mellado"
+        ],
+        "GoleadoresVisitante": [
+            "Alberto Lahuerta",
+            "L. Tripodi",
+            "Gabriel Vasques",
+            "Sepe"
+        ],
+        "Amarillas": [
+            "Jo\u00e3o Batista"
+        ],
+        "Rojas": [],
+        "GolesEnContraLocal": [],
+        "GolesEnContraVisitante": []
+    },
+    {
+        "NombreEquipoLocal": "Servigroup Pe\u00f1\u00edscola FS",
+        "NombreEquipoVisitante": "Ja\u00e9n Para\u00edso Interior",
+        "GolesLocal": "3",
+        "GolesVisitante": "1",
+        "GoleadoresLocal": [
+            "Diego Sancho",
+            "Quintela",
+            "Quintela"
+        ],
+        "GoleadoresVisitante": [
+            "Mati Rosa"
+        ],
+        "Amarillas": [
+            "V\u00edctor P\u00e9rez",
+            "D. Zurdo",
+            "Jo\u00e3o Salla",
+            "Carlos Sanz",
+            "Juanqui",
+            "Chino",
+            "Alan Brandi"
+        ],
+        "Rojas": [],
+        "GolesEnContraLocal": [],
+        "GolesEnContraVisitante": []
+    },
+    {
+        "NombreEquipoLocal": "ElPozo Murcia Costa C\u00e1lida",
+        "NombreEquipoVisitante": "Servigroup Pe\u00f1\u00edscola FS",
+        "GolesLocal": "3",
+        "GolesVisitante": "4",
+        "GoleadoresLocal": [
+            "Rafa Santos",
+            "Ricardinho",
+            "Ricardo"
+        ],
+        "GoleadoresVisitante": [
+            "Luciano Gauna",
+            "El\u00edas",
+            "V\u00edctor P\u00e9rez",
+            "Paniagua"
+        ],
+        "Amarillas": [
+            "Pol Salas",
+            "Agust\u00edn Plaza",
+            "Esteban",
+            "Gadeia",
+            "C\u00e9sar",
+            "Diego Sancho",
+            "F. Valerio",
+            "Quintela",
+            "Marlon"
+        ],
+        "Rojas": [],
+        "GolesEnContraLocal": [],
+        "GolesEnContraVisitante": []
+    },
+    {
+        "NombreEquipoLocal": "Islas Baleares Palma Futsal",
+        "NombreEquipoVisitante": "C\u00f3rdoba Patrimonio Humanidad",
+        "GolesLocal": "6",
+        "GolesVisitante": "5",
+        "GoleadoresLocal": [
+            "Rivillos",
+            "Mateus Maia",
+            "Ernesto",
+            "Luan Muller",
+            "Machado",
+            "Neguinho"
+        ],
+        "GoleadoresVisitante": [
+            "Tiago Macedo",
+            "Echavarr\u00eda",
+            "Arnaldo B\u00e1ez",
+            "Juanan",
+            "Juanan"
+        ],
+        "Amarillas": [
+            "Kau\u00ea",
+            "Giu Santos",
+            "Tiago Macedo",
+            "Murilo Duarte",
+            "Ernesto"
+        ],
+        "Rojas": [
+            "Murilo Duarte"
+        ],
+        "GolesEnContraLocal": [],
+        "GolesEnContraVisitante": []
+    },
+    {
+        "NombreEquipoLocal": "Industrias Santa Coloma",
+        "NombreEquipoVisitante": "Noia Portus Apostoli",
+        "GolesLocal": "5",
+        "GolesVisitante": "3",
+        "GoleadoresLocal": [
+            "Cardona",
+            "Cardona",
+            "Puigvert",
+            "Nil",
+            "Leandrinho"
+        ],
+        "GoleadoresVisitante": [
+            "Rubi Lemos",
+            "David Pazos",
+            "Rubi Lemos"
+        ],
+        "Amarillas": [
+            "David Pazos",
+            "Pirata",
+            "Power",
+            "Diego F\u00e1vero"
+        ],
+        "Rojas": [],
+        "GolesEnContraLocal": [],
+        "GolesEnContraVisitante": []
+    },
+    {
+        "NombreEquipoLocal": "Movistar Inter",
+        "NombreEquipoVisitante": "Quesos Hidalgo Manzanares FS",
+        "GolesLocal": "5",
+        "GolesVisitante": "5",
+        "GoleadoresLocal": [
+            "Ra\u00fal G\u00f3mez",
+            "Carlos B.",
+            "Pablo Ord\u00f3\u00f1ez",
+            "Cecilio",
+            "Bebe"
+        ],
+        "GoleadoresVisitante": [
+            "Daniel",
+            "Humberto",
+            "Ra\u00fal Campos",
+            "Ra\u00fal Campos",
+            "Pedro Herreros"
+        ],
+        "Amarillas": [
+            "Chaguinha",
+            "J. Herrero",
+            "Ra\u00fal G\u00f3mez",
+            "Humberto",
+            "Luc\u00e3o",
+            "Ra\u00fal Campos",
+            "Pedro"
+        ],
+        "Rojas": [
+            "Humberto"
+        ],
+        "GolesEnContraLocal": [],
+        "GolesEnContraVisitante": []
+    },
+    {
+        "NombreEquipoLocal": "Ja\u00e9n Para\u00edso Interior",
+        "NombreEquipoVisitante": "Bar\u00e7a",
+        "GolesLocal": "9",
+        "GolesVisitante": "4",
+        "GoleadoresLocal": [
+            "Chino",
+            "Renato",
+            "Mati Rosa",
+            "Alan Brandi",
+            "Mati Rosa",
+            "Fits",
+            "Mati Rosa",
+            "Espindola",
+            "Chino"
+        ],
+        "GoleadoresVisitante": [
+            "Antonio",
+            "Fits",
+            "Adolfo",
+            "Catela"
+        ],
+        "Amarillas": [
+            "Matheus",
+            "Dyego",
+            "Alan Brandi",
+            "Dud\u00fa",
+            "Catela",
+            "D. Zurdo",
+            "Carlos Sanz"
+        ],
+        "Rojas": [],
+        "GolesEnContraLocal": [],
+        "GolesEnContraVisitante": [
+            "Fits"
+        ]
+    },
+    {
+        "NombreEquipoLocal": "Vi\u00f1a Albali Valdepe\u00f1as",
+        "NombreEquipoVisitante": "Osasuna Magna Xota",
+        "GolesLocal": "2",
+        "GolesVisitante": "2",
+        "GoleadoresLocal": [
+            "Pol Pacheco",
+            "Pol Pacheco"
+        ],
+        "GoleadoresVisitante": [
+            "D. Saldise",
+            "A. Geraghty"
+        ],
+        "Amarillas": [
+            "Korsun",
+            "R. Martil",
+            "Asier",
+            "Bynho",
+            "A. Geraghty",
+            "Ion Cervi\u00f1o",
+            "Alberto Garc\u00eda"
+        ],
+        "Rojas": [],
+        "GolesEnContraLocal": [],
+        "GolesEnContraVisitante": []
+    },
+    {
+        "NombreEquipoLocal": "Burela FS",
+        "NombreEquipoVisitante": "Jimbee Cartagena Costa C\u00e1lida",
+        "GolesLocal": "1",
+        "GolesVisitante": "4",
+        "GoleadoresLocal": [
+            "Rikelme"
+        ],
+        "GoleadoresVisitante": [
+            "Gon Castej\u00f3n",
+            "Mouhoudine",
+            "Pablo Ram\u00edrez",
+            "Mouhoudine"
+        ],
+        "Amarillas": [],
+        "Rojas": [],
+        "GolesEnContraLocal": [],
+        "GolesEnContraVisitante": []
+    },
+    {
+        "NombreEquipoLocal": "ATP Ilum. Tudelano Ribera Navarra",
+        "NombreEquipoVisitante": "WANAPIX AD Sala 10",
+        "GolesLocal": "8",
+        "GolesVisitante": "2",
+        "GoleadoresLocal": [
+            "L. Tripodi",
+            "L. Tripodi",
+            "Eric P\u00e9rez",
+            "Gabriel Vasques",
+            "L. Tripodi",
+            "Eric P\u00e9rez",
+            "David",
+            "Alberto Lahuerta"
+        ],
+        "GoleadoresVisitante": [
+            "Tom\u00e1s Pescio",
+            "Tom\u00e1s Pescio"
+        ],
+        "Amarillas": [
+            "Rivera",
+            "Esp\u00edn",
+            "Nando Torres",
+            "Nacho G\u00f3mez"
+        ],
+        "Rojas": [],
+        "GolesEnContraLocal": [],
+        "GolesEnContraVisitante": []
+    },
+    {
+        "NombreEquipoLocal": "Bar\u00e7a",
+        "NombreEquipoVisitante": "Islas Baleares Palma Futsal",
+        "GolesLocal": "7",
+        "GolesVisitante": "3",
+        "GoleadoresLocal": [
+            "Pito",
+            "Tour\u00e9",
+            "Pito",
+            "Adolfo",
+            "Catela",
+            "Catela",
+            "D\u00eddac"
+        ],
+        "GoleadoresVisitante": [
+            "Neguinho",
+            "Machado",
+            "Gordillo"
+        ],
+        "Amarillas": [
+            "Adolfo",
+            "Luan Muller",
+            "Machado",
+            "Neguinho"
+        ],
+        "Rojas": [],
+        "GolesEnContraLocal": [],
+        "GolesEnContraVisitante": []
+    },
+    {
+        "NombreEquipoLocal": "Quesos Hidalgo Manzanares FS",
+        "NombreEquipoVisitante": "Industrias Santa Coloma",
+        "GolesLocal": "2",
+        "GolesVisitante": "2",
+        "GoleadoresLocal": [
+            "Juan Emilio",
+            "Pedro"
+        ],
+        "GoleadoresVisitante": [
+            "V\u00edctor P\u00e9rez",
+            "Povill"
+        ],
+        "Amarillas": [
+            "Nil",
+            "Juan Emilio",
+            "Daniel",
+            "Pedro",
+            "Corso"
+        ],
+        "Rojas": [],
+        "GolesEnContraLocal": [],
+        "GolesEnContraVisitante": []
+    },
+    {
+        "NombreEquipoLocal": "Osasuna Magna Xota",
+        "NombreEquipoVisitante": "Ja\u00e9n Para\u00edso Interior",
+        "GolesLocal": "5",
+        "GolesVisitante": "5",
+        "GoleadoresLocal": [
+            "D. Saldise",
+            "Espindola",
+            "Pachu",
+            "Ligeiro",
+            "D. Saldise"
+        ],
+        "GoleadoresVisitante": [
+            "Mati Rosa",
+            "Antoniazzi",
+            "M\u00edchel",
+            "Lemine",
+            "D. Zurdo"
+        ],
+        "Amarillas": [
+            "Renato",
+            "Chino",
+            "A. Geraghty",
+            "Antoniazzi"
+        ],
+        "Rojas": [],
+        "GolesEnContraLocal": [],
+        "GolesEnContraVisitante": [
+            "Espindola"
+        ]
+    },
+    {
+        "NombreEquipoLocal": "Jimbee Cartagena Costa C\u00e1lida",
+        "NombreEquipoVisitante": "Movistar Inter",
+        "GolesLocal": "1",
+        "GolesVisitante": "4",
+        "GoleadoresLocal": [
+            "Cort\u00e9s"
+        ],
+        "GoleadoresVisitante": [
+            "Drahovsky",
+            "J. M\u00ednguez",
+            "Cecilio",
+            "Drahovsky"
+        ],
+        "Amarillas": [
+            "Cecilio",
+            "Dar\u00edo",
+            "Drahovsky",
+            "Carlos B.",
+            "Mouhoudine",
+            "Linhares",
+            "Ra\u00fal G\u00f3mez"
+        ],
+        "Rojas": [],
+        "GolesEnContraLocal": [],
+        "GolesEnContraVisitante": []
+    },
+    {
+        "NombreEquipoLocal": "Servigroup Pe\u00f1\u00edscola FS",
+        "NombreEquipoVisitante": "ATP Ilum. Tudelano Ribera Navarra",
+        "GolesLocal": "9",
+        "GolesVisitante": "1",
+        "GoleadoresLocal": [
+            "Luciano Gauna",
+            "V\u00edctor P\u00e9rez",
+            "L. Tripodi",
+            "Yeray",
+            "Quintela",
+            "Paniagua",
+            "Quintela",
+            "Yeray",
+            "Quintela"
+        ],
+        "GoleadoresVisitante": [
+            "Joselito"
+        ],
+        "Amarillas": [
+            "Camp\u00e0s",
+            "Gabriel Vasques",
+            "Joselito"
+        ],
+        "Rojas": [],
+        "GolesEnContraLocal": [],
+        "GolesEnContraVisitante": [
+            "L. Tripodi"
+        ]
+    },
+    {
+        "NombreEquipoLocal": "C\u00f3rdoba Patrimonio Humanidad",
+        "NombreEquipoVisitante": "ElPozo Murcia Costa C\u00e1lida",
+        "GolesLocal": "3",
+        "GolesVisitante": "2",
+        "GoleadoresLocal": [
+            "Murilo Duarte",
+            "Kau\u00ea",
+            "Echavarr\u00eda"
+        ],
+        "GoleadoresVisitante": [
+            "Esteban",
+            "Esteban"
+        ],
+        "Amarillas": [
+            "Cend\u00e1n",
+            "Echavarr\u00eda"
+        ],
+        "Rojas": [],
+        "GolesEnContraLocal": [],
+        "GolesEnContraVisitante": []
+    },
+    {
+        "NombreEquipoLocal": "Noia Portus Apostoli",
+        "NombreEquipoVisitante": "Vi\u00f1a Albali Valdepe\u00f1as",
+        "GolesLocal": "0",
+        "GolesVisitante": "1",
+        "GoleadoresLocal": [],
+        "GoleadoresVisitante": [
+            "Carrasco"
+        ],
+        "Amarillas": [
+            "Solano",
+            "Boyis",
+            "Lolo",
+            "Alberto Garc\u00eda",
+            "Sch\u00fctt",
+            "David Pazos",
+            "Attos",
+            "\u00c1lex Garc\u00eda"
+        ],
+        "Rojas": [],
+        "GolesEnContraLocal": [],
+        "GolesEnContraVisitante": []
+    },
+    {
+        "NombreEquipoLocal": "WANAPIX AD Sala 10",
+        "NombreEquipoVisitante": "Burela FS",
+        "GolesLocal": "2",
+        "GolesVisitante": "3",
+        "GoleadoresLocal": [
+            "Carlos Garc\u00eda",
+            "Alberto In\u00e9s"
+        ],
+        "GoleadoresVisitante": [
+            "Rikelme",
+            "Alberto",
+            "Bernardo Araya"
+        ],
+        "Amarillas": [
+            "Rivera",
+            "Nacho G\u00f3mez"
+        ],
+        "Rojas": [],
+        "GolesEnContraLocal": [],
+        "GolesEnContraVisitante": []
+    },
+    {
+        "NombreEquipoLocal": "Islas Baleares Palma Futsal",
+        "NombreEquipoVisitante": "Jimbee Cartagena Costa C\u00e1lida",
+        "GolesLocal": "6",
+        "GolesVisitante": "3",
+        "GoleadoresLocal": [
+            "Gordillo",
+            "Bruno Gomes",
+            "Neguinho",
+            "Piqueras",
+            "Machado",
+            "Neguinho"
+        ],
+        "GoleadoresVisitante": [
+            "Gon Castej\u00f3n",
+            "Motta",
+            "Dar\u00edo"
+        ],
+        "Amarillas": [
+            "Marcelo",
+            "Bruno Gomes",
+            "Pablo Ram\u00edrez",
+            "Mouhoudine",
+            "Motta"
+        ],
+        "Rojas": [],
+        "GolesEnContraLocal": [],
+        "GolesEnContraVisitante": []
+    },
+    {
+        "NombreEquipoLocal": "Movistar Inter",
+        "NombreEquipoVisitante": "Osasuna Magna Xota",
+        "GolesLocal": "2",
+        "GolesVisitante": "4",
+        "GoleadoresLocal": [
+            "J. M\u00ednguez",
+            "J. M\u00ednguez"
+        ],
+        "GoleadoresVisitante": [
+            "Bebe",
+            "Juninho",
+            "Juninho",
+            "Ion Cervi\u00f1o"
+        ],
+        "Amarillas": [
+            "A. Geraghty",
+            "Carlos B.",
+            "Ion Cervi\u00f1o"
+        ],
+        "Rojas": [],
+        "GolesEnContraLocal": [
+            "Bebe"
+        ],
+        "GolesEnContraVisitante": []
+    },
+    {
+        "NombreEquipoLocal": "Industrias Santa Coloma",
+        "NombreEquipoVisitante": "Servigroup Pe\u00f1\u00edscola FS",
+        "GolesLocal": "4",
+        "GolesVisitante": "5",
+        "GoleadoresLocal": [
+            "\u00c1lex Verdejo",
+            "\u00c1lex Verdejo",
+            "Povill",
+            "Nil"
+        ],
+        "GoleadoresVisitante": [
+            "Marc Tolr\u00e0",
+            "Luciano Gauna",
+            "Juanqui",
+            "Agust\u00edn Plaza",
+            "Quintela"
+        ],
+        "Amarillas": [
+            "Corso",
+            "Puigvert",
+            "Quintela"
+        ],
+        "Rojas": [],
+        "GolesEnContraLocal": [
+            "Marc Tolr\u00e0"
+        ],
+        "GolesEnContraVisitante": []
+    },
+    {
+        "NombreEquipoLocal": "Noia Portus Apostoli",
+        "NombreEquipoVisitante": "C\u00f3rdoba Patrimonio Humanidad",
+        "GolesLocal": "1",
+        "GolesVisitante": "1",
+        "GoleadoresLocal": [
+            "\u00c1lex Garc\u00eda"
+        ],
+        "GoleadoresVisitante": [
+            "Echavarr\u00eda"
+        ],
+        "Amarillas": [
+            "Attos",
+            "Tiago Macedo",
+            "Echavarr\u00eda",
+            "Arnaldo B\u00e1ez",
+            "Pirata"
+        ],
+        "Rojas": [],
+        "GolesEnContraLocal": [],
+        "GolesEnContraVisitante": []
+    },
+    {
+        "NombreEquipoLocal": "ATP Ilum. Tudelano Ribera Navarra",
+        "NombreEquipoVisitante": "Bar\u00e7a",
+        "GolesLocal": "1",
+        "GolesVisitante": "5",
+        "GoleadoresLocal": [
+            "Antonio"
+        ],
+        "GoleadoresVisitante": [
+            "Darrieer",
+            "Pito",
+            "Antonio",
+            "Pito",
+            "Pito"
+        ],
+        "Amarillas": [
+            "Jo\u00e3o Batista",
+            "Fits",
+            "Gabriel Vasques",
+            "Eric P\u00e9rez"
+        ],
+        "Rojas": [],
+        "GolesEnContraLocal": [
+            "Darrieer"
+        ],
+        "GolesEnContraVisitante": [
+            "Antonio"
+        ]
+    },
+    {
+        "NombreEquipoLocal": "Burela FS",
+        "NombreEquipoVisitante": "Quesos Hidalgo Manzanares FS",
+        "GolesLocal": "0",
+        "GolesVisitante": "3",
+        "GoleadoresLocal": [],
+        "GoleadoresVisitante": [
+            "Anto\u00f1ito",
+            "Daniel",
+            "Zequi"
+        ],
+        "Amarillas": [
+            "Isma",
+            "Bernardo Araya",
+            "Javi Alonso",
+            "Pedro Herreros",
+            "Rikelme",
+            "Daniel",
+            "Malaguti"
+        ],
+        "Rojas": [],
+        "GolesEnContraLocal": [],
+        "GolesEnContraVisitante": []
+    },
+    {
+        "NombreEquipoLocal": "ElPozo Murcia Costa C\u00e1lida",
+        "NombreEquipoVisitante": "Ja\u00e9n Para\u00edso Interior",
+        "GolesLocal": "4",
+        "GolesVisitante": "6",
+        "GoleadoresLocal": [
+            "Ricardinho",
+            "Rafa Santos",
+            "Ricardinho",
+            "C\u00e9sar"
+        ],
+        "GoleadoresVisitante": [
+            "Renato",
+            "Mati Rosa",
+            "D. Zurdo",
+            "Chino",
+            "Renato",
+            "Lemine"
+        ],
+        "Amarillas": [
+            "Espindola",
+            "M\u00edchel",
+            "Rafa Santos",
+            "Gadeia",
+            "Carlos Sanz"
+        ],
+        "Rojas": [
+            "Rafa Santos"
+        ],
+        "GolesEnContraLocal": [],
+        "GolesEnContraVisitante": []
+    },
+    {
+        "NombreEquipoLocal": "Vi\u00f1a Albali Valdepe\u00f1as",
+        "NombreEquipoVisitante": "WANAPIX AD Sala 10",
+        "GolesLocal": "4",
+        "GolesVisitante": "4",
+        "GoleadoresLocal": [
+            "Eloy Rojas",
+            "Boyis",
+            "Pol Pacheco",
+            "Fernando"
+        ],
+        "GoleadoresVisitante": [
+            "Alberto In\u00e9s",
+            "Tom\u00e1s Pescio",
+            "Adri Ortego",
+            "Nando Torres"
+        ],
+        "Amarillas": [
+            "Nando Torres",
+            "Carlos",
+            "Alberto Garc\u00eda",
+            "Nacho G\u00f3mez"
+        ],
+        "Rojas": [],
+        "GolesEnContraLocal": [],
+        "GolesEnContraVisitante": []
+    },
+    {
+        "NombreEquipoLocal": "Islas Baleares Palma Futsal",
+        "NombreEquipoVisitante": "ElPozo Murcia Costa C\u00e1lida",
+        "GolesLocal": "2",
+        "GolesVisitante": "2",
+        "GoleadoresLocal": [
+            "Mateus Maia",
+            "Gordillo"
+        ],
+        "GoleadoresVisitante": [
+            "Ricardo",
+            "Ricardinho"
+        ],
+        "Amarillas": [
+            "Gordillo",
+            "C. Barr\u00f3n",
+            "Mateus Maia",
+            "Marlon",
+            "C\u00e9sar",
+            "Fabinho"
+        ],
+        "Rojas": [],
+        "GolesEnContraLocal": [],
+        "GolesEnContraVisitante": []
+    },
+    {
+        "NombreEquipoLocal": "Osasuna Magna Xota",
+        "NombreEquipoVisitante": "WANAPIX AD Sala 10",
+        "GolesLocal": "5",
+        "GolesVisitante": "2",
+        "GoleadoresLocal": [
+            "Tom\u00e1s Pescio",
+            "Pachu",
+            "Ion Cervi\u00f1o",
+            "Ion Cervi\u00f1o",
+            "Ion Cervi\u00f1o"
+        ],
+        "GoleadoresVisitante": [
+            "Richi Felipe",
+            "Alberto In\u00e9s"
+        ],
+        "Amarillas": [
+            "Adri Ortego",
+            "Alberto In\u00e9s",
+            "Carlos Garc\u00eda",
+            "Tom\u00e1s Pescio"
+        ],
+        "Rojas": [],
+        "GolesEnContraLocal": [],
+        "GolesEnContraVisitante": [
+            "Tom\u00e1s Pescio"
+        ]
+    },
+    {
+        "NombreEquipoLocal": "C\u00f3rdoba Patrimonio Humanidad",
+        "NombreEquipoVisitante": "Burela FS",
+        "GolesLocal": "2",
+        "GolesVisitante": "1",
+        "GoleadoresLocal": [
+            "Murilo Duarte",
+            "Arnaldo B\u00e1ez"
+        ],
+        "GoleadoresVisitante": [
+            "Bernardo Araya"
+        ],
+        "Amarillas": [
+            "Malaguti",
+            "Murilo Duarte",
+            "Kau\u00ea",
+            "Pitero",
+            "Pablo Del Moral"
+        ],
+        "Rojas": [],
+        "GolesEnContraLocal": [],
+        "GolesEnContraVisitante": []
+    },
+    {
+        "NombreEquipoLocal": "Jimbee Cartagena Costa C\u00e1lida",
+        "NombreEquipoVisitante": "Industrias Santa Coloma",
+        "GolesLocal": "3",
+        "GolesVisitante": "2",
+        "GoleadoresLocal": [
+            "Tomaz",
+            "Gon Castej\u00f3n",
+            "Mouhoudine"
+        ],
+        "GoleadoresVisitante": [
+            "\u00c1lex Verdejo",
+            "Povill"
+        ],
+        "Amarillas": [
+            "Corso",
+            "\u00c1lex Verdejo",
+            "Motta",
+            "Cardona",
+            "Cort\u00e9s"
+        ],
+        "Rojas": [],
+        "GolesEnContraLocal": [],
+        "GolesEnContraVisitante": []
+    },
+    {
+        "NombreEquipoLocal": "Bar\u00e7a",
+        "NombreEquipoVisitante": "Movistar Inter",
+        "GolesLocal": "4",
+        "GolesVisitante": "3",
+        "GoleadoresLocal": [
+            "Catela",
+            "\u00c1lex",
+            "Fits",
+            "Antonio"
+        ],
+        "GoleadoresVisitante": [
+            "Cecilio",
+            "Cecilio",
+            "Chaguinha"
+        ],
+        "Amarillas": [
+            "Chaguinha",
+            "Carlos B.",
+            "Catela",
+            "Erick",
+            "Tour\u00e9"
+        ],
+        "Rojas": [],
+        "GolesEnContraLocal": [],
+        "GolesEnContraVisitante": []
+    },
+    {
+        "NombreEquipoLocal": "Servigroup Pe\u00f1\u00edscola FS",
+        "NombreEquipoVisitante": "Vi\u00f1a Albali Valdepe\u00f1as",
+        "GolesLocal": "8",
+        "GolesVisitante": "6",
+        "GoleadoresLocal": [
+            "Diego Sancho",
+            "Paniagua",
+            "Quintela",
+            "El\u00edas",
+            "Paniagua",
+            "Yeray",
+            "Luciano Gauna",
+            "V\u00edctor P\u00e9rez"
+        ],
+        "GoleadoresVisitante": [
+            "Pol Pacheco",
+            "Solano",
+            "Fernando",
+            "Carrasco",
+            "Carlos",
+            "Carlos"
+        ],
+        "Amarillas": [
+            "Carrasco",
+            "Pol Pacheco",
+            "Yeray",
+            "V\u00edctor P\u00e9rez"
+        ],
+        "Rojas": [],
+        "GolesEnContraLocal": [],
+        "GolesEnContraVisitante": []
+    },
+    {
+        "NombreEquipoLocal": "Ja\u00e9n Para\u00edso Interior",
+        "NombreEquipoVisitante": "ATP Ilum. Tudelano Ribera Navarra",
+        "GolesLocal": "5",
+        "GolesVisitante": "5",
+        "GoleadoresLocal": [
+            "Chino",
+            "D. Zurdo",
+            "Mati Rosa",
+            "Alan Brandi",
+            "Alan Brandi"
+        ],
+        "GoleadoresVisitante": [
+            "Gabriel Vasques",
+            "Alberto Lahuerta",
+            "L. Tripodi",
+            "Eric P\u00e9rez",
+            "Alberto Lahuerta"
+        ],
+        "Amarillas": [
+            "Gabriel Vasques",
+            "Camp\u00e0s",
+            "M\u00edchel"
+        ],
+        "Rojas": [
+            "Gabriel Vasques"
+        ],
+        "GolesEnContraLocal": [],
+        "GolesEnContraVisitante": []
+    },
+    {
+        "NombreEquipoLocal": "Quesos Hidalgo Manzanares FS",
+        "NombreEquipoVisitante": "Noia Portus Apostoli",
+        "GolesLocal": "2",
+        "GolesVisitante": "0",
+        "GoleadoresLocal": [
+            "Anto\u00f1ito",
+            "Humberto"
+        ],
+        "GoleadoresVisitante": [],
+        "Amarillas": [
+            "Daniel",
+            "Zequi",
+            "Rubi Lemos",
+            "Javi Alonso",
+            "Pedro Herreros"
+        ],
+        "Rojas": [],
+        "GolesEnContraLocal": [],
+        "GolesEnContraVisitante": []
+    },
+    {
+        "NombreEquipoLocal": "ATP Ilum. Tudelano Ribera Navarra",
+        "NombreEquipoVisitante": "Islas Baleares Palma Futsal",
+        "GolesLocal": "2",
+        "GolesVisitante": "3",
+        "GoleadoresLocal": [
+            "Gabriel Vasques",
+            "L. Tripodi"
+        ],
+        "GoleadoresVisitante": [
+            "Piqueras",
+            "Ernesto",
+            "Gordillo"
+        ],
+        "Amarillas": [
+            "Piqueras",
+            "Jo\u00e3o Batista",
+            "Sepe",
+            "Fabinho",
+            "L. Tripodi",
+            "Dani Fern\u00e1ndez",
+            "Bruno Gomes"
+        ],
+        "Rojas": [],
+        "GolesEnContraLocal": [],
+        "GolesEnContraVisitante": []
+    },
+    {
+        "NombreEquipoLocal": "WANAPIX AD Sala 10",
+        "NombreEquipoVisitante": "C\u00f3rdoba Patrimonio Humanidad",
+        "GolesLocal": "3",
+        "GolesVisitante": "2",
+        "GoleadoresLocal": [
+            "Carlos Garc\u00eda",
+            "Richi Felipe",
+            "Rivera"
+        ],
+        "GoleadoresVisitante": [
+            "Juanan",
+            "Hugo"
+        ],
+        "Amarillas": [
+            "Pablo Del Moral"
+        ],
+        "Rojas": [],
+        "GolesEnContraLocal": [],
+        "GolesEnContraVisitante": []
+    },
+    {
+        "NombreEquipoLocal": "ElPozo Murcia Costa C\u00e1lida",
+        "NombreEquipoVisitante": "Quesos Hidalgo Manzanares FS",
+        "GolesLocal": "4",
+        "GolesVisitante": "2",
+        "GoleadoresLocal": [
+            "D. \u00c1lvarez",
+            "Ricardo",
+            "D. \u00c1lvarez",
+            "C\u00e9sar"
+        ],
+        "GoleadoresVisitante": [
+            "Antonio Navarro",
+            "Humberto"
+        ],
+        "Amarillas": [
+            "Javi Alonso",
+            "Ricardinho",
+            "Juan Emilio"
+        ],
+        "Rojas": [],
+        "GolesEnContraLocal": [],
+        "GolesEnContraVisitante": []
+    },
+    {
+        "NombreEquipoLocal": "Vi\u00f1a Albali Valdepe\u00f1as",
+        "NombreEquipoVisitante": "Bar\u00e7a",
+        "GolesLocal": "2",
+        "GolesVisitante": "3",
+        "GoleadoresLocal": [
+            "Eloy Rojas",
+            "Carrasco"
+        ],
+        "GoleadoresVisitante": [
+            "Fits",
+            "Catela",
+            "\u00c1lex"
+        ],
+        "Amarillas": [
+            "Dyego",
+            "Lolo",
+            "Carlos",
+            "Erick",
+            "Solano"
+        ],
+        "Rojas": [],
+        "GolesEnContraLocal": [],
+        "GolesEnContraVisitante": []
+    },
+    {
+        "NombreEquipoLocal": "Burela FS",
+        "NombreEquipoVisitante": "Osasuna Magna Xota",
+        "GolesLocal": "2",
+        "GolesVisitante": "0",
+        "GoleadoresLocal": [
+            "Malaguti",
+            "Isma"
+        ],
+        "GoleadoresVisitante": [],
+        "Amarillas": [
+            "Pitero",
+            "Ligeiro",
+            "Isma",
+            "Alberto",
+            "A. Geraghty"
+        ],
+        "Rojas": [],
+        "GolesEnContraLocal": [],
+        "GolesEnContraVisitante": []
+    },
+    {
+        "NombreEquipoLocal": "Noia Portus Apostoli",
+        "NombreEquipoVisitante": "Jimbee Cartagena Costa C\u00e1lida",
+        "GolesLocal": "0",
+        "GolesVisitante": "5",
+        "GoleadoresLocal": [],
+        "GoleadoresVisitante": [
+            "Pablo Ram\u00edrez",
+            "Linhares",
+            "Pablo Ram\u00edrez",
+            "Motta",
+            "Mouhoudine"
+        ],
+        "Amarillas": [
+            "Pirata",
+            "Linhares"
+        ],
+        "Rojas": [],
+        "GolesEnContraLocal": [],
+        "GolesEnContraVisitante": []
+    },
+    {
+        "NombreEquipoLocal": "Movistar Inter",
+        "NombreEquipoVisitante": "Servigroup Pe\u00f1\u00edscola FS",
+        "GolesLocal": "6",
+        "GolesVisitante": "0",
+        "GoleadoresLocal": [
+            "Chaguinha",
+            "Chaguinha",
+            "Cecilio",
+            "Cecilio",
+            "Carlos B.",
+            "Cecilio"
+        ],
+        "GoleadoresVisitante": [],
+        "Amarillas": [
+            "Terry",
+            "Pol Salas",
+            "Cecilio",
+            "Drahovsky"
+        ],
+        "Rojas": [],
+        "GolesEnContraLocal": [],
+        "GolesEnContraVisitante": []
+    },
+    {
+        "NombreEquipoLocal": "Industrias Santa Coloma",
+        "NombreEquipoVisitante": "Ja\u00e9n Para\u00edso Interior",
+        "GolesLocal": "3",
+        "GolesVisitante": "2",
+        "GoleadoresLocal": [
+            "Cardona",
+            "Cardona",
+            "\u00c1lex Verdejo"
+        ],
+        "GoleadoresVisitante": [
+            "Franklin",
+            "Alan Brandi"
+        ],
+        "Amarillas": [
+            "Renato",
+            "Corso",
+            "\u00c0lex Lluch",
+            "Mati Rosa",
+            "Chino",
+            "Lemine",
+            "Nil",
+            "M\u00edchel",
+            "Carlos Sanz",
+            "Povill"
+        ],
+        "Rojas": [],
+        "GolesEnContraLocal": [],
+        "GolesEnContraVisitante": []
+    },
+    {
+        "NombreEquipoLocal": "Islas Baleares Palma Futsal",
+        "NombreEquipoVisitante": "WANAPIX AD Sala 10",
+        "GolesLocal": "3",
+        "GolesVisitante": "2",
+        "GoleadoresLocal": [
+            "Iv\u00e1n Bernad",
+            "Rivillos",
+            "Bruno Gomes"
+        ],
+        "GoleadoresVisitante": [
+            "Richi Felipe",
+            "Nando Torres"
+        ],
+        "Amarillas": [
+            "Tom\u00e1s Pescio",
+            "Bruno Gomes",
+            "Iv\u00e1n Bernad",
+            "Rivillos",
+            "Esp\u00edn",
+            "Ernesto",
+            "Rivera"
+        ],
+        "Rojas": [
+            "Nando Torres",
+            "Marcelo"
+        ],
+        "GolesEnContraLocal": [],
+        "GolesEnContraVisitante": [
+            "Iv\u00e1n Bernad"
+        ]
+    },
+    {
+        "NombreEquipoLocal": "ElPozo Murcia Costa C\u00e1lida",
+        "NombreEquipoVisitante": "Industrias Santa Coloma",
+        "GolesLocal": "5",
+        "GolesVisitante": "3",
+        "GoleadoresLocal": [
+            "F. Valerio",
+            "D. \u00c1lvarez",
+            "Ricardo",
+            "Ricardo",
+            "C\u00e9sar"
+        ],
+        "GoleadoresVisitante": [
+            "Povill",
+            "V\u00edctor Ramos",
+            "Gadeia"
+        ],
+        "Amarillas": [
+            "Gadeia",
+            "\u00c1lex Verdejo",
+            "Niel\u00b7lo"
+        ],
+        "Rojas": [],
+        "GolesEnContraLocal": [
+            "Gadeia"
+        ],
+        "GolesEnContraVisitante": []
+    },
+    {
+        "NombreEquipoLocal": "Osasuna Magna Xota",
+        "NombreEquipoVisitante": "Jimbee Cartagena Costa C\u00e1lida",
+        "GolesLocal": "2",
+        "GolesVisitante": "2",
+        "GoleadoresLocal": [
+            "Korsun",
+            "Ligeiro"
+        ],
+        "GoleadoresVisitante": [
+            "Pablo Ram\u00edrez",
+            "Gon Castej\u00f3n"
+        ],
+        "Amarillas": [
+            "Dar\u00edo",
+            "Jes\u00fas Izquierdo",
+            "Chemi",
+            "Linhares",
+            "Tomaz",
+            "A. Geraghty",
+            "R. Martil"
+        ],
+        "Rojas": [],
+        "GolesEnContraLocal": [],
+        "GolesEnContraVisitante": []
+    },
+    {
+        "NombreEquipoLocal": "C\u00f3rdoba Patrimonio Humanidad",
+        "NombreEquipoVisitante": "Movistar Inter",
+        "GolesLocal": "2",
+        "GolesVisitante": "4",
+        "GoleadoresLocal": [
+            "Juanan",
+            "Kau\u00ea"
+        ],
+        "GoleadoresVisitante": [
+            "Pablo Ord\u00f3\u00f1ez",
+            "Pablo Ord\u00f3\u00f1ez",
+            "Eloy",
+            "J. M\u00ednguez"
+        ],
+        "Amarillas": [
+            "Carlos B."
+        ],
+        "Rojas": [],
+        "GolesEnContraLocal": [],
+        "GolesEnContraVisitante": []
+    },
+    {
+        "NombreEquipoLocal": "Ja\u00e9n Para\u00edso Interior",
+        "NombreEquipoVisitante": "Vi\u00f1a Albali Valdepe\u00f1as",
+        "GolesLocal": "9",
+        "GolesVisitante": "3",
+        "GoleadoresLocal": [
+            "Renato",
+            "Chino",
+            "Jo\u00e3o Salla",
+            "Mati Rosa",
+            "Renato",
+            "Mati Rosa",
+            "Espindola",
+            "Espindola",
+            "M\u00edchel"
+        ],
+        "GoleadoresVisitante": [
+            "Fernando",
+            "Fernando",
+            "Fernando"
+        ],
+        "Amarillas": [
+            "Alberto Garc\u00eda",
+            "Lemine",
+            "Renato",
+            "Pol Pacheco",
+            "Franklin",
+            "Mati Rosa"
+        ],
+        "Rojas": [
+            "Pol Pacheco",
+            "Mati Rosa"
+        ],
+        "GolesEnContraLocal": [],
+        "GolesEnContraVisitante": []
+    },
+    {
+        "NombreEquipoLocal": "Servigroup Pe\u00f1\u00edscola FS",
+        "NombreEquipoVisitante": "Noia Portus Apostoli",
+        "GolesLocal": "2",
+        "GolesVisitante": "0",
+        "GoleadoresLocal": [
+            "V\u00edctor P\u00e9rez",
+            "Quintela"
+        ],
+        "GoleadoresVisitante": [],
+        "Amarillas": [
+            "Montero",
+            "Matheus Pre\u00e1",
+            "Agust\u00edn Plaza",
+            "Rufino"
+        ],
+        "Rojas": [
+            "Agust\u00edn Plaza"
+        ],
+        "GolesEnContraLocal": [],
+        "GolesEnContraVisitante": []
+    },
+    {
+        "NombreEquipoLocal": "Bar\u00e7a",
+        "NombreEquipoVisitante": "Burela FS",
+        "GolesLocal": "2",
+        "GolesVisitante": "1",
+        "GoleadoresLocal": [
+            "Fits",
+            "Sergio Lozano"
+        ],
+        "GoleadoresVisitante": [
+            "Alberto"
+        ],
+        "Amarillas": [
+            "Catela",
+            "Sergio Lozano",
+            "Junhinho"
+        ],
+        "Rojas": [],
+        "GolesEnContraLocal": [],
+        "GolesEnContraVisitante": []
+    },
+    {
+        "NombreEquipoLocal": "Quesos Hidalgo Manzanares FS",
+        "NombreEquipoVisitante": "ATP Ilum. Tudelano Ribera Navarra",
+        "GolesLocal": "4",
+        "GolesVisitante": "1",
+        "GoleadoresLocal": [
+            "Alvaro L\u00f3pez",
+            "Juan Emilio",
+            "Daniel",
+            "Humberto"
+        ],
+        "GoleadoresVisitante": [
+            "Darrieer"
+        ],
+        "Amarillas": [
+            "Zequi",
+            "Javi Alonso",
+            "Gabriel Vasques",
+            "Eric P\u00e9rez",
+            "Antonio Navarro",
+            "Jo\u00e3o Batista"
+        ],
+        "Rojas": [],
+        "GolesEnContraLocal": [],
+        "GolesEnContraVisitante": []
+    },
+    {
+        "NombreEquipoLocal": "Burela FS",
+        "NombreEquipoVisitante": "Islas Baleares Palma Futsal",
+        "GolesLocal": "2",
+        "GolesVisitante": "2",
+        "GoleadoresLocal": [
+            "Alberto",
+            "Isma"
+        ],
+        "GoleadoresVisitante": [
+            "Ernesto",
+            "Piqueras"
+        ],
+        "Amarillas": [
+            "Malaguti",
+            "Ernesto"
+        ],
+        "Rojas": [],
+        "GolesEnContraLocal": [],
+        "GolesEnContraVisitante": []
+    },
+    {
+        "NombreEquipoLocal": "ATP Ilum. Tudelano Ribera Navarra",
+        "NombreEquipoVisitante": "C\u00f3rdoba Patrimonio Humanidad",
+        "GolesLocal": "2",
+        "GolesVisitante": "3",
+        "GoleadoresLocal": [
+            "Jo\u00e3o Batista",
+            "Camp\u00e0s"
+        ],
+        "GoleadoresVisitante": [
+            "Kau\u00ea",
+            "Tiago Macedo",
+            "Pablo Del Moral"
+        ],
+        "Amarillas": [
+            "Murilo Duarte",
+            "Kau\u00ea",
+            "Alberto Lahuerta",
+            "V\u00edctor Areales"
+        ],
+        "Rojas": [],
+        "GolesEnContraLocal": [],
+        "GolesEnContraVisitante": []
+    },
+    {
+        "NombreEquipoLocal": "Noia Portus Apostoli",
+        "NombreEquipoVisitante": "Bar\u00e7a",
+        "GolesLocal": "0",
+        "GolesVisitante": "4",
+        "GoleadoresLocal": [],
+        "GoleadoresVisitante": [
+            "E. Martel",
+            "E. Martel",
+            "Antonio",
+            "Antonio"
+        ],
+        "Amarillas": [
+            "Antonio",
+            "Dyego",
+            "Power",
+            "Erick",
+            "Rubi Lemos",
+            "Rufino",
+            "Miquel Feixas",
+            "Attos"
+        ],
+        "Rojas": [
+            "Power"
+        ],
+        "GolesEnContraLocal": [],
+        "GolesEnContraVisitante": []
+    },
+    {
+        "NombreEquipoLocal": "Movistar Inter",
+        "NombreEquipoVisitante": "Ja\u00e9n Para\u00edso Interior",
+        "GolesLocal": "6",
+        "GolesVisitante": "2",
+        "GoleadoresLocal": [
+            "Cecilio",
+            "Carlos B.",
+            "Cecilio",
+            "J. M\u00ednguez",
+            "J. M\u00ednguez",
+            "J. M\u00ednguez"
+        ],
+        "GoleadoresVisitante": [
+            "Bebe",
+            "Renato"
+        ],
+        "Amarillas": [
+            "Espindola",
+            "Chaguinha",
+            "D. Zurdo",
+            "Drahovsky",
+            "Chino",
+            "Antoniazzi",
+            "Alan Brandi",
+            "Renato"
+        ],
+        "Rojas": [],
+        "GolesEnContraLocal": [
+            "Bebe"
+        ],
+        "GolesEnContraVisitante": []
+    },
+    {
+        "NombreEquipoLocal": "Vi\u00f1a Albali Valdepe\u00f1as",
+        "NombreEquipoVisitante": "ElPozo Murcia Costa C\u00e1lida",
+        "GolesLocal": "1",
+        "GolesVisitante": "3",
+        "GoleadoresLocal": [
+            "Carrasco"
+        ],
+        "GoleadoresVisitante": [
+            "Pol Pacheco",
+            "Merino",
+            "Gadeia"
+        ],
+        "Amarillas": [
+            "Alberto Garc\u00eda",
+            "Carrasco",
+            "C\u00e9sar",
+            "Lolo"
+        ],
+        "Rojas": [],
+        "GolesEnContraLocal": [
+            "Merino",
+            "Pol Pacheco"
+        ],
+        "GolesEnContraVisitante": []
+    },
+    {
+        "NombreEquipoLocal": "Jimbee Cartagena Costa C\u00e1lida",
+        "NombreEquipoVisitante": "Quesos Hidalgo Manzanares FS",
+        "GolesLocal": "3",
+        "GolesVisitante": "3",
+        "GoleadoresLocal": [
+            "Pablo Ram\u00edrez",
+            "Waltinho",
+            "Cort\u00e9s"
+        ],
+        "GoleadoresVisitante": [
+            "Zequi",
+            "Humberto",
+            "Pedro Herreros"
+        ],
+        "Amarillas": [
+            "Motta",
+            "Juan Emilio",
+            "Alvaro L\u00f3pez",
+            "Javi Alonso",
+            "Tomaz"
+        ],
+        "Rojas": [],
+        "GolesEnContraLocal": [],
+        "GolesEnContraVisitante": []
+    },
+    {
+        "NombreEquipoLocal": "Industrias Santa Coloma",
+        "NombreEquipoVisitante": "Osasuna Magna Xota",
+        "GolesLocal": "3",
+        "GolesVisitante": "1",
+        "GoleadoresLocal": [
+            "\u00c1lex Verdejo",
+            "V\u00edctor Ramos",
+            "V\u00edctor Ramos"
+        ],
+        "GoleadoresVisitante": [
+            "D. Saldise"
+        ],
+        "Amarillas": [
+            "Puigvert",
+            "Nil",
+            "Korsun",
+            "Cardona",
+            "Corso"
+        ],
+        "Rojas": [],
+        "GolesEnContraLocal": [],
+        "GolesEnContraVisitante": []
+    },
+    {
+        "NombreEquipoLocal": "WANAPIX AD Sala 10",
+        "NombreEquipoVisitante": "Servigroup Pe\u00f1\u00edscola FS",
+        "GolesLocal": "1",
+        "GolesVisitante": "2",
+        "GoleadoresLocal": [
+            "Adri Ortego"
+        ],
+        "GoleadoresVisitante": [
+            "Paniagua",
+            "V\u00edctor P\u00e9rez"
+        ],
+        "Amarillas": [
+            "Nando Torres",
+            "Pol Salas",
+            "Rivera",
+            "Agust\u00edn Plaza",
+            "Esp\u00edn",
+            "Richi Felipe"
+        ],
+        "Rojas": [
+            "Rivera",
+            "Richi Felipe"
+        ],
+        "GolesEnContraLocal": [],
+        "GolesEnContraVisitante": []
+    },
+    {
+        "NombreEquipoLocal": "Bar\u00e7a",
+        "NombreEquipoVisitante": "WANAPIX AD Sala 10",
+        "GolesLocal": "2",
+        "GolesVisitante": "1",
+        "GoleadoresLocal": [
+            "Antonio",
+            "Dyego"
+        ],
+        "GoleadoresVisitante": [
+            "Nando Torres"
+        ],
+        "Amarillas": [
+            "Catela",
+            "Carlos Garc\u00eda"
+        ],
+        "Rojas": [],
+        "GolesEnContraLocal": [],
+        "GolesEnContraVisitante": []
+    },
+    {
+        "NombreEquipoLocal": "Osasuna Magna Xota",
+        "NombreEquipoVisitante": "Noia Portus Apostoli",
+        "GolesLocal": "2",
+        "GolesVisitante": "1",
+        "GoleadoresLocal": [
+            "Pachu",
+            "R. Martil"
+        ],
+        "GoleadoresVisitante": [
+            "David Pazos"
+        ],
+        "Amarillas": [
+            "Diego F\u00e1vero",
+            "Rubi Lemos",
+            "Attos",
+            "\u00c1lex Garc\u00eda",
+            "Matheus Pre\u00e1",
+            "Ligeiro",
+            "Asier"
+        ],
+        "Rojas": [],
+        "GolesEnContraLocal": [],
+        "GolesEnContraVisitante": []
+    },
+    {
+        "NombreEquipoLocal": "Movistar Inter",
+        "NombreEquipoVisitante": "Industrias Santa Coloma",
+        "GolesLocal": "4",
+        "GolesVisitante": "1",
+        "GoleadoresLocal": [
+            "Eloy",
+            "Drahovsky",
+            "Chaguinha",
+            "Bebe"
+        ],
+        "GoleadoresVisitante": [
+            "\u00c1lex Verdejo"
+        ],
+        "Amarillas": [
+            "Leandrinho",
+            "Luc\u00e3o"
+        ],
+        "Rojas": [
+            "Pablo Ord\u00f3\u00f1ez"
+        ],
+        "GolesEnContraLocal": [],
+        "GolesEnContraVisitante": []
+    },
+    {
+        "NombreEquipoLocal": "ElPozo Murcia Costa C\u00e1lida",
+        "NombreEquipoVisitante": "Burela FS",
+        "GolesLocal": "4",
+        "GolesVisitante": "1",
+        "GoleadoresLocal": [
+            "Rafa Santos",
+            "F. Valerio",
+            "D. \u00c1lvarez",
+            "Marcel"
+        ],
+        "GoleadoresVisitante": [
+            "Junhinho"
+        ],
+        "Amarillas": [
+            "Isma",
+            "Meira",
+            "Rafa Santos",
+            "Bernardo Araya",
+            "C\u00e9sar"
+        ],
+        "Rojas": [],
+        "GolesEnContraLocal": [],
+        "GolesEnContraVisitante": []
+    },
+    {
+        "NombreEquipoLocal": "ATP Ilum. Tudelano Ribera Navarra",
+        "NombreEquipoVisitante": "Vi\u00f1a Albali Valdepe\u00f1as",
+        "GolesLocal": "2",
+        "GolesVisitante": "4",
+        "GoleadoresLocal": [
+            "David",
+            "Jo\u00e3o Batista"
+        ],
+        "GoleadoresVisitante": [
+            "Pol Pacheco",
+            "Carlos",
+            "Pol Pacheco",
+            "Alberto Garc\u00eda"
+        ],
+        "Amarillas": [
+            "David",
+            "Bynho",
+            "Eric P\u00e9rez",
+            "Sepe",
+            "Lolo",
+            "Alberto Lahuerta",
+            "Alberto Garc\u00eda"
+        ],
+        "Rojas": [
+            "Sepe"
+        ],
+        "GolesEnContraLocal": [],
+        "GolesEnContraVisitante": []
+    },
+    {
+        "NombreEquipoLocal": "C\u00f3rdoba Patrimonio Humanidad",
+        "NombreEquipoVisitante": "Quesos Hidalgo Manzanares FS",
+        "GolesLocal": "4",
+        "GolesVisitante": "2",
+        "GoleadoresLocal": [
+            "Juanan",
+            "Mykytiuk",
+            "Arnaldo B\u00e1ez",
+            "Kau\u00ea"
+        ],
+        "GoleadoresVisitante": [
+            "Zequi",
+            "Ra\u00fal Campos"
+        ],
+        "Amarillas": [
+            "Antonio Navarro",
+            "Kau\u00ea",
+            "Echavarr\u00eda",
+            "Juanan",
+            "Javi Alonso",
+            "Ra\u00fal Campos",
+            "Juan Emilio"
+        ],
+        "Rojas": [],
+        "GolesEnContraLocal": [],
+        "GolesEnContraVisitante": []
+    },
+    {
+        "NombreEquipoLocal": "Servigroup Pe\u00f1\u00edscola FS",
+        "NombreEquipoVisitante": "Jimbee Cartagena Costa C\u00e1lida",
+        "GolesLocal": "2",
+        "GolesVisitante": "4",
+        "GoleadoresLocal": [
+            "Gus",
+            "Quintela"
+        ],
+        "GoleadoresVisitante": [
+            "Motta",
+            "Dar\u00edo",
+            "Motta",
+            "Motta"
+        ],
+        "Amarillas": [
+            "Linhares",
+            "Cort\u00e9s",
+            "Paniagua",
+            "El\u00edas",
+            "Mellado",
+            "Motta"
+        ],
+        "Rojas": [],
+        "GolesEnContraLocal": [],
+        "GolesEnContraVisitante": []
+    },
+    {
+        "NombreEquipoLocal": "Ja\u00e9n Para\u00edso Interior",
+        "NombreEquipoVisitante": "Islas Baleares Palma Futsal",
+        "GolesLocal": "3",
+        "GolesVisitante": "4",
+        "GoleadoresLocal": [
+            "Mati Rosa",
+            "Mati Rosa",
+            "D. Zurdo"
+        ],
+        "GoleadoresVisitante": [
+            "Ernesto",
+            "David Pe\u00f1a",
+            "David Pe\u00f1a",
+            "Fabinho"
+        ],
+        "Amarillas": [
+            "Attos"
+        ],
+        "Rojas": [
+            "Attos"
+        ],
+        "GolesEnContraLocal": [],
+        "GolesEnContraVisitante": []
+    },
+    {
+        "NombreEquipoLocal": "Jimbee Cartagena Costa C\u00e1lida",
+        "NombreEquipoVisitante": "C\u00f3rdoba Patrimonio Humanidad",
+        "GolesLocal": "4",
+        "GolesVisitante": "0",
+        "GoleadoresLocal": [
+            "Motta",
+            "Linhares",
+            "Waltinho",
+            "Motta"
+        ],
+        "GoleadoresVisitante": [],
+        "Amarillas": [
+            "Echavarr\u00eda",
+            "Fabio",
+            "Arnaldo B\u00e1ez",
+            "Gon Castej\u00f3n"
+        ],
+        "Rojas": [],
+        "GolesEnContraLocal": [],
+        "GolesEnContraVisitante": []
+    },
+    {
+        "NombreEquipoLocal": "Islas Baleares Palma Futsal",
+        "NombreEquipoVisitante": "Servigroup Pe\u00f1\u00edscola FS",
+        "GolesLocal": "5",
+        "GolesVisitante": "2",
+        "GoleadoresLocal": [
+            "Marcelo",
+            "Neguinho",
+            "Bruno Gomes",
+            "Bruno Gomes",
+            "Neguinho"
+        ],
+        "GoleadoresVisitante": [
+            "Paniagua",
+            "El\u00edas"
+        ],
+        "Amarillas": [
+            "Fabinho",
+            "David Pe\u00f1a",
+            "Neguinho",
+            "Juan Jos\u00e9",
+            "Piqueras"
+        ],
+        "Rojas": [],
+        "GolesEnContraLocal": [],
+        "GolesEnContraVisitante": []
+    },
+    {
+        "NombreEquipoLocal": "Vi\u00f1a Albali Valdepe\u00f1as",
+        "NombreEquipoVisitante": "Movistar Inter",
+        "GolesLocal": "1",
+        "GolesVisitante": "6",
+        "GoleadoresLocal": [
+            "Solano"
+        ],
+        "GoleadoresVisitante": [
+            "Drahovsky",
+            "Cecilio",
+            "Drahovsky",
+            "Cecilio",
+            "Bebe",
+            "J. Herrero"
+        ],
+        "Amarillas": [
+            "Carrasco",
+            "J. Herrero",
+            "Cecilio",
+            "Eloy Rojas",
+            "Solano",
+            "Alberto Garc\u00eda"
+        ],
+        "Rojas": [],
+        "GolesEnContraLocal": [],
+        "GolesEnContraVisitante": []
+    },
+    {
+        "NombreEquipoLocal": "Burela FS",
+        "NombreEquipoVisitante": "ATP Ilum. Tudelano Ribera Navarra",
+        "GolesLocal": "3",
+        "GolesVisitante": "1",
+        "GoleadoresLocal": [
+            "Charly",
+            "M. Kaluza",
+            "M. Kaluza"
+        ],
+        "GoleadoresVisitante": [
+            "Jo\u00e3o Batista"
+        ],
+        "Amarillas": [
+            "Isma",
+            "Alberto",
+            "Quelle",
+            "Eric P\u00e9rez"
+        ],
+        "Rojas": [],
+        "GolesEnContraLocal": [],
+        "GolesEnContraVisitante": []
+    },
+    {
+        "NombreEquipoLocal": "Noia Portus Apostoli",
+        "NombreEquipoVisitante": "ElPozo Murcia Costa C\u00e1lida",
+        "GolesLocal": "3",
+        "GolesVisitante": "3",
+        "GoleadoresLocal": [
+            "Power",
+            "David Pazos",
+            "L. Altamirano"
+        ],
+        "GoleadoresVisitante": [
+            "Rafa Santos",
+            "Marcel",
+            "Esteban"
+        ],
+        "Amarillas": [
+            "Pirata",
+            "F. Valerio",
+            "Esteban",
+            "Rufino",
+            "Power"
+        ],
+        "Rojas": [],
+        "GolesEnContraLocal": [],
+        "GolesEnContraVisitante": []
+    },
+    {
+        "NombreEquipoLocal": "Quesos Hidalgo Manzanares FS",
+        "NombreEquipoVisitante": "Osasuna Magna Xota",
+        "GolesLocal": "5",
+        "GolesVisitante": "4",
+        "GoleadoresLocal": [
+            "Daniel",
+            "Nefi Gon\u00e7alves",
+            "Alvaro L\u00f3pez",
+            "Javi Alonso",
+            "Humberto"
+        ],
+        "GoleadoresVisitante": [
+            "R. Martil",
+            "Tony",
+            "Korsun",
+            "Pachu"
+        ],
+        "Amarillas": [
+            "Korsun",
+            "Antonio Navarro",
+            "Ion Cervi\u00f1o",
+            "Zequi",
+            "A. Geraghty"
+        ],
+        "Rojas": [
+            "A. Geraghty"
+        ],
+        "GolesEnContraLocal": [],
+        "GolesEnContraVisitante": []
+    },
+    {
+        "NombreEquipoLocal": "WANAPIX AD Sala 10",
+        "NombreEquipoVisitante": "Ja\u00e9n Para\u00edso Interior",
+        "GolesLocal": "1",
+        "GolesVisitante": "3",
+        "GoleadoresLocal": [
+            "Nando Torres"
+        ],
+        "GoleadoresVisitante": [
+            "M\u00edchel",
+            "M\u00edchel",
+            "Chino"
+        ],
+        "Amarillas": [
+            "Dani \u00c1lvarez",
+            "Iv\u00e1n Bernad",
+            "Chino",
+            "Renato",
+            "Espindola",
+            "Antoniazzi",
+            "Richi Felipe",
+            "Franklin"
+        ],
+        "Rojas": [],
+        "GolesEnContraLocal": [],
+        "GolesEnContraVisitante": []
+    },
+    {
+        "NombreEquipoLocal": "Industrias Santa Coloma",
+        "NombreEquipoVisitante": "Bar\u00e7a",
+        "GolesLocal": "1",
+        "GolesVisitante": "0",
+        "GoleadoresLocal": [
+            "\u00c1lex Verdejo"
+        ],
+        "GoleadoresVisitante": [],
+        "Amarillas": [
+            "Dyego"
+        ],
+        "Rojas": [],
+        "GolesEnContraLocal": [],
+        "GolesEnContraVisitante": []
+    },
+    {
+        "NombreEquipoLocal": "Bar\u00e7a",
+        "NombreEquipoVisitante": "Quesos Hidalgo Manzanares FS",
+        "GolesLocal": "3",
+        "GolesVisitante": "2",
+        "GoleadoresLocal": [
+            "Tour\u00e9",
+            "Antonio",
+            "Antonio"
+        ],
+        "GoleadoresVisitante": [
+            "Alvaro L\u00f3pez",
+            "Daniel"
+        ],
+        "Amarillas": [
+            "Javi Alonso",
+            "Erick",
+            "Pedro Herreros",
+            "\u00c1lex"
+        ],
+        "Rojas": [],
+        "GolesEnContraLocal": [],
+        "GolesEnContraVisitante": []
+    },
+    {
+        "NombreEquipoLocal": "Jimbee Cartagena Costa C\u00e1lida",
+        "NombreEquipoVisitante": "WANAPIX AD Sala 10",
+        "GolesLocal": "3",
+        "GolesVisitante": "0",
+        "GoleadoresLocal": [
+            "Pablo Ram\u00edrez",
+            "Jes\u00fas Izquierdo",
+            "Tomaz"
+        ],
+        "GoleadoresVisitante": [],
+        "Amarillas": [
+            "Richi Felipe",
+            "Waltinho",
+            "Adri Ortego"
+        ],
+        "Rojas": [],
+        "GolesEnContraLocal": [],
+        "GolesEnContraVisitante": []
+    },
+    {
+        "NombreEquipoLocal": "C\u00f3rdoba Patrimonio Humanidad",
+        "NombreEquipoVisitante": "Industrias Santa Coloma",
+        "GolesLocal": "2",
+        "GolesVisitante": "2",
+        "GoleadoresLocal": [
+            "Juanan",
+            "Echavarr\u00eda"
+        ],
+        "GoleadoresVisitante": [
+            "Povill",
+            "Puigvert"
+        ],
+        "Amarillas": [
+            "Kau\u00ea",
+            "Echavarr\u00eda",
+            "Murilo Duarte",
+            "\u00c1lex Verdejo",
+            "Arnaldo B\u00e1ez"
+        ],
+        "Rojas": [],
+        "GolesEnContraLocal": [],
+        "GolesEnContraVisitante": []
+    },
+    {
+        "NombreEquipoLocal": "Movistar Inter",
+        "NombreEquipoVisitante": "Burela FS",
+        "GolesLocal": "3",
+        "GolesVisitante": "2",
+        "GoleadoresLocal": [
+            "Chaguinha",
+            "Bebe",
+            "Drahovsky"
+        ],
+        "GoleadoresVisitante": [
+            "Jes\u00fas Garc\u00eda",
+            "Malaguti"
+        ],
+        "Amarillas": [
+            "Meira"
+        ],
+        "Rojas": [],
+        "GolesEnContraLocal": [
+            "Jes\u00fas Garc\u00eda"
+        ],
+        "GolesEnContraVisitante": []
+    },
+    {
+        "NombreEquipoLocal": "ATP Ilum. Tudelano Ribera Navarra",
+        "NombreEquipoVisitante": "ElPozo Murcia Costa C\u00e1lida",
+        "GolesLocal": "0",
+        "GolesVisitante": "1",
+        "GoleadoresLocal": [],
+        "GoleadoresVisitante": [
+            "Marcel"
+        ],
+        "Amarillas": [
+            "Ricardinho",
+            "L. Tripodi",
+            "F. Valerio",
+            "Alberto Lahuerta",
+            "D. \u00c1lvarez"
+        ],
+        "Rojas": [],
+        "GolesEnContraLocal": [],
+        "GolesEnContraVisitante": []
+    },
+    {
+        "NombreEquipoLocal": "Servigroup Pe\u00f1\u00edscola FS",
+        "NombreEquipoVisitante": "Osasuna Magna Xota",
+        "GolesLocal": "5",
+        "GolesVisitante": "2",
+        "GoleadoresLocal": [
+            "Quintela",
+            "El\u00edas",
+            "Agust\u00edn Plaza",
+            "Diego Sancho",
+            "V\u00edctor P\u00e9rez"
+        ],
+        "GoleadoresVisitante": [
+            "Ligeiro",
+            "Ligeiro"
+        ],
+        "Amarillas": [
+            "El\u00edas",
+            "A. Geraghty",
+            "V\u00edctor P\u00e9rez",
+            "Juninho"
+        ],
+        "Rojas": [
+            "El\u00edas",
+            "Asier"
+        ],
+        "GolesEnContraLocal": [],
+        "GolesEnContraVisitante": []
+    },
+    {
+        "NombreEquipoLocal": "Ja\u00e9n Para\u00edso Interior",
+        "NombreEquipoVisitante": "Noia Portus Apostoli",
+        "GolesLocal": "5",
+        "GolesVisitante": "2",
+        "GoleadoresLocal": [
+            "D. Zurdo",
+            "Mati Rosa",
+            "D. Zurdo",
+            "Alan Brandi",
+            "Mati Rosa"
+        ],
+        "GoleadoresVisitante": [
+            "\u00c1lex Garc\u00eda",
+            "Rubi Lemos"
+        ],
+        "Amarillas": [
+            "David Pazos",
+            "Diego F\u00e1vero",
+            "Pirata",
+            "M\u00edchel"
+        ],
+        "Rojas": [],
+        "GolesEnContraLocal": [],
+        "GolesEnContraVisitante": []
+    },
+    {
+        "NombreEquipoLocal": "Islas Baleares Palma Futsal",
+        "NombreEquipoVisitante": "Vi\u00f1a Albali Valdepe\u00f1as",
+        "GolesLocal": "3",
+        "GolesVisitante": "2",
+        "GoleadoresLocal": [
+            "Bruno Gomes",
+            "Fabinho",
+            "Fabinho"
+        ],
+        "GoleadoresVisitante": [
+            "Fabinho",
+            "Fernando"
+        ],
+        "Amarillas": [
+            "Marcelo",
+            "Fernando",
+            "Neguinho",
+            "Alberto Garc\u00eda"
+        ],
+        "Rojas": [],
+        "GolesEnContraLocal": [],
+        "GolesEnContraVisitante": [
+            "Fabinho"
+        ]
+    },
+    {
+        "NombreEquipoLocal": "Burela FS",
+        "NombreEquipoVisitante": "Ja\u00e9n Para\u00edso Interior",
+        "GolesLocal": "1",
+        "GolesVisitante": "4",
+        "GoleadoresLocal": [
+            "Rikelme"
+        ],
+        "GoleadoresVisitante": [
+            "M\u00edchel",
+            "Renato",
+            "Alan Brandi",
+            "Renato"
+        ],
+        "Amarillas": [
+            "Alan Brandi"
+        ],
+        "Rojas": [],
+        "GolesEnContraLocal": [],
+        "GolesEnContraVisitante": []
+    },
+    {
+        "NombreEquipoLocal": "Osasuna Magna Xota",
+        "NombreEquipoVisitante": "C\u00f3rdoba Patrimonio Humanidad",
+        "GolesLocal": "7",
+        "GolesVisitante": "2",
+        "GoleadoresLocal": [
+            "D. Saldise",
+            "Murilo Duarte",
+            "Juninho",
+            "Pachu",
+            "D. Saldise",
+            "Ion Cervi\u00f1o",
+            "D. Saldise"
+        ],
+        "GoleadoresVisitante": [
+            "Echavarr\u00eda",
+            "Pablo Del Moral"
+        ],
+        "Amarillas": [
+            "Fabio",
+            "Tiago Macedo",
+            "Asier",
+            "Echavarr\u00eda"
+        ],
+        "Rojas": [],
+        "GolesEnContraLocal": [],
+        "GolesEnContraVisitante": [
+            "Murilo Duarte"
+        ]
+    },
+    {
+        "NombreEquipoLocal": "WANAPIX AD Sala 10",
+        "NombreEquipoVisitante": "Movistar Inter",
+        "GolesLocal": "1",
+        "GolesVisitante": "4",
+        "GoleadoresLocal": [
+            "Gonzalo"
+        ],
+        "GoleadoresVisitante": [
+            "Drahovsky",
+            "Cecilio",
+            "Chaguinha",
+            "Chaguinha"
+        ],
+        "Amarillas": [
+            "Nando Torres",
+            "Eloy",
+            "Drahovsky",
+            "Ra\u00fal G\u00f3mez"
+        ],
+        "Rojas": [],
+        "GolesEnContraLocal": [],
+        "GolesEnContraVisitante": [
+            "Gonzalo"
+        ]
+    },
+    {
+        "NombreEquipoLocal": "Quesos Hidalgo Manzanares FS",
+        "NombreEquipoVisitante": "Servigroup Pe\u00f1\u00edscola FS",
+        "GolesLocal": "4",
+        "GolesVisitante": "8",
+        "GoleadoresLocal": [
+            "Pedro Herreros",
+            "Anto\u00f1ito",
+            "Daniel",
+            "Humberto"
+        ],
+        "GoleadoresVisitante": [
+            "Diego Sancho",
+            "Luciano Gauna",
+            "Saladi\u00e9",
+            "V\u00edctor P\u00e9rez",
+            "Quintela",
+            "Diego Sancho",
+            "Luciano Gauna",
+            "Saladi\u00e9"
+        ],
+        "Amarillas": [
+            "Daniel",
+            "Zequi",
+            "Diego Sancho",
+            "Rafa L\u00f3pez"
+        ],
+        "Rojas": [],
+        "GolesEnContraLocal": [],
+        "GolesEnContraVisitante": []
+    },
+    {
+        "NombreEquipoLocal": "Vi\u00f1a Albali Valdepe\u00f1as",
+        "NombreEquipoVisitante": "Jimbee Cartagena Costa C\u00e1lida",
+        "GolesLocal": "1",
+        "GolesVisitante": "2",
+        "GoleadoresLocal": [
+            "Alberto Garc\u00eda"
+        ],
+        "GoleadoresVisitante": [
+            "Alberto Garc\u00eda",
+            "Waltinho"
+        ],
+        "Amarillas": [
+            "Alberto Garc\u00eda",
+            "Cort\u00e9s",
+            "Motta",
+            "Bynho"
+        ],
+        "Rojas": [
+            "Motta"
+        ],
+        "GolesEnContraLocal": [],
+        "GolesEnContraVisitante": [
+            "Alberto Garc\u00eda"
+        ]
+    },
+    {
+        "NombreEquipoLocal": "Noia Portus Apostoli",
+        "NombreEquipoVisitante": "ATP Ilum. Tudelano Ribera Navarra",
+        "GolesLocal": "0",
+        "GolesVisitante": "1",
+        "GoleadoresLocal": [],
+        "GoleadoresVisitante": [
+            "Alberto Lahuerta"
+        ],
+        "Amarillas": [
+            "David",
+            "Peixe",
+            "Joselito",
+            "Gabriel Vasques",
+            "L. Altamirano",
+            "Power"
+        ],
+        "Rojas": [],
+        "GolesEnContraLocal": [],
+        "GolesEnContraVisitante": []
+    },
+    {
+        "NombreEquipoLocal": "Industrias Santa Coloma",
+        "NombreEquipoVisitante": "Islas Baleares Palma Futsal",
+        "GolesLocal": "4",
+        "GolesVisitante": "2",
+        "GoleadoresLocal": [
+            "Marc Tolr\u00e0",
+            "V\u00edctor P\u00e9rez",
+            "Povill",
+            "Povill"
+        ],
+        "GoleadoresVisitante": [
+            "Marcelo",
+            "Bruno Gomes"
+        ],
+        "Amarillas": [
+            "Marcelo",
+            "Povill",
+            "Rivillos",
+            "Fabinho"
+        ],
+        "Rojas": [],
+        "GolesEnContraLocal": [],
+        "GolesEnContraVisitante": []
+    },
+    {
+        "NombreEquipoLocal": "ElPozo Murcia Costa C\u00e1lida",
+        "NombreEquipoVisitante": "Bar\u00e7a",
+        "GolesLocal": "5",
+        "GolesVisitante": "2",
+        "GoleadoresLocal": [
+            "Marlon",
+            "Ricardo",
+            "Marcel",
+            "Marcel",
+            "D. \u00c1lvarez"
+        ],
+        "GoleadoresVisitante": [
+            "Antonio",
+            "Matheus"
+        ],
+        "Amarillas": [
+            "Antonio",
+            "Esteban",
+            "Marlon"
+        ],
+        "Rojas": [],
+        "GolesEnContraLocal": [],
+        "GolesEnContraVisitante": []
+    }
+]

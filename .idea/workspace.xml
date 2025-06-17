@@ -5,22 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a2e54ca2-7218-4589-85aa-c5649cc6423a" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/FutbolSala/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/FutbolSala/.idea/FutbolSala.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/FutbolSala/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/FutbolSala/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/FutbolSala/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/FutbolSala/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/FutbolSala/Eventos.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/FutbolSala/Jugadores.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/FutbolSala/JugadoresCadaEquipo.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/FutbolSala/Prueba.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/FutbolSala/Prueba2.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/FutbolSala/Pruebas.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/FutbolSala/Resultados.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/FutbolSala/Test.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/FutbolSala/jugadores_info.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Eventos.json" beforeDir="false" afterPath="$PROJECT_DIR$/Eventos.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Jugadores.json" beforeDir="false" afterPath="$PROJECT_DIR$/Jugadores.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JugadoresCadaEquipo.py" beforeDir="false" afterPath="$PROJECT_DIR$/JugadoresCadaEquipo.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Prueba.py" beforeDir="false" afterPath="$PROJECT_DIR$/Prueba.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Test.py" beforeDir="false" afterPath="$PROJECT_DIR$/Test.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,9 +24,9 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 6
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 6
+}</component>
   <component name="ProjectId" id="2yH6NxNHBN6bX8lxcpWxRkxIpD7" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -43,6 +34,14 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Python tests.Python tests for Test.Test.executor": "Run",
+    "Python tests.Python tests for Test.Test.test_jugadorperteneceaesequipo.executor": "Run",
+    "Python tests.Python tests for Test.Test.test_mismosequiposenJugadoresyResultados.executor": "Run",
+    "Python tests.Python tests for Test.Test.test_mismosnombres.executor": "Run",
+    "Python tests.Python tests for Test.Test.test_mismosnombresenJugadoresyEventos.executor": "Run",
+    "Python tests.Python tests in Test.py.executor": "Run",
+    "Python.JugadoresCadaEquipo.executor": "Run",
+    "Python.Prueba.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
@@ -54,6 +53,106 @@
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\lucam\Documents\GitHub\TFG" />
     </key>
+  </component>
+  <component name="RunManager" selected="Python.JugadoresCadaEquipo">
+    <configuration name="JugadoresCadaEquipo" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="TFG" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/JugadoresCadaEquipo.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Prueba" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="TFG" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Prueba.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests for Test.Test" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="TFG" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;Test.Test&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests for Test.Test.test_jugadorperteneceaesequipo" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="TFG" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;Test.Test.test_jugadorperteneceaesequipo&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests for Test.Test.test_mismosnombres" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="TFG" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;Test.Test.test_mismosnombres&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.JugadoresCadaEquipo" />
+        <item itemvalue="Python.Prueba" />
+        <item itemvalue="Python tests.Python tests for Test.Test" />
+        <item itemvalue="Python tests.Python tests for Test.Test.test_jugadorperteneceaesequipo" />
+        <item itemvalue="Python tests.Python tests for Test.Test.test_mismosnombres" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>

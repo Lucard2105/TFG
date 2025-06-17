@@ -17,10 +17,11 @@ class Test(unittest.TestCase):
             if equipo["Equipo"] not in EquiposEnJugadores:
                 EquiposEnJugadores.append(equipo["Equipo"])
         for partido in Resultados:
-            if (partido["Equipo Local"] not in EquiposenResultados):
-                EquiposenResultados.append(partido["Equipo Local"])
-            elif (partido["Equipo Visitante"] not in EquiposenResultados):
-                EquiposenResultados.append(partido["Equipo Visitante"])
+            for enfrentamiento in partido["Enfrentamientos"]:
+                if (enfrentamiento["Equipo Local"] not in EquiposenResultados):
+                    EquiposenResultados.append(enfrentamiento["Equipo Local"])
+                elif (enfrentamiento["Equipo Visitante"] not in EquiposenResultados):
+                    EquiposenResultados.append(enfrentamiento["Equipo Visitante"])
         self.assertEqual(sorted(EquiposEnJugadores),sorted(EquiposenResultados))
     def test_mismosnombresenJugadoresyEventos(self):
         Jugadores=self.cargardatos(self.Jugadores)

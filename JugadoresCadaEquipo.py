@@ -9,6 +9,7 @@ from selenium.webdriver.support.wait import WebDriverWait
 from selenium.webdriver.chrome.options import Options
 from pymongo import MongoClient
 
+
 def scriptcargarpagina():
     driver.execute_script("""
             const element = document.querySelector('div.bg-img-1.br-header.pt20');
@@ -16,33 +17,57 @@ def scriptcargarpagina():
                 element.remove();
             }
         """)
-def ObtenerUrlEquipos(): #Funcion que dada la URL principal nos devuelve un array con las URL de cada uno de los equipos, PE: Pasa de esta URL https://www.lnfs.es/competicion/primera/2025/equipos a esta otra URL https://www.lnfs.es/equipo/atp-tudelano-ribera-navarra/17_25/2025/info
+
+
+def ObtenerUrlEquipos():
     Equipos = driver.find_elements(By.CSS_SELECTOR, "ul.ta-c li.ib a.block")
     ArrayUrlEquipos = []
     for i in range(len(Equipos)):
         ArrayUrlEquipos.append(Equipos[i].get_attribute("href"))
     return ArrayUrlEquipos
-def ObtenerUrlPlantilla(url): #Funcion que dada una URl obtenida en el anterior metodo saca la URL de la plantilla, PE: Pasa de esta URL  https://www.lnfs.es/equipo/atp-tudelano-ribera-navarra/17_25/2025/info a esta otra URL https://www.lnfs.es/equipo/atp-tudelano-ribera-navarra/17_25/2025/plantilla
+
+
+def ObtenerUrlPlantilla(url):
     driver.get(url)
     scriptcargarpagina()
     urlplantilla = driver.find_elements(By.CSS_SELECTOR, "div.sm-wrapper ul.section-menu li a")[1].get_attribute("href")
     return urlplantilla
-def PlantillaEquipo(url): #Funcion que dada la URL con la plantilla devuelve una lista de diccionarios con cada uno de los jugadores
+
+
+def PlantillaEquipo(url):
     driver.get(url)
     scriptcargarpagina()
     Datos = driver.find_elements(By.CSS_SELECTOR, "table.table-squad tr")
+    Datos2 = driver.find_elements(By.CSS_SELECTOR, "table.table-squad tr td.name a")
+
+    href = []
+    for dato in Datos2:
+        href_completo = dato.get_attribute("href")
+        partes = href_completo.strip("/").split("/")
+        if "jugador" in partes:
+            idx = partes.index("jugador")
+            if len(partes) > idx + 2:
+                identificador = f"{partes[idx + 1]}/{partes[idx + 2]}"
+            else:
+                identificador = f"{partes[idx + 1]}/{partes[idx + 1].split('-')[-1]}"
+            href.append(identificador)
+        else:
+            href.append(None)
+
     Jugadores = []
-    Equipo= driver.find_element(By.CSS_SELECTOR,"div.bg2.detail-header h1.title.color-white.ib")
+    Equipo = driver.find_element(By.CSS_SELECTOR, "div.bg2.detail-header h1.title.color-white.ib")
+
     for i in range(2, len(Datos) - 1, 1):
         primeradivision = Datos[i].text.split("\n")
         segundadivision = primeradivision[3].split(" ")
-        if segundadivision[1]=="-":
-            segundadivision[1]="0"
+        if segundadivision[1] == "-":
+            segundadivision[1] = "0"
         diccionario = {
-            "Equipo" :Equipo.text,
+            "Equipo": Equipo.text,
             "Dorsal": primeradivision[0],
-            "NombreCompleto":primeradivision[1],
+            "NombreCompleto": primeradivision[1],
             "NombreCorto": primeradivision[2],
+            "Identificador": href[i - 1],
             "Posicion": segundadivision[0],
             "Goles": segundadivision[1],
             "Goles en contra": segundadivision[2],
@@ -55,14 +80,19 @@ def PlantillaEquipo(url): #Funcion que dada la URL con la plantilla devuelve una
         Jugadores.append(diccionario)
     return Jugadores
 
+
 def imprimirbonito(l):
     for i in l:
-        print(i,"\n")
-def ObtenerUrlResultados(url): #Funcion que dada una URl principal obtiene la URL de los resultados , PE: Pasa de esta URL  https://www.lnfs.es/competicion/primera/2025/equipos a esta otra URL https://www.lnfs.es/competicion/primera/2025/resultados
+        print(i, "\n")
+
+
+def ObtenerUrlResultados(url):
     driver.get(url)
     scriptcargarpagina()
     urlresultados = driver.find_elements(By.CSS_SELECTOR, "div.sm-wrapper ul.section-menu li a")[0].get_attribute("href")
     return urlresultados
+
+
 def ObtenerResultados(url):
     driver.get(url)
     scriptcargarpagina()
@@ -71,7 +101,6 @@ def ObtenerResultados(url):
     ListaEventosPorPartido = []
     ListaURLsPartido = []
 
-    # Obtener número de jornada actual
     jornada_actual = int(driver.find_element(
         By.CSS_SELECTOR,
         "div.main-content div.row div.col-md-6 div.ib select#select_round_competition option[selected]"
@@ -130,67 +159,80 @@ def ObtenerResultados(url):
 
         jornada_actual -= 1
 
-    # Obtener eventos de cada partido
     for url in ListaURLsPartido:
         ListaEventosPorPartido.append(ObtenerEstadisticasPartido(url))
 
     return ListaResultadosPorJornada, ListaEventosPorPartido
 
-def ObtenerEstadisticasPartido(url): #Funcion que dada una URL de un partido devuelve un Diccionario con los eventos de ese partido
+
+def ObtenerEstadisticasPartido(url):
     driver.get(url)
     scriptcargarpagina()
     NombrePartido = driver.find_elements(By.CSS_SELECTOR, "div.content-match.bold.mb10")[0].text
     Eventos = driver.find_elements(By.CSS_SELECTOR, "div.scrolltable div.event-content div.event img.ib.va-m.event-ico")
-    Participantes = driver.find_elements(By.CSS_SELECTOR, "div.scrolltable div.event-content div.event h5.ib.va-m.name")
-    ResultadosParciales= driver.find_elements(By.CSS_SELECTOR,"div.scrolltable div.event-content div.event h5.ib.va-m.name b.block.color-main2")
+    Participantes = driver.find_elements(By.CSS_SELECTOR, "div.scrolltable div.event-content")
+    ResultadosParciales = driver.find_elements(By.CSS_SELECTOR, "div.scrolltable div.event-content div.event h5.ib.va-m.name b.block.color-main2")
+
+    href = []
+    for p in Participantes:
+        try:
+            enlace = p.find_element(By.CSS_SELECTOR, "a").get_attribute("href")
+            if enlace == "javascript:;":
+                href.append(None)
+            else:
+                partes = enlace.strip("/").split("/")
+                href.append(f"{partes[-2]}/{partes[-1]}")
+        except:
+            href.append(None)
+
     Goles = []
     Amarillas = []
     Rojas = []
     GolesEnContra = []
+
     for i in range(len(Eventos)):
-        if Eventos[i].get_attribute("src") == "https://lnfs.es/media/lnfs/img_web/events/accion1.png?v1" or Eventos[i].get_attribute("src") == "https://lnfs.es/media/lnfs/img_web/events/accion6.png?v1":
-            Goles.append(Participantes[i].text.split("\n")[0])
-        if Eventos[i].get_attribute("src") == "https://lnfs.es/media/lnfs/img_web/events/accion5.png?v1":
-            Amarillas.append(Participantes[i].text)
-        if Eventos[i].get_attribute("src") == "https://lnfs.es/media/lnfs/img_web/events/accion4.png?v1" or Eventos[
-            i].get_attribute("src") == "https://lnfs.es/media/lnfs/img_web/events/accion3.png?v1":
-            Rojas.append(Participantes[i].text)
-        if Eventos[i].get_attribute("src") == "https://lnfs.es/media/lnfs/img_web/events/accion6.png?v1":
-            GolesEnContra.append(Participantes[i].text.split("\n")[0])
-    #Codigo para separar el nombre local,nombre visitante, goles local, goles visitante (inicio)
-    patron= r"(.+?)\s(\d*)\s*-\s*(\d*)\s*(.+)"
-    division=re.match(patron,NombrePartido)
-    #Codigo para separar el nombre local,nombre visitante, goles local, goles visitante (fin)
-    #Codigo para dividir los goles en goleadoreslocal, goleadores visitante (inicio)
-    Res=[]
-    for i in ResultadosParciales:
-        Res.append(i.text)
+        identificador = href[i] if href[i] is not None else Participantes[i].text.split("\n")[0]
+        src = Eventos[i].get_attribute("src")
+        if src in ["https://lnfs.es/media/lnfs/img_web/events/accion1.png?v1",
+                   "https://lnfs.es/media/lnfs/img_web/events/accion6.png?v1"]:
+            Goles.append(identificador)
+        if src == "https://lnfs.es/media/lnfs/img_web/events/accion5.png?v1":
+            Amarillas.append(identificador)
+        if src in ["https://lnfs.es/media/lnfs/img_web/events/accion4.png?v1",
+                   "https://lnfs.es/media/lnfs/img_web/events/accion3.png?v1"]:
+            Rojas.append(identificador)
+        if src == "https://lnfs.es/media/lnfs/img_web/events/accion6.png?v1":
+            GolesEnContra.append(identificador)
+
+    patron = r"(.+?)\s(\d+)\s*-\s*(\d+)\s(.+)"
+    division = re.match(patron, NombrePartido)
+
+    Res = [i.text for i in ResultadosParciales]
     Goles.reverse()
     Res.reverse()
-    GoleadoresLocal=[]
-    GoleadoresVisitante=[]
-    cont1=0
-    cont2=0
+
+    GoleadoresLocal = []
+    GoleadoresVisitante = []
+    cont1 = 0
+    cont2 = 0
     for i in range(len(Res)):
         goleslocalactual = int(Res[i].strip("[]").split("-")[0])
         golesvisitanteactual = int(Res[i].strip("[]").split("-")[1])
         if cont1 != goleslocalactual:
             GoleadoresLocal.append(Goles[i])
-            cont1 = cont1 + 1
+            cont1 += 1
         elif cont2 != golesvisitanteactual:
             GoleadoresVisitante.append(Goles[i])
-            cont2 = cont2 + 1
-    # Codigo para dividir los goles en goleadoreslocal, goleadores visitante (fin)
-    #Codigo para dividr los golesencontra en goleadoresencontralocal,goleadoresencontravisitante(inicio)
-    GoleadoresencontraLocal=[]
-    GoleadoresencontraVisitante=[]
-    if len(GolesEnContra)!=0:
-        for golencontra in GolesEnContra:
-            if golencontra in GoleadoresLocal:
-                GoleadoresencontraVisitante.append(golencontra)
-            elif golencontra in GoleadoresVisitante:
-                GoleadoresencontraLocal.append(golencontra)
-    #Codigo para dividr los golesencontra en goleadoresencontralocal,goleadoresencontravisitante(fin)
+            cont2 += 1
+
+    GoleadoresencontraLocal = []
+    GoleadoresencontraVisitante = []
+    for gol in GolesEnContra:
+        if gol in GoleadoresLocal:
+            GoleadoresencontraVisitante.append(gol)
+        elif gol in GoleadoresVisitante:
+            GoleadoresencontraLocal.append(gol)
+
     DiccionarioResultado = {
         "NombreEquipoLocal": division.group(1),
         "NombreEquipoVisitante": division.group(4),
@@ -203,7 +245,10 @@ def ObtenerEstadisticasPartido(url): #Funcion que dada una URL de un partido dev
         "GolesEnContraLocal": GoleadoresencontraLocal,
         "GolesEnContraVisitante": GoleadoresencontraVisitante
     }
+
     return DiccionarioResultado
+
+
 def cargardatosenjson():
     with open("Jugadores.json", "w") as archivo:
         json.dump(ListaJugadores, archivo, indent=4)
@@ -212,46 +257,44 @@ def cargardatosenjson():
     with open("Eventos.json", "w") as archivo:
         json.dump(ListaEventos, archivo, indent=4)
 
-from pymongo import MongoClient
-import json
 
 def cargardatosenmongodb():
     client = MongoClient("mongodb://localhost:27017/")
     db = client["FantasyLNFS"]
 
-    # Jugadores
     with open("Jugadores.json", "r", encoding="utf-8") as f:
         jugadores = json.load(f)
         db["Jugadores"].delete_many({})
         db["Jugadores"].insert_many(jugadores)
 
-    # Resultados
     with open("Resultados.json", "r", encoding="utf-8") as f:
         resultados = json.load(f)
         db["Resultados"].delete_many({})
         db["Resultados"].insert_many(resultados)
 
-    # Eventos
     with open("Eventos.json", "r", encoding="utf-8") as f:
         eventos = json.load(f)
         db["Eventos"].delete_many({})
         db["Eventos"].insert_many(eventos)
 
+
+# ------------------- EJECUCIÓN PRINCIPAL ------------------------
+
 page_url = "https://www.lnfs.es/competicion/primera/2025/equipos"
-options=Options()
+options = Options()
 options.page_load_strategy = "eager"
 driver = webdriver.Chrome(options=options)
 driver.get(page_url)
 scriptcargarpagina()
-UrlEquipos=ObtenerUrlEquipos()
-ListaJugadoresv1=[]
+
+UrlEquipos = ObtenerUrlEquipos()
+ListaJugadoresv1 = []
 for i in UrlEquipos:
-    UrlPLantillaCadaEquipo=ObtenerUrlPlantilla(i)
+    UrlPLantillaCadaEquipo = ObtenerUrlPlantilla(i)
     ListaJugadoresv1.append(PlantillaEquipo(UrlPLantillaCadaEquipo))
-ListaJugadores=[]
-for sublista in ListaJugadoresv1:
-    for diccionario in sublista:
-        ListaJugadores.append(diccionario)
+
+ListaJugadores = [jug for sublista in ListaJugadoresv1 for jug in sublista]
+
 ListaResultados, ListaEventos = ObtenerResultados(ObtenerUrlResultados(page_url))
 cargardatosenjson()
 cargardatosenmongodb()

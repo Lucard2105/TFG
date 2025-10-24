@@ -143,7 +143,7 @@ def CalcularPuntuacionesPartido(equipolocal, equipovisitante, MododeJuego):
         }
 
 # EJEMPLO DE EJECUCIÓN
-PuntosTotales = CalcularPuntuacionesPartido("Servigroup Peñíscola FS", "ElPozo Murcia Costa Cálida", "FairPlay")
+PuntosTotales = CalcularPuntuacionesPartido("Noia Portus Apostoli", "Barça", "FairPlay")
 print(PuntosTotales)
 
 #NOS DEVUELVE DOS JSON CON DICCIONARIOS CLAVE VALOR ID-PUNTOS FALTA METERLO EN UNICO JSON CON EL RESTO DE DATOS DEL PARTIDO Y MODIFICAR QUIZAS PUNTUACIONES COMO SI EL EQUIPO GANA SUMAR +3 Y SI PIERDEN 0 PARA HACERLO MAS DINAMICO

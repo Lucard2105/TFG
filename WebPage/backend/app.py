@@ -10,7 +10,6 @@ import random, string
 from functools import wraps
 
 app = Flask(__name__)
-biiniij
 # --- Clave secreta para firmar los JWT ---
 SECRET_KEY = "clave_supersecreta_para_tfg"
 
@@ -167,24 +166,35 @@ def reset_contraseña():
     )
 
     return jsonify({"mensaje": "Contraseña actualizada correctamente"}), 200
-# -------- ABANDONAR COMPETICIÓN --------
 @app.route('/api/competiciones/<comp_id>/abandonar', methods=['DELETE'])
 @login_requerido
 def abandonar_competicion(comp_id):
-    comp = db_system.Competiciones.find_one({"_id": ObjectId(comp_id)})
+    try:
+        oid = ObjectId(comp_id)
+    except Exception:
+        return jsonify({"error": "ID de competición inválido"}), 400
+
+    comp = db_system.Competiciones.find_one({"_id": oid})
     if not comp:
         return jsonify({"error": "Competición no encontrada"}), 404
 
-    if g.user_id not in comp.get("participantes", []):
+    participantes = [str(p) for p in comp.get("participantes", [])]
+    if str(g.user_id) not in participantes:
         return jsonify({"error": "No formas parte de esta competición"}), 400
 
-    # Eliminar al usuario de la lista de participantes
+    # Elimina si estuviera guardado como string u ObjectId (compatibilidad)
+    pull_vals = [str(g.user_id)]
+    try:
+        pull_vals.append(ObjectId(g.user_id))
+    except Exception:
+        pass
+
     db_system.Competiciones.update_one(
-        {"_id": ObjectId(comp_id)},
-        {"$pull": {"participantes": g.user_id}}
+        {"_id": oid},
+        {"$pull": {"participantes": {"$in": pull_vals}}}
     )
 
-    # Eliminar sus clasificaciones en esta competición
+    # Mantengo tu limpieza de clasificaciones
     equipos_usuario = list(db_system.EquiposFantasy.find({"usuarioId": g.user_id}))
     for equipo in equipos_usuario:
         db_system.Clasificaciones.delete_many({
@@ -268,6 +278,30 @@ def crear_equipo():
     result = db_system.EquiposFantasy.insert_one(equipo)
     return jsonify({"mensaje": "Equipo creado", "equipoId": str(result.inserted_id)}), 201
 
+@app.route('/api/equipos/<id>', methods=['GET'])
+@login_requerido
+def get_equipo(id):
+    from bson import ObjectId
+
+    try:
+        oid = ObjectId(id)
+    except Exception:
+        return jsonify({"error": "ID de equipo inválido"}), 400
+
+    equipo = db_system.EquiposFantasy.find_one({"_id": oid})
+    if not equipo:
+        return jsonify({"error": "Equipo no encontrado"}), 404
+
+    # Solo el dueño del equipo puede verlo / editarlo
+    if equipo.get("usuarioId") != g.user_id:
+        return jsonify({"error": "No puedes ver un equipo que no es tuyo"}), 403
+
+    return jsonify({
+        "_id": str(equipo["_id"]),
+        "nombreEquipo": equipo.get("nombreEquipo", "Sin nombre"),
+        "competicionId": equipo.get("competicionId"),
+        "jugadoresSeleccionados": equipo.get("jugadoresSeleccionados", []),
+    }), 200
 
 
 @app.route('/api/equipos/<id>/jugadores', methods=['PUT'])
@@ -329,7 +363,14 @@ def get_competiciones():
 @app.route('/api/mis-competiciones', methods=['GET'])
 @login_requerido
 def get_mis_competiciones():
-    comps = list(db_system.Competiciones.find({"participantes": g.user_id}))
+    # buscamos por ambas representaciones, sin modificar BD
+    criterios = [g.user_id, str(g.user_id)]
+    try:
+        criterios.append(ObjectId(g.user_id))
+    except Exception:
+        pass
+
+    comps = list(db_system.Competiciones.find({"participantes": {"$in": criterios}}))
     return jsonify([serialize_doc(c) for c in comps]), 200
 
 
@@ -409,22 +450,49 @@ def modificar_competicion(comp_id):
 @app.route('/api/competiciones/unirse', methods=['POST'])
 @login_requerido
 def unirse_competicion():
-    data = request.json
+    data = request.json or {}
     codigo = data.get("codigoInvitacion")
+    comp_id = data.get("compId")
 
-    comp = db_system.Competiciones.find_one({"codigoInvitacion": codigo})
-    if not comp:
-        return jsonify({"error": "Competición no encontrada"}), 404
+    comp = None
 
-    if g.user_id in comp.get("participantes", []):
-        return jsonify({"error": "Ya estás en esta competición"}), 400
+    if comp_id:
+        # PÚBLICA por compId
+        try:
+            oid = ObjectId(comp_id)
+        except Exception:
+            return jsonify({"error": "compId inválido"}), 400
+        comp = db_system.Competiciones.find_one({"_id": oid})
+        if not comp:
+            return jsonify({"error": "Competición no encontrada"}), 404
+        if comp.get("tipo") != "publica":
+            return jsonify({"error": "Para ligas privadas debes usar código de invitación"}), 400
 
+    elif codigo is not None:
+        # PRIVADA por código (evitar None)
+        comp = db_system.Competiciones.find_one({"codigoInvitacion": codigo})
+        if not comp:
+            return jsonify({"error": "Competición no encontrada"}), 404
+        if comp.get("tipo") != "privada":
+            return jsonify({"error": "El código no corresponde a una liga privada"}), 400
+
+    else:
+        return jsonify({"error": "Debes enviar compId (pública) o codigoInvitacion (privada)"}), 400
+
+    # --- normalizamos participantes a string para comparar ---
+    participantes = [str(p) for p in comp.get("participantes", [])]
+
+    # ⚠️ Cambio clave: si ya estás, NO devolvemos error; hacemos la operación idempotente
+    if str(g.user_id) in participantes:
+        return jsonify({"mensaje": f"Ya estabas en '{comp.get('nombreCompeticion','Liga')}'. Todo ok."}), 200
+
+    # Alta segura (sin duplicados)
     db_system.Competiciones.update_one(
         {"_id": comp["_id"]},
-        {"$push": {"participantes": g.user_id}}
+        {"$addToSet": {"participantes": str(g.user_id)}}
     )
 
-    return jsonify({"mensaje": "Te has unido a la competición"}), 200
+    return jsonify({"mensaje": f"Te has unido a '{comp.get('nombreCompeticion','Liga')}'"}), 200
 
 @app.route('/api/competiciones/<comp_id>', methods=['GET'])
 @login_requerido
@@ -467,6 +535,57 @@ def get_clasificacion(comp_id):
 
     salida.sort(key=lambda x: x["puntosTotales"], reverse=True)
     return jsonify(salida), 200
+# --- MIS COMPETICIONES DEL USUARIO AUTENTICADO ---
+@app.route('/api/competiciones/mias', methods=['GET'])
+@login_requerido
+def mis_competiciones():
+    # Devuelve las competiciones donde el usuario esté en 'participantes'
+    comps = list(db_system.Competiciones.find(
+        {"participantes": g.user_id},
+        {"_id": 1, "nombreCompeticion": 1, "sistemaPuntuacion": 1}
+    ))
+    def serialize_comp(c):
+        return {
+            "id": str(c["_id"]),
+            "nombreCompeticion": c.get("nombreCompeticion", "Competición"),
+            "sistemaPuntuacion": c.get("sistemaPuntuacion", "Estandar"),
+        }
+    return jsonify([serialize_comp(c) for c in comps]), 200
+
+
+# --- JORNADA ACTUAL + PUNTOS DE ESA JORNADA (por equipos de la liga) ---
+@app.route('/api/competiciones/<comp_id>/jornada-actual', methods=['GET'])
+@login_requerido
+def get_jornada_actual_con_puntos(comp_id):
+    # 1) detectar jornadas procesadas
+    jornadas = db_system.Clasificaciones.distinct("jornada", {"competicionId": comp_id})
+    if not jornadas:
+        return jsonify({"numero": None, "resultados": []}), 200
+
+    numero = max(jornadas)
+
+    # 2) obtener puntos de esa jornada (mismo criterio que /jornadas/<numero>/puntos)
+    clasif = list(db_system.Clasificaciones.find({
+        "competicionId": comp_id,
+        "jornada": int(numero)
+    }))
+
+    resultados = []
+    for c in clasif:
+        equipo = db_system.EquiposFantasy.find_one({"_id": ObjectId(c["equipoId"])})
+        usuario = db_system.Usuarios.find_one({"_id": ObjectId(equipo["usuarioId"])}) if equipo else None
+        resultados.append({
+            "equipo":   equipo["nombreEquipo"] if equipo else "Equipo desconocido",
+            "usuario":  usuario["nombre"] if usuario else "Usuario desconocido",
+            "jornada":  c["jornada"],
+            "puntosJornada": c.get("puntosJornada", 0),
+            "puntosTotales": c.get("puntosTotales", 0),
+        })
+
+    # ordenar por puntos de la jornada
+    resultados.sort(key=lambda x: x["puntosJornada"], reverse=True)
+
+    return jsonify({"numero": int(numero), "resultados": resultados}), 200
 
 
 

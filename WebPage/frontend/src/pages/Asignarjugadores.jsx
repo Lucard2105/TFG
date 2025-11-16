@@ -21,13 +21,30 @@ function AsignarJugadores() {
   const [error, setError] = useState("")
   const [cargando, setCargando] = useState(true)
 
+  // 🔹 Cargar jugadores + equipo (para precargar los 5 jugadores ya elegidos)
   useEffect(() => {
-    api
-      .get("/api/jugadores")
-      .then((data) => setJugadores(data))
-      .catch((err) => setError(err.message))
-      .finally(() => setCargando(false))
-  }, [])
+    const cargarDatos = async () => {
+      try {
+        setCargando(true)
+        setError("")
+        const [jugData, equipoData] = await Promise.all([
+          api.get("/api/jugadores"),
+          api.get(`/api/equipos/${equipoId}`),
+        ])
+
+        setJugadores(jugData)
+        setSeleccionados(equipoData.jugadoresSeleccionados || [])
+      } catch (err) {
+        setError(err.message || "Error al cargar datos")
+      } finally {
+        setCargando(false)
+      }
+    }
+
+    if (equipoId) {
+      cargarDatos()
+    }
+  }, [equipoId])
 
   const toggleJugador = (id) => {
     if (seleccionados.includes(id)) {
@@ -37,7 +54,8 @@ function AsignarJugadores() {
         setSeleccionados((prev) => [...prev, id])
       } else {
         setError("Solo puedes elegir 5 jugadores")
-        setTimeout(() => setError(""), 2000)
+        window.scrollTo({ top: 0, behavior: "smooth" })
+        setTimeout(() => setError(""), 2500)
       }
     }
   }
@@ -49,12 +67,27 @@ function AsignarJugadores() {
       const data = await api.put(`/api/equipos/${equipoId}/jugadores`, {
         jugadores: seleccionados,
       })
-      setMensaje(data.mensaje)
-      setTimeout(() => setMensaje(""), 2000)
+
+      setMensaje(data.mensaje || "Alineación guardada correctamente ✅")
+      // Subimos arriba del todo para que se vea el aviso
+      window.scrollTo({ top: 0, behavior: "smooth" })
+      // Ocultamos el mensaje tras unos segundos
+      setTimeout(() => setMensaje(""), 3000)
     } catch (err) {
-      setError(err.message)
+      setMensaje("")
+      setError(
+        err.message ||
+          "Ha ocurrido un error al guardar la alineación. Revisa los datos e inténtalo de nuevo."
+      )
+      window.scrollTo({ top: 0, behavior: "smooth" })
+      setTimeout(() => setError(""), 4000)
     }
   }
+
+  // 🔹 Jugadores seleccionados con info completa (para mostrarlos arriba)
+  const seleccionadosDetallados = seleccionados
+    .map((id) => jugadores.find((j) => j.Identificador === id))
+    .filter(Boolean)
 
   const posiciones = Array.from(
     new Map(
@@ -97,7 +130,11 @@ function AsignarJugadores() {
   })
 
   if (cargando)
-    return <p className="text-center text-gray-500 mt-6">Cargando jugadores...</p>
+    return (
+      <p className="text-center text-gray-500 mt-6">
+        Cargando jugadores...
+      </p>
+    )
 
   return (
     <div className="max-w-6xl mx-auto bg-white rounded-xl shadow-lg p-6">
@@ -105,10 +142,74 @@ function AsignarJugadores() {
         Asignar Jugadores al Equipo
       </h2>
 
-      {error && <p className="text-center text-red-500">{error}</p>}
-      {mensaje && <p className="text-center text-green-600">{mensaje}</p>}
+      {/* 🔹 Mensajes globales de éxito / error */}
+      {mensaje && (
+        <div className="mb-4 flex justify-center">
+          <div className="inline-flex items-center gap-2 bg-green-50 border border-green-300 text-green-800 px-4 py-2 rounded-lg text-sm shadow-sm">
+            <span className="text-lg">✅</span>
+            <span>{mensaje}</span>
+          </div>
+        </div>
+      )}
 
-      {/* Filtros */}
+      {error && (
+        <div className="mb-4 flex justify-center">
+          <div className="inline-flex items-center gap-2 bg-red-50 border border-red-300 text-red-800 px-4 py-2 rounded-lg text-sm shadow-sm">
+            <span className="text-lg">⚠️</span>
+            <span>{error}</span>
+          </div>
+        </div>
+      )}
+
+      {/* 🔹 Panel con los jugadores actualmente seleccionados */}
+      {seleccionadosDetallados.length > 0 && (
+        <div className="mb-5 border rounded-lg p-3 bg-gray-50">
+          <p className="text-sm font-semibold text-gray-700 mb-2">
+            Jugadores actualmente seleccionados ({seleccionados.length}/5)
+          </p>
+          <div className="flex flex-wrap gap-2">
+            {seleccionadosDetallados.map((j) => (
+              <div
+                key={j.Identificador}
+                className="flex items-center gap-2 bg-white border rounded-full px-3 py-1 text-xs shadow-sm"
+              >
+                <span className="font-semibold text-[#1e3a8a]">
+                  {j.NombreCorto ||
+                    j.NombreCompleto ||
+                    j.Nombre ||
+                    "Jugador"}
+                </span>
+                <span className="text-gray-500">
+                  ({j.Posicion || "Sin posición"})
+                </span>
+
+                {/* Botón que filtra por la posición de este jugador */}
+                <button
+                  type="button"
+                  onClick={() =>
+                    setFiltroPosicion(j.Posicion || "todos")
+                  }
+                  className="text-[10px] uppercase tracking-wide font-semibold text-[#dc2626]"
+                >
+                  Ver {j.Posicion || "todos"}
+                </button>
+
+                {/* Quitar jugador directamente */}
+                <button
+                  type="button"
+                  onClick={() => toggleJugador(j.Identificador)}
+                  className="text-[10px] text-gray-400 hover:text-gray-700"
+                  title="Quitar de la alineación"
+                >
+                  ✕
+                </button>
+              </div>
+            ))}
+          </div>
+        </div>
+      )}
+
+      {/* Filtros generales */}
       <div className="flex flex-col md:flex-row gap-4 justify-center mb-6">
         <input
           type="text"
@@ -125,7 +226,9 @@ function AsignarJugadores() {
         >
           <option value="todos">Todas las posiciones</option>
           {posiciones.map((p) => (
-            <option key={p} value={p}>{p}</option>
+            <option key={p} value={p}>
+              {p}
+            </option>
           ))}
         </select>
 
@@ -136,7 +239,9 @@ function AsignarJugadores() {
         >
           <option value="todos">Todos los equipos</option>
           {equipos.map((e) => (
-            <option key={e} value={e}>{e}</option>
+            <option key={e} value={e}>
+              {e}
+            </option>
           ))}
         </select>
       </div>
@@ -156,11 +261,15 @@ function AsignarJugadores() {
                 type="button"
                 onClick={() => toggleJugador(j.Identificador)}
                 className={`text-left border rounded-lg p-4 hover:shadow-md transition ${
-                  seleccionado ? "border-[#dc2626] bg-red-50" : "border-gray-200"
+                  seleccionado
+                    ? "border-[#dc2626] bg-red-50"
+                    : "border-gray-200"
                 }`}
               >
                 <h3 className="text-lg font-semibold text-[#1e3a8a] mb-2">
-                  {j.NombreCompleto || j.Nombre || "Jugador sin nombre"}
+                  {j.NombreCompleto ||
+                    j.Nombre ||
+                    "Jugador sin nombre"}
                 </h3>
                 <p className="text-gray-700 text-sm mb-1">
                   <span className="font-semibold">Equipo:</span>{" "}
@@ -195,5 +304,7 @@ function AsignarJugadores() {
 }
 
 export default AsignarJugadores
+
+
 
 

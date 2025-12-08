@@ -649,6 +649,26 @@ def procesar_jornada(comp_id):
                 for ident, pts in pts_partido.items():
                     puntos_por_sistema[sistema][ident] = puntos_por_sistema[sistema].get(ident, 0) + pts
 
+    # 4bis. Guardar estadísticas de jugadores para ESTA liga y ESTA jornada
+    sistema_comp = comp.get("sistemaPuntuacion", "Estandar")
+    puntos_jornada_comp = puntos_por_sistema.get(sistema_comp, {})
+
+    for jugador_id, pts in puntos_jornada_comp.items():
+        db_system.StatsJugadoresLiga.update_one(
+            {
+                "competicionId": comp_id,
+                "jugadorId": jugador_id,
+                "jornada": numero_jornada
+            },
+            {
+                "$set": {
+                    "sistemaPuntuacion": sistema_comp,
+                    "puntosJornada": pts
+                }
+            },
+            upsert=True
+        )
+
     # 5. Repartir puntos a equipos en esa competición
     equipos = list(db_system.EquiposFantasy.find({"competicionId": comp_id}))
     for equipo in equipos:
@@ -723,7 +743,136 @@ def get_jornadas_procesadas(comp_id):
     jornadas = sorted(jornadas)
     return jsonify(jornadas), 200
 
+@app.route('/api/competiciones/<comp_id>/jugadores/stats', methods=['GET'])
+@login_requerido
+def stats_jugadores_liga(comp_id):
+    """
+    Devuelve estadísticas de jugadores para una competición concreta,
+    sumando los puntos desde la jornada 1 hasta 'hastaJornada'.
 
+    Si no se pasa ?hastaJornada=..., usa automáticamente la última jornada
+    procesada de esa liga (según Clasificaciones).
+    """
+
+    # 1) Determinar hasta qué jornada sumar
+    hasta = request.args.get("hastaJornada", None, type=int)
+
+    if hasta is None:
+        # usamos las jornadas que ya tienes en Clasificaciones para esta liga
+        jornadas = db_system.Clasificaciones.distinct("jornada", {"competicionId": comp_id})
+        if not jornadas:
+            return jsonify({"hastaJornada": None, "jugadores": []}), 200
+        hasta = max(jornadas)
+
+    # 2) Agrupar puntos de StatsJugadoresLiga hasta esa jornada
+    pipeline = [
+        {"$match": {
+            "competicionId": comp_id,
+            "jornada": {"$lte": hasta}
+        }},
+        {"$group": {
+            "_id": "$jugadorId",
+            "puntosTotales": {"$sum": "$puntosJornada"}
+        }},
+        {"$sort": {"puntosTotales": -1}},
+    ]
+
+    agg = list(db_system.StatsJugadoresLiga.aggregate(pipeline))
+
+    # 3) Enriquecer con datos del jugador real
+    ids = [a["_id"] for a in agg]
+    jugadores_docs = list(db.Jugadores.find({"Identificador": {"$in": ids}}))
+    por_id = {j["Identificador"]: j for j in jugadores_docs}
+
+    salida = []
+    for a in agg:
+        ident = a["_id"]
+        j = por_id.get(ident, {})
+        salida.append({
+            "jugadorId": ident,
+            "nombre": j.get("NombreCompleto") or j.get("Nombre") or ident,
+            "equipoReal": j.get("Equipo", "—"),
+            "posicion": j.get("Posicion", "—"),
+            "puntosTotales": a["puntosTotales"]
+        })
+
+    return jsonify({
+        "hastaJornada": hasta,
+        "jugadores": salida
+    }), 200
+
+
+@app.route('/api/competiciones/<comp_id>/jugadores/stats-resumen', methods=['GET'])
+@login_requerido
+def stats_jugadores_liga_resumen(comp_id):
+    """
+    Devuelve, para cada jugador de una competición, los puntos de las
+    últimas N jornadas (por defecto 5) procesadas en esa liga.
+    """
+    N = 5
+
+    # 1) Jornadas disponibles en StatsJugadoresLiga para esa competicion
+    jornadas = db_system.StatsJugadoresLiga.distinct("jornada", {"competicionId": comp_id})
+    if not jornadas:
+        return jsonify({"jornadas": [], "jugadores": []}), 200
+
+    jornadas_ordenadas = sorted(jornadas)  # [1,2,3,4,5,6,7,...]
+    ultimas = jornadas_ordenadas[-N:]      # últimas N
+
+    # 2) Agrupar puntos por jugador y jornada
+    pipeline = [
+        {"$match": {
+            "competicionId": comp_id,
+            "jornada": {"$in": ultimas}
+        }},
+        {"$group": {
+            "_id": {
+                "jugadorId": "$jugadorId",
+                "jornada": "$jornada"
+            },
+            "puntos": {"$sum": "$puntosJornada"}
+        }}
+    ]
+
+    agg = list(db_system.StatsJugadoresLiga.aggregate(pipeline))
+
+    # 3) Construir mapa {jugadorId: {jornada: puntos}}
+    stats_por_jugador = {}
+    for doc in agg:
+        jid = doc["_id"]["jugadorId"]
+        jor = doc["_id"]["jornada"]
+        pts = doc["puntos"]
+
+        if jid not in stats_por_jugador:
+            stats_por_jugador[jid] = {}
+        stats_por_jugador[jid][jor] = pts
+
+    # 4) Cargar datos de jugadores reales
+    ids = list(stats_por_jugador.keys())
+    jugadores_docs = list(db.Jugadores.find({"Identificador": {"$in": ids}}))
+    por_id = {j["Identificador"]: j for j in jugadores_docs}
+
+    # 5) Preparar salida
+    jugadores_salida = []
+    for jid, mapa_jornadas in stats_por_jugador.items():
+        j = por_id.get(jid, {})
+        # puntos en el orden de las jornadas seleccionadas
+        puntos_por_jornada = [mapa_jornadas.get(jor, 0) for jor in ultimas]
+        media = sum(puntos_por_jornada) / len(puntos_por_jornada) if puntos_por_jornada else 0.0
+
+        jugadores_salida.append({
+            "jugadorId": jid,
+            "nombre": j.get("NombreCompleto") or j.get("Nombre") or jid,
+            "equipoReal": j.get("Equipo", "—"),
+            "posicion": j.get("Posicion", "—"),
+            "puntosPorJornada": puntos_por_jornada,
+            "mediaUltimas": media
+        })
+
+    return jsonify({
+        "jornadas": ultimas,
+        "jugadores": jugadores_salida
+    }), 200
 
 @app.route('/api/dashboard/<comp_id>', methods=['GET'])
 @login_requerido

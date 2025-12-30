@@ -166,6 +166,32 @@ def reset_contraseña():
     )
 
     return jsonify({"mensaje": "Contraseña actualizada correctamente"}), 200
+
+@app.route('/api/competiciones/<comp_id>', methods=['DELETE'])
+@login_requerido
+def eliminar_competicion(comp_id):
+    try:
+        oid = ObjectId(comp_id)
+    except Exception:
+        return jsonify({"error": "ID de competición inválido"}), 400
+
+    comp = db_system.Competiciones.find_one({"_id": oid})
+    if not comp:
+        return jsonify({"error": "Competición no encontrada"}), 404
+
+    # Solo el creador (primer participante) puede eliminarla
+    if comp["participantes"][0] != g.user_id:
+        return jsonify({"error": "Solo el administrador puede eliminar la liga"}), 403
+
+    # 🔥 Limpieza en cascada
+    db_system.EquiposFantasy.delete_many({"competicionId": comp_id})
+    db_system.Clasificaciones.delete_many({"competicionId": comp_id})
+    db_system.StatsJugadoresLiga.delete_many({"competicionId": comp_id})
+
+    db_system.Competiciones.delete_one({"_id": oid})
+
+    return jsonify({"mensaje": "Competición eliminada correctamente"}), 200
+
 @app.route('/api/competiciones/<comp_id>/abandonar', methods=['DELETE'])
 @login_requerido
 def abandonar_competicion(comp_id):

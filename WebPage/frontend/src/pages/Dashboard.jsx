@@ -738,11 +738,6 @@ function Dashboard() {
               Editar competición
             </button>
           </Link>
-          <Link to={`/competiciones/${compId}/procesar`}>
-            <button className="bg-[#dc2626] hover:bg-[#b91c1c] text-white px-4 py-2.5 rounded-lg text-sm font-semibold shadow-sm">
-              Procesar jornada
-            </button>
-          </Link>
         </div>
       </div>
     </div>
@@ -750,3 +745,13 @@ function Dashboard() {
 }
 
 export default Dashboard
+
+
+/*          
+          <Link to={`/competiciones/${compId}/procesar`}>
+            <button className="bg-[#dc2626] hover:bg-[#b91c1c] text-white px-4 py-2.5 rounded-lg text-sm font-semibold shadow-sm">
+              Procesar jornada
+            </button>
+          </Link>
+
+*/

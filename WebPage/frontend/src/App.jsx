@@ -149,27 +149,81 @@ function App() {
     // ===== Posiciones sobre el campo (rombo 3–1) =====
     // 0 Portero, 1 Cierre, 2 Ala izq, 3 Ala dcha, 4 Pívot
     const playerSlots = [
-      {
-        cls: "top-[82%] left-1/2 -translate-x-1/2",
-        rol: "Portero",
-      },
-      {
-        cls: "top-[65%] left-1/2 -translate-x-1/2",
-        rol: "Cierre",
-      },
-      {
-        cls: "top-[45%] left-[24%] -translate-x-1/2",
-        rol: "Ala",
-      },
-      {
-        cls: "top-[45%] left-[76%] -translate-x-1/2",
-        rol: "Ala",
-      },
-      {
-        cls: "top-[20%] left-1/2 -translate-x-1/2",
-        rol: "Pívot",
-      },
+      { cls: "top-[82%] left-1/2 -translate-x-1/2", rol: "Portero" },
+      { cls: "top-[65%] left-1/2 -translate-x-1/2", rol: "Cierre" },
+      { cls: "top-[45%] left-[24%] -translate-x-1/2", rol: "Ala" },
+      { cls: "top-[45%] left-[76%] -translate-x-1/2", rol: "Ala" },
+      { cls: "top-[20%] left-1/2 -translate-x-1/2", rol: "Pívot" },
     ]
+
+    // Normaliza “Pívot/pivot/PIVOT” etc
+    const normPos = (s) =>
+      String(s || "")
+        .toLowerCase()
+        .normalize("NFD")
+        .replace(/[\u0300-\u036f]/g, "")
+        .trim()
+
+    const makePlayerObj = (j, fallbackIdx = 0) => {
+      const nombreCompleto =
+        j?.NombreCompleto || j?.NombreCorto || j?.Identificador || "—"
+      const shortName =
+        j?.NombreCorto ||
+        (typeof nombreCompleto === "string"
+          ? nombreCompleto.split(" ")[0]
+          : nombreCompleto)
+
+      const dorsal =
+        j?.Dorsal ??
+        j?.dorsal ??
+        j?.Numero ??
+        j?.numero ??
+        j?.Camiseta ??
+        j?.camiseta ??
+        fallbackIdx + 1
+
+      return {
+        id: j?.Identificador,
+        nombre: nombreCompleto,
+        shortName,
+        posicion: j?.Posicion || "—",
+        equipoReal: j?.Equipo || "—",
+        dorsal,
+      }
+    }
+
+    // Coloca los jugadores por la posición real (Portero/Cierre/Ala/Ala/Pívot)
+    const orderBySlots = (players) => {
+      const used = new Set()
+      const want = ["portero", "cierre", "ala", "ala", "pivot"]
+
+      const pick = (target) => {
+        const idx = players.findIndex((p) => !used.has(p.id) && normPos(p.posicion) === target)
+        if (idx === -1) return null
+        const p = players[idx]
+        used.add(p.id)
+        return p
+      }
+
+      const out = []
+      for (const target of want) {
+        const found = pick(target)
+        if (found) out.push(found)
+      }
+
+      // Si faltase alguna posición (datos raros), rellena con los restantes (sin romper UI)
+      if (out.length < 5) {
+        for (const p of players) {
+          if (out.length >= 5) break
+          if (!used.has(p.id)) {
+            used.add(p.id)
+            out.push(p)
+          }
+        }
+      }
+
+      return out
+    }
 
     const loadFixturesForRound = async (roundNumber, signal) => {
       if (roundNumber == null) {
@@ -177,23 +231,17 @@ function App() {
         return
       }
       try {
-        const all = await safeGet("/api/resultados", {
-          auth: false,
-          signal,
-        })
+        const all = await safeGet("/api/resultados", { auth: false, signal })
         const docs = Array.isArray(all) ? all : []
 
-        const docsDeJornada = docs.filter(
-          (d) => d["Numero de Jornada"] === roundNumber
-        )
+        const docsDeJornada = docs.filter((d) => d["Numero de Jornada"] === roundNumber)
         const enfTodos = docsDeJornada.flatMap((d) =>
           Array.isArray(d.Enfrentamientos) ? d.Enfrentamientos : []
         )
 
         const normalizados = enfTodos.map((m) => {
           const local = m["Equipo Local"] || m.local || m.Local || ""
-          const visitante =
-            m["Equipo Visitante"] || m.visitante || m.Visitante || ""
+          const visitante = m["Equipo Visitante"] || m.visitante || m.Visitante || ""
           const gl =
             m["Goles Local"] ??
             m.golesLocal ??
@@ -253,9 +301,7 @@ function App() {
               return (
                 <li key={i} className="border rounded-xl p-3 bg-white">
                   <div className="grid grid-cols-[1fr_auto_1fr] items-center gap-3">
-                    <span className="font-medium truncate text-gray-800">
-                      {m.local}
-                    </span>
+                    <span className="font-medium truncate text-gray-800">{m.local}</span>
                     <span className="text-lg font-semibold text-center min-w-[56px] text-[#003087]">
                       {score}
                     </span>
@@ -273,9 +319,7 @@ function App() {
       return (
         <EmptyState
           text={
-            selectedId
-              ? "No hay resultados para esta jornada."
-              : "Selecciona una liga."
+            selectedId ? "No hay resultados para esta jornada." : "Selecciona una liga."
           }
         />
       )
@@ -331,10 +375,9 @@ function App() {
 
         // 1) clasificación
         try {
-          const cls = await safeGet(
-            `/api/competiciones/${selectedId}/clasificacion`,
-            { signal: ctrl.signal }
-          )
+          const cls = await safeGet(`/api/competiciones/${selectedId}/clasificacion`, {
+            signal: ctrl.signal,
+          })
           setStandings(Array.isArray(cls) ? cls : [])
         } catch (_) {
           setStandings([])
@@ -343,14 +386,11 @@ function App() {
         // 2) jornadas procesadas
         let jornadasProcesadas = []
         try {
-          const js = await safeGet(
-            `/api/competiciones/${selectedId}/jornadas`,
-            { signal: ctrl.signal }
-          )
+          const js = await safeGet(`/api/competiciones/${selectedId}/jornadas`, {
+            signal: ctrl.signal,
+          })
           if (Array.isArray(js) && js.length) {
-            jornadasProcesadas = js
-              .map((n) => +n)
-              .filter((n) => !Number.isNaN(n))
+            jornadasProcesadas = js.map((n) => +n).filter((n) => !Number.isNaN(n))
           }
         } catch (_) {
           jornadasProcesadas = []
@@ -362,10 +402,9 @@ function App() {
         // 3) determinar NÚMERO DE JORNADA objetivo
         let numeroObjetivo = null
         try {
-          const ji = await safeGet(
-            `/api/competiciones/${selectedId}/jornada-actual`,
-            { signal: ctrl.signal }
-          )
+          const ji = await safeGet(`/api/competiciones/${selectedId}/jornada-actual`, {
+            signal: ctrl.signal,
+          })
           if (ji && typeof ji.numero === "number") numeroObjetivo = ji.numero
         } catch (_) {}
 
@@ -383,50 +422,44 @@ function App() {
           setFixtures([])
         }
 
-        // 5) mi equipo + jugadores
+        // 5) mi equipo + jugadores (ordenados por posición REAL)
         try {
           const dash = await safeGet(`/api/dashboard/${selectedId}`, {
             signal: ctrl.signal,
           })
+
           if (dash?.equipoActual) {
             setMyTeam(dash.equipoActual)
-            const ids = new Set(dash.equipoActual.jugadoresSeleccionados || [])
-            if (ids.size) {
+
+            const selectedIds = Array.isArray(dash.equipoActual.jugadoresSeleccionados)
+              ? dash.equipoActual.jugadoresSeleccionados
+              : []
+
+            if (selectedIds.length) {
               const allPlayers = await safeGet("/api/jugadores", {
                 auth: false,
                 signal: ctrl.signal,
               })
-              const players = Array.isArray(allPlayers)
-                ? allPlayers
-                    .filter((j) => ids.has(j.Identificador))
-                    .map((j, idx) => {
-                      const nombreCompleto =
-                        j.NombreCompleto || j.NombreCorto || j.Identificador
-                      const shortName =
-                        j.NombreCorto ||
-                        (typeof nombreCompleto === "string"
-                          ? nombreCompleto.split(" ")[0]
-                          : nombreCompleto)
-                      const dorsal =
-                        j.Dorsal ??
-                        j.dorsal ??
-                        j.Numero ??
-                        j.numero ??
-                        j.Camiseta ??
-                        j.camiseta ??
-                        idx + 1
 
-                      return {
-                        id: j.Identificador,
-                        nombre: nombreCompleto,
-                        shortName,
-                        posicion: j.Posicion || "—",
-                        equipoReal: j.Equipo || "—",
-                        dorsal,
-                      }
-                    })
-                : []
-              setMyPlayers(players)
+              const byId = new Map(
+                (Array.isArray(allPlayers) ? allPlayers : []).map((j) => [
+                  j.Identificador,
+                  j,
+                ])
+              )
+
+              // 1) construimos lista base siguiendo el orden del equipo
+              const base = selectedIds
+                .map((id, idx) => {
+                  const j = byId.get(id)
+                  return j ? makePlayerObj(j, idx) : null
+                })
+                .filter(Boolean)
+
+              // 2) reordenamos por slots (portero/cierre/ala/ala/pivot)
+              const ordered = orderBySlots(base)
+
+              setMyPlayers(ordered)
             } else {
               setMyPlayers([])
             }
@@ -452,17 +485,16 @@ function App() {
           {/* Hero */}
           <div className="text-center">
             <h2 className="text-2xl md:text-3xl font-extrabold text-[#1e3a8a] mb-2">
-              Bienvenido a Fantasy{" "}
-              <span className="text-[#dc2626]">LNFS</span>
+              Bienvenido a Fantasy <span className="text-[#dc2626]">LNFS</span>
             </h2>
             <p className="text-gray-600 text-sm md:text-base">
               Crea tu equipo, compite y demuestra que eres el mejor manager ⚽
             </p>
           </div>
 
-          {/* Acciones rápidas (3 tarjetas superiores) */}
+          {/* Acciones rápidas (QUITAMOS la tarjeta naranja de Resultados) */}
           {isLoggedIn ? (
-            <div className="grid md:grid-cols-3 gap-4">
+            <div className="grid md:grid-cols-2 gap-4">
               <Link
                 to="/misequipos"
                 className="group relative overflow-hidden rounded-2xl bg-gradient-to-br from-sky-600 to-sky-800 text-white p-5 shadow-lg flex flex-col justify-between"
@@ -502,48 +534,17 @@ function App() {
                   Ver ligas →
                 </span>
               </Link>
-
-              <Link
-                to="/resultados"
-                className="group relative overflow-hidden rounded-2xl bg-gradient-to-br from-amber-500 to-orange-600 text-white p-5 shadow-lg flex flex-col justify-between"
-              >
-                <div className="flex items-center gap-3">
-                  <div className="flex h-10 w-10 items-center justify-center rounded-full bg-white/10 text-2xl">
-                    📊
-                  </div>
-                  <div>
-                    <h3 className="text-lg font-semibold">Resultados</h3>
-                    <p className="text-xs text-amber-100">
-                      Consulta marcadores, jornadas y tendencias.
-                    </p>
-                  </div>
-                </div>
-                <span className="mt-4 text-xs font-semibold text-amber-100 group-hover:text-white">
-                  Ver resultados →
-                </span>
-              </Link>
             </div>
           ) : (
             <div className="grid sm:grid-cols-2 gap-4">
-              <CardLink
-                to="/login"
-                title="Iniciar sesión"
-                desc="Accede a tu cuenta"
-                primary
-              />
-              <CardLink
-                to="/register"
-                title="Registrarse"
-                desc="Crea tu cuenta en segundos"
-              />
+              <CardLink to="/login" title="Iniciar sesión" desc="Accede a tu cuenta" primary />
+              <CardLink to="/register" title="Registrarse" desc="Crea tu cuenta en segundos" />
             </div>
           )}
 
           {/* Tus ligas */}
           <section className="bg-white rounded-2xl shadow-md p-5 space-y-6 border border-sky-100">
-            <h3 className="text-xl font-semibold text-[#1e3a8a]">
-              Tus ligas
-            </h3>
+            <h3 className="text-xl font-semibold text-[#1e3a8a]">Tus ligas</h3>
 
             {!isLoggedIn && (
               <EmptyState text="Inicia sesión para ver tus ligas.">
@@ -574,9 +575,7 @@ function App() {
                   ) : hasLeagues ? (
                     <select
                       value={selectedId || ""}
-                      onChange={(e) =>
-                        setSelectedId(e.target.value || null)
-                      }
+                      onChange={(e) => setSelectedId(e.target.value || null)}
                       className="w-56 border rounded-lg px-3 py-2 text-sm focus:outline-none focus:ring-2 focus:ring-[#1e3a8a] bg-white"
                     >
                       {leagues.map((l) => (
@@ -586,13 +585,11 @@ function App() {
                       ))}
                     </select>
                   ) : (
-                    <span className="text-gray-500 text-sm">
-                      No estás en ninguna liga.
-                    </span>
+                    <span className="text-gray-500 text-sm">No estás en ninguna liga.</span>
                   )}
                 </div>
 
-                {/* Clasificación con el MISMO formato que Clasificacion.jsx */}
+                {/* Clasificación */}
                 <div className="bg-white rounded-xl shadow border border-gray-200 p-4 space-y-3">
                   <div className="flex items-center justify-between mb-2">
                     <h4 className="text-lg font-semibold text-[#1e3a8a] border-b-2 border-[#dc2626] pb-1">
@@ -601,7 +598,7 @@ function App() {
                     {selectedId && (
                       <Link
                         to={`/competiciones/${selectedId}/clasificacion`}
-                        className="text-sm text-[#1e3a8a] hover:underline"
+                        className="bg-[#1e3a8a] text-white text-xs font-semibold px-3 py-1.5 rounded-lg hover:bg-[#132c70] transition"
                       >
                         Ver detalle →
                       </Link>
@@ -619,76 +616,49 @@ function App() {
                               <th className="py-3 px-4 text-left">#</th>
                               <th className="py-3 px-4 text-left">Equipo</th>
                               <th className="py-3 px-4 text-left">Usuario</th>
-                              <th className="py-3 px-4 text-center">
-                                Jornada
-                              </th>
-                              <th className="py-3 px-4 text-center">
-                                Pts Jornada
-                              </th>
+                              <th className="py-3 px-4 text-center">Jornada</th>
+                              <th className="py-3 px-4 text-center">Pts Jornada</th>
                               <th className="py-3 px-4 text-center">Total</th>
                             </tr>
                           </thead>
 
                           <tbody className="divide-y divide-gray-200">
                             {standings.map((row, i) => {
-                              const rowBgBase =
-                                "bg-slate-50 hover:bg-slate-100"
-                              let podiumBorder =
-                                "border-l-4 border-transparent"
-                              if (i === 0)
-                                podiumBorder = "border-l-4 border-amber-400"
-                              if (i === 1)
-                                podiumBorder = "border-l-4 border-sky-400"
-                              if (i === 2)
-                                podiumBorder = "border-l-4 border-emerald-400"
+                              const rowBgBase = "bg-slate-50 hover:bg-slate-100"
+                              let podiumBorder = "border-l-4 border-transparent"
+                              if (i === 0) podiumBorder = "border-l-4 border-amber-400"
+                              if (i === 1) podiumBorder = "border-l-4 border-sky-400"
+                              if (i === 2) podiumBorder = "border-l-4 border-emerald-400"
 
                               const jornada =
-                                row.jornada ??
-                                row.numeroJornada ??
-                                row.jornadaActual ??
-                                "-"
-                              const isNumber =
-                                typeof row.puntosJornada === "number"
-                              const pj = isNumber ? row.puntosJornada : null
-                              const pjDisplay =
-                                pj === null || Number.isNaN(pj) ? "-" : pj
+                                row.jornada ?? row.numeroJornada ?? row.jornadaActual ?? "-"
 
-                              let pjClass =
-                                "bg-slate-100 text-slate-700"
+                              const isNumber = typeof row.puntosJornada === "number"
+                              const pj = isNumber ? row.puntosJornada : null
+                              const pjDisplay = pj === null || Number.isNaN(pj) ? "-" : pj
+
+                              let pjClass = "bg-slate-100 text-slate-700"
                               if (pj !== null && !Number.isNaN(pj)) {
-                                if (pj >= 10) {
-                                  pjClass = "bg-green-100 text-green-700"
-                                } else if (pj >= 3) {
-                                  pjClass = "bg-yellow-100 text-yellow-700"
-                                } else {
-                                  pjClass = "bg-red-100 text-red-700"
-                                }
+                                if (pj >= 10) pjClass = "bg-green-100 text-green-700"
+                                else if (pj >= 3) pjClass = "bg-yellow-100 text-yellow-700"
+                                else pjClass = "bg-red-100 text-red-700"
                               }
 
-                              const totalDisplay =
-                                row.puntosTotales ?? row.total ?? "-"
+                              const totalDisplay = row.puntosTotales ?? row.total ?? "-"
 
                               return (
                                 <tr
                                   key={i}
                                   className={`transition-colors ${rowBgBase} ${podiumBorder}`}
                                 >
-                                  <td className="py-3 px-4 font-semibold">
-                                    {i + 1}
-                                  </td>
-
+                                  <td className="py-3 px-4 font-semibold">{i + 1}</td>
                                   <td className="py-3 px-4 font-medium text-[#003087]">
                                     {row.equipo}
                                   </td>
-
-                                  <td className="py-3 px-4 text-gray-700">
-                                    {row.usuario}
-                                  </td>
-
+                                  <td className="py-3 px-4 text-gray-700">{row.usuario}</td>
                                   <td className="py-3 px-4 text-center text-gray-600">
                                     {jornada}
                                   </td>
-
                                   <td className="py-3 px-4 text-center">
                                     <span
                                       className={`px-3 py-1 rounded-full text-xs font-semibold ${pjClass}`}
@@ -696,7 +666,6 @@ function App() {
                                       {pjDisplay}
                                     </span>
                                   </td>
-
                                   <td className="py-3 px-4 text-center">
                                     <span className="px-4 py-1 rounded-full bg-sky-100 text-[#003087] font-bold text-xs shadow-sm">
                                       {totalDisplay}
@@ -711,11 +680,7 @@ function App() {
                     </div>
                   ) : (
                     <EmptyState
-                      text={
-                        selectedId
-                          ? "Sin datos de clasificación."
-                          : "Selecciona una liga."
-                      }
+                      text={selectedId ? "Sin datos de clasificación." : "Selecciona una liga."}
                     />
                   )}
                 </div>
@@ -728,10 +693,12 @@ function App() {
                       <h4 className="text-lg font-semibold text-[#1e3a8a] border-b-2 border-[#dc2626] pb-1">
                         Mi equipo
                       </h4>
+
+                      {/* EDITAR: ahora va a /misequipos */}
                       {myTeam?.equipoId && (
                         <Link
-                          to={`/equipos/${myTeam.equipoId}/jugadores`}
-                          className="text-sm text-[#1e3a8a] hover:underline"
+                          to="/misequipos"
+                          className="bg-[#1e3a8a] text-white text-sm font-semibold px-4 py-2 rounded-lg shadow hover:bg-[#132c70] transition"
                         >
                           Editar →
                         </Link>
@@ -747,9 +714,7 @@ function App() {
                             {myTeam.nombreEquipo || "Sin nombre"}
                           </span>
                           {myTeam.nombreLiga && (
-                            <span className="ml-2 text-xs text-gray-500">
-                              · {myTeam.nombreLiga}
-                            </span>
+                            <span className="ml-2 text-xs text-gray-500">· {myTeam.nombreLiga}</span>
                           )}
                         </div>
 
@@ -758,55 +723,47 @@ function App() {
                             <div
                               className="relative w-full max-w-xs mx-auto aspect-[9/16] rounded-2xl shadow-inner overflow-hidden border border-sky-200 bg-slate-900"
                               style={{
-                                backgroundImage:
-                                  "url('public/img/image.png')",
+                                backgroundImage: "url('public/img/image.png')",
                                 backgroundSize: "cover",
                                 backgroundPosition: "center",
                               }}
                             >
                               <div className="absolute inset-0 bg-slate-900/10" />
                               <div className="relative z-10 w-full h-full">
-                                {myPlayers
-                                  .slice(0, playerSlots.length)
-                                  .map((p, index) => {
-                                    const slot = playerSlots[index]
-                                    if (!slot) return null
+                                {myPlayers.slice(0, playerSlots.length).map((p, index) => {
+                                  const slot = playerSlots[index]
+                                  if (!slot) return null
 
-                                    const dorsal =
-                                      p.dorsal != null && p.dorsal !== ""
-                                        ? p.dorsal
-                                        : index + 1
+                                  const dorsal =
+                                    p.dorsal != null && p.dorsal !== "" ? p.dorsal : index + 1
 
-                                    return (
-                                      <div
-                                        key={p.id}
-                                        className={`absolute ${slot.cls} flex flex-col items-center`}
-                                      >
-                                        {/* FICHA MEJORADA */}
-                                        <div className="relative">
-                                          {/* sombra bajo la ficha */}
-                                          <div className="absolute inset-0 translate-y-1 rounded-full bg-black/40 blur-[3px]" />
-                                          {/* ficha principal */}
-                                          <div className="relative w-16 h-16 md:w-18 md:h-18 rounded-full bg-gradient-to-br from-[#1e3a8a] via-[#0f172a] to-[#dc2626] border-2 border-white/70 shadow-xl flex flex-col items-center justify-center text-center text-[8px] leading-tight px-1">
-                                            <span className="text-[8px] font-semibold text-sky-100 truncate w-[3rem]">
-                                              {p.shortName}
-                                            </span>
-                                            <span className="text-[13px] font-extrabold text-white leading-none mt-0.5 tracking-tight">
-                                              {dorsal}
-                                            </span>
-                                            <span className="text-[7px] uppercase tracking-wide text-sky-100/90 mt-0.5">
-                                              {slot.rol}
-                                            </span>
-                                          </div>
+                                  return (
+                                    <div
+                                      key={p.id || index}
+                                      className={`absolute ${slot.cls} flex flex-col items-center`}
+                                    >
+                                      <div className="relative">
+                                        <div className="absolute inset-0 translate-y-1 rounded-full bg-black/40 blur-[3px]" />
+                                        <div className="relative w-16 h-16 md:w-18 md:h-18 rounded-full bg-gradient-to-br from-[#1e3a8a] via-[#0f172a] to-[#dc2626] border-2 border-white/70 shadow-xl flex flex-col items-center justify-center text-center text-[8px] leading-tight px-1">
+                                          <span className="text-[8px] font-semibold text-sky-100 truncate w-[3rem]">
+                                            {p.shortName}
+                                          </span>
+                                          <span className="text-[13px] font-extrabold text-white leading-none mt-0.5 tracking-tight">
+                                            {dorsal}
+                                          </span>
+                                          <span className="text-[7px] uppercase tracking-wide text-sky-100/90 mt-0.5">
+                                            {slot.rol}
+                                          </span>
                                         </div>
                                       </div>
-                                    )
-                                  })}
+                                    </div>
+                                  )
+                                })}
                               </div>
                             </div>
                             <p className="mt-2 text-xs text-gray-500 text-center">
-                              Esquema 3–1: Portero, Cierre, Alas y Pívot
-                              (se muestran hasta 5 jugadores).
+                              Esquema 3–1: Portero, Cierre, Alas y Pívot (se muestran hasta 5
+                              jugadores).
                             </p>
                           </div>
                         ) : (
@@ -826,18 +783,12 @@ function App() {
                   <div className="bg-white rounded-xl shadow border border-gray-200 p-4 flex flex-col">
                     <div className="flex items-center justify-between mb-1">
                       <h4 className="text-lg font-semibold text-[#1e3a8a] flex items-center gap-3 border-b-2 border-[#dc2626] pb-1">
-                        <span>
-                          Resultados · Jornada {roundInfo?.numero ?? "—"}
-                        </span>
+                        <span>Resultados · Jornada {roundInfo?.numero ?? "—"}</span>
                         <div className="inline-flex items-center gap-1">
                           <button
                             type="button"
                             onClick={() => changeRound("prev")}
-                            disabled={
-                              !currentRound ||
-                              !minRound ||
-                              currentRound === minRound
-                            }
+                            disabled={!currentRound || !minRound || currentRound === minRound}
                             className="px-2 py-1 text-xs rounded-full border border-gray-300 bg-white disabled:opacity-40 disabled:cursor-not-allowed hover:bg-gray-50"
                           >
                             ←
@@ -845,11 +796,7 @@ function App() {
                           <button
                             type="button"
                             onClick={() => changeRound("next")}
-                            disabled={
-                              !currentRound ||
-                              !maxRound ||
-                              currentRound === maxRound
-                            }
+                            disabled={!currentRound || !maxRound || currentRound === maxRound}
                             className="px-2 py-1 text-xs rounded-full border border-gray-300 bg-white disabled:opacity-40 disabled:cursor-not-allowed hover:bg-gray-50"
                           >
                             →
@@ -858,9 +805,7 @@ function App() {
                       </h4>
                     </div>
 
-                    <div className="flex-1 flex flex-col justify-center">
-                      {renderResultados()}
-                    </div>
+                    <div className="flex-1 flex flex-col justify-center">{renderResultados()}</div>
                   </div>
                 </div>
               </>
@@ -901,14 +846,13 @@ function App() {
                 </Link>
               </>
             )}
-
-            <Link className="hover:text-[#dc2626]" to="/eventos">
+            {/* <Link className="hover:text-[#dc2626]" to="/eventos">
               Eventos
             </Link>
             <Link className="hover:text-[#dc2626]" to="/resultados">
               Resultados
             </Link>
-
+            */}
             {isLoggedIn ? (
               <button
                 onClick={handleLogout}
@@ -1018,10 +962,7 @@ function App() {
               </PrivateRoute>
             }
           />
-          <Route
-            path="/competiciones/:compId/stats"
-            element={<StatsJugadoresLiga />}
-          />
+          <Route path="/competiciones/:compId/stats" element={<StatsJugadoresLiga />} />
         </Routes>
       </main>
 

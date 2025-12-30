@@ -368,9 +368,9 @@ function Competiciones() {
 
             {/* Unirse por código */}
             <div className="border-t border-gray-200 pt-4">
-              <h4 className="font-medium text-gray-800 mb-2 text-sm">
-                Unirse a liga privada por código
-              </h4>
+              <h3 className="text-lg font-semibold text-[#003087] m-0">
+                Unirse a competiciones privadas por código
+              </h3>
               <form
                 onSubmit={unirsePrivada}
                 className="flex flex-col sm:flex-row gap-2"

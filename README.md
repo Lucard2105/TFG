@@ -5,50 +5,53 @@ Final Degree Project – Computer Science (2026)
 
 ## 1. Introduction
 
-Fantasy Futsal is a full-stack web application developed as a Final Degree Project in Computer Science. The system simulates a fantasy futsal league in which users create virtual teams composed of real players and earn points based on real match events.
+Fantasy Futsal is a full-stack web application developed as a Final Degree Project in Computer Science. The system simulates a fantasy futsal league platform in which users create virtual teams composed of real players and earn points based on actual match performance.
 
-The project demonstrates applied knowledge in backend architecture, RESTful API design, authentication mechanisms, data processing, automated scoring systems, and frontend-backend integration.
+The project focuses on backend architecture design, RESTful API implementation, authentication mechanisms, data persistence, event-driven scoring logic, and frontend-backend integration.
 
-The application has been designed following modular and maintainable software engineering principles.
+The system has been implemented following modular software engineering principles and separation of concerns between application layers.
 
 ---
 
-## 2. Project Scope and Objectives
+## 2. Objectives
 
-The primary objectives of this project are:
+The main objectives of this project are:
 
 - Design and implement a modular RESTful backend using Flask.
-- Develop a reactive frontend interface using React and Vite.
-- Implement JWT-based authentication for secure access control.
-- Create a configurable scoring engine that processes real match events.
-- Ensure separation of concerns between presentation, application, and data layers.
+- Develop a modern frontend interface using React and Vite.
+- Implement secure JWT-based authentication.
+- Integrate MongoDB as a persistent data storage solution.
+- Design an automated scoring engine for match event processing.
+- Ensure maintainability, scalability, and clear architectural separation.
 - Provide testing support for core functionalities.
 
 ---
 
 ## 3. System Architecture
 
-The system follows a client-server architecture with clear separation of responsibilities:
+The system follows a layered client-server architecture:
 
-### 3.1 Client Layer
-- React + Vite
-- Tailwind CSS
-- Fetch-based API communication
+<img width="289" height="361" alt="image" src="https://github.com/user-attachments/assets/0b15e30d-7977-4797-a7ad-63fdb481234f" />
 
-### 3.2 Application Layer
-- Flask REST API
-- Route-based modular structure
-- Middleware for authentication
-- Configurable environment-based behavior
+Client Layer  
+- React + Vite frontend  
+- API communication via HTTP  
 
-### 3.3 Data Layer
-- Structured JSON files:
-  - `Jugadores.json`
-  - `Eventos.json`
-  - `Resultados.json`
-- Scoring engine (`SistemaPuntuacion.py`)
+Application Layer  
+- Flask REST API  
+- Route-based modular structure  
+- Authentication middleware (JWT)  
 
-Communication between frontend and backend is performed via HTTP using RESTful conventions.
+Data Layer  
+- MongoDB persistence layer  
+- Separate logical databases:
+  - FantasyLNFS (real players dataset)
+  - FantasySystem (users, fantasy teams, competitions, rankings)
+
+Processing Layer  
+- Scoring engine (SistemaPuntuacion.py)
+
+The architecture ensures clear separation between presentation logic, application logic, persistence, and data processing.
 
 ---
 
@@ -57,32 +60,59 @@ Communication between frontend and backend is performed via HTTP using RESTful c
 ### Backend
 - Python 3.9+
 - Flask
+- PyMongo
 - JWT Authentication
-- Pytest (testing framework)
+- Pytest
 - Virtual environment (venv)
 
 ### Frontend
 - React
 - Vite
 - Tailwind CSS
-- npm
+- Fetch API
+
+### Database
+- MongoDB (local or remote instance)
 
 ---
 
-## 5. Installation and Execution
+## 5. Database Architecture
 
-### 5.1 System Requirements
+The application uses MongoDB as its primary persistence layer.
+
+Two logical databases are used:
+
+### 5.1 FantasyLNFS
+Stores real player information and related structured data.
+
+### 5.2 FantasySystem
+Stores fantasy-specific data such as:
+- Users
+- Fantasy teams
+- Competitions
+- Scores
+- Leaderboards
+
+The repository does not include database dumps or production datasets.  
+This is intentional due to data volume, privacy considerations, and repository best practices.
+
+To execute the application locally, a MongoDB instance must be running and properly configured.
+
+---
+
+## 6. Installation Requirements
 
 - Python 3.9 or higher
 - Node.js v16 or higher
 - npm v8 or higher
-- Windows PowerShell (recommended for backend setup)
+- MongoDB installed and running locally (or accessible remotely)
+- Windows PowerShell (recommended for backend execution)
 
 ---
 
-## 6. Running the Application
+## 7. Running the Application
 
-### 6.1 Backend Execution
+### 7.1 Backend Execution
 
 Navigate to the backend directory:
 
@@ -90,34 +120,42 @@ Navigate to the backend directory:
 cd WebPage/backend
 ```
 
-Activate the virtual environment and set the execution mode:
+Activate the virtual environment:
 
 ```powershell
 .\venv\Scripts\activate
-$env:DB_MODE="demo"
+```
+
+(Optional) Define MongoDB connection string:
+
+```powershell
+$env:MONGO_URI="mongodb://localhost:27017"
+```
+
+Start the Flask server:
+
+```powershell
 flask run
 ```
 
-The backend server will run at:
+The backend will run at:
 
 ```
 http://localhost:5000
 ```
 
-The environment variable `DB_MODE="demo"` configures the application to use JSON-based storage instead of an external database.
-
 ---
 
-### 6.2 Frontend Execution
+### 7.2 Frontend Execution
 
-Open a new terminal and navigate to the frontend directory:
+Open a new terminal:
 
 ```bash
 cd WebPage/frontend
 npm run dev
 ```
 
-The frontend application will be available at:
+The frontend will run at:
 
 ```
 https://localhost:5173/
@@ -125,7 +163,7 @@ https://localhost:5173/
 
 ---
 
-## 7. Project Structure
+## 8. Project Structure
 
 ```
 TFG/
@@ -134,21 +172,14 @@ TFG/
 │   ├── backend/
 │   │   ├── app.py
 │   │   ├── config.py
-│   │   ├── routes/
-│   │   ├── models/
-│   │   ├── middleware/
-│   │   └── requirements.txt
+│   │   ├── __pycache__
 │   │
 │   └── frontend/
 │       ├── src/
 │       ├── pages/
 │       ├── components/
-│       ├── services/
-│       └── main.jsx
+│       └── services/
 │
-├── Jugadores.json
-├── Eventos.json
-├── Resultados.json
 ├── SistemaPuntuacion.py
 ├── JugadoresCadaEquipo.py
 ├── Test.py
@@ -158,70 +189,99 @@ TFG/
 
 ---
 
-## 8. Core Functionalities
+## 9. Core Functionalities
 
-### 8.1 Authentication
+### 9.1 Authentication
+
+<img width="373" height="94" alt="image" src="https://github.com/user-attachments/assets/1db9740f-a7a0-48b1-80ae-320a1a14cdcb" />
+
+
 - User registration
-- Login with JWT token generation
-- Protected routes using token validation middleware
+- JWT token generation upon login
+- Token validation middleware for protected routes
 
-### 8.2 Team Management
+### 9.2 Team Management
 - Retrieve available players
 - Create fantasy teams
 - Update team composition
 - Retrieve team data
 
-### 8.3 Match and Event Management
-- Retrieve match results
-- Retrieve event data
-- Automatic scoring updates
+### 9.3 Competition Management
+- Create competitions
+- Join competitions
+- Generate standings
 
-### 8.4 Ranking System
-- Calculate total team points
-- Compute standings per competition
-- Provide structured leaderboard output
+### 9.4 Scoring and Ranking
+- Automatic score calculation
+- Ranking updates
+- Leaderboard generation
 
 ---
 
-## 9. Scoring Engine
+## 10. Scoring Engine
 
-The scoring system is implemented in `SistemaPuntuacion.py`.
+The scoring engine is implemented in `SistemaPuntuacion.py`.
 
-The engine processes match events from `Eventos.json` and assigns points according to predefined rules:
+It processes match-related data and assigns points according to predefined rules.
 
-| Event Type              | Points |
-|-------------------------|--------|
-| Goal                    | +3     |
-| Assist                  | +1     |
-| Yellow Card             | -1     |
-| Red Card                | -3     |
-| Clean Sheet             | +2     |
-| Outstanding Performance | +1 to +3 |
+<img width="660" height="181" alt="image" src="https://github.com/user-attachments/assets/926122a4-17d6-4a49-b75d-058a86be481d" />
 
+
+### Scoring Rules
+
+| **Aspecto** | **Estándar** | **Goles** | **Rendimiento Comunitario** | **Fair Play** |
+|-------------|-------------|-----------|-----------------------------|---------------|
+| Goles | 5 | 7 | 3 | 3 |
+| Autogoles | -3 | -2 | -2 | -2 |
+| Amarillas | -1 | -0.5 | -1 | -3 |
+| Doble amarilla | -3 | -2 | -3 | -6 |
+| Roja directa | -5 | -4 | -4 | -8 |
+| Goles del equipo | 0.2 | 0.1 | 1.0 | 0.1 |
+| Goles encajados | -0.2 | -0.1 | -1.0 | -0.1 |
+
+**Team Result Points:**  
+Victory = +3  
+Draw = +1  
+Defeat = +0
 ### Scoring Workflow
 
-1. Match event is recorded.
-2. Event is parsed by the scoring engine.
-3. Points are calculated based on event type.
-4. Team totals are updated.
-5. Leaderboard is recalculated.
+1. Match events are stored in the database.
+2. The scoring engine processes relevant event data.
+3. Points are calculated per player.
+4. Fantasy team totals are updated.
+5. Leaderboards are recalculated.
 
-The scoring configuration can be modified directly within the engine to adapt rule parameters.
+The scoring logic is configurable and separated from the API layer to ensure modularity.
 
 ---
 
-## 10. Testing
+## 11. API Overview
 
-### Backend Testing
+Authentication Endpoints:
+- POST `/api/usuarios/registro`
+- POST `/api/usuarios/login`
 
-Run backend tests:
+Team Endpoints:
+- GET `/api/jugadores`
+- POST `/api/equipo`
+- PUT `/api/equipo/{id}`
+
+Competition and Scoring:
+- GET `/api/puntuacion/{equipo_id}`
+- GET `/api/clasificacion/{competicion_id}`
+
+All protected endpoints require a valid JWT token in the Authorization header.
+
+---
+
+## 12. Testing
+
+Backend testing can be executed with:
 
 ```bash
 cd WebPage/backend
 python -m pytest tests/ -v
 ```
-
-### Script-Based Validation
 
 Additional validation scripts:
 
@@ -230,70 +290,29 @@ python Test.py
 python Prueba.py
 ```
 
-These scripts validate:
+These scripts verify:
 - Data integrity
 - Scoring correctness
 - Event parsing logic
 
 ---
 
-## 11. Configuration
+## 13. Design Considerations
 
-Backend behavior can be modified using environment variables:
-
-```
-DB_MODE=demo
-FLASK_ENV=development
-```
-
-Frontend API endpoint configuration is managed in:
-
-```
-WebPage/frontend/.env.local
-```
-
-Example:
-
-```
-VITE_API_URL=http://localhost:5000
-```
+- Modular route-based backend architecture
+- Clear separation between authentication and business logic
+- Dedicated scoring engine for data processing
+- Persistent storage via MongoDB
+- Stateless API design using JWT
+- Environment-based configuration support
 
 ---
 
-## 12. Design Considerations
+## 14. Conclusion
 
-- Modular route-based backend structure
-- Separation of authentication middleware
-- Clear division between data processing and presentation
-- JSON-based storage for simplified deployment
-- Extensible scoring logic
+Fantasy Futsal demonstrates the implementation of a modular full-stack web application integrating RESTful API architecture, JWT-based authentication, MongoDB persistence, and event-driven scoring logic.
 
----
-
-## 13. Limitations
-
-- JSON storage limits scalability
-- No production database integration
-- No real-time event streaming
-- No containerization or cloud deployment implemented
-
----
-
-## 14. Future Improvements
-
-- Migration to relational database (PostgreSQL)
-- Docker containerization
-- Continuous Integration pipeline
-- Real-time scoring updates via WebSockets
-- Cloud deployment (AWS/Azure)
-
----
-
-## 15. Conclusion
-
-Fantasy Futsal demonstrates the implementation of a full-stack web application following modular design principles and RESTful architecture. The project integrates authentication, event-driven scoring logic, structured data processing, and client-server communication within a cohesive and maintainable system.
-
-The application reflects applied software engineering knowledge and practical system design skills consistent with final-year academic standards.
+The project reflects applied software engineering principles, database integration, and system design consistent with final-year academic standards.
 
 ---
 

@@ -1,8 +1,8 @@
-# 🏅 Fantasy Futsal - TFG
+# Fantasy Futsal - TFG
 
 Proyecto de Trabajo Fin de Grado que implementa una **plataforma web de Fantasy Futsal** con backend en Flask y frontend moderno.
 
-## 📋 Descripción del Proyecto
+## Descripción del Proyecto
 
 Fantasy Futsal es una aplicación web que permite a los usuarios:
 - Participar en ligas de Fantasy Futsal
@@ -16,7 +16,7 @@ Fantasy Futsal es una aplicación web que permite a los usuarios:
 - **Frontend**: Aplicación web moderna (JavaScript/Node.js)
 - **Datos**: Ficheros JSON con información de eventos, jugadores, resultados
 
-## 🗂️ Estructura del Proyecto
+## Estructura del Proyecto
 
 ```
 TFG/
@@ -36,7 +36,7 @@ TFG/
 └── README.md
 ```
 
-## 🚀 Instalación y Setup
+## Instalación y Setup
 
 ### Requisitos Previos
 
@@ -94,7 +94,7 @@ npm run dev
 
 El frontend estará disponible en `http://localhost:5173` (o el puerto que indique)
 
-## 📚 Estructura de Datos
+## Estructura de Datos
 
 ### Jugadores.json
 Contiene la información de todos los jugadores participantes:
@@ -118,7 +118,7 @@ Resultados finales de los partidos:
 - Fecha y hora
 - Jugadores destacados
 
-## 🔧 Scripts Python
+## Scripts Python
 
 ### JugadoresCadaEquipo.py
 Procesa y organiza los jugadores por equipos.
@@ -141,7 +141,7 @@ Ejecución de tests unitarios:
 python Test.py
 ```
 
-## 🧪 Testing
+## Testing
 
 Para ejecutar los tests:
 
@@ -155,7 +155,7 @@ O usando unittest:
 python Test.py
 ```
 
-## 🌐 API Endpoints
+## API Endpoints
 
 - `GET /api/jugadores` - Obtener lista de jugadores
 - `GET /api/resultados` - Obtener resultados de partidos
@@ -163,7 +163,7 @@ python Test.py
 - `POST /api/equipo` - Crear nuevo equipo
 - `GET /api/puntuacion/<equipo_id>` - Obtener puntuación de un equipo
 
-## 🛠️ Desarrollo
+## Desarrollo
 
 ### Cambios en el Frontend
 
@@ -178,13 +178,13 @@ npm run build    # Para crear compilación de producción
 1. El servidor Flask se recarga automáticamente en modo desarrollo
 2. Para cambios en dependencias: `pip install -r requirements.txt`
 
-## 📝 Notas de Desarrollo
+## Notas de Desarrollo
 
 - Asegúrate de que el entorno virtual de Python esté activado antes de ejecutar comandos de Flask
 - La carpeta `__pycache__` se genera automáticamente y no debe ser modificada
 - Los archivos JSON contienen datos importantes - realiza copias de seguridad antes de modificarlos
 
-## 🐛 Troubleshooting
+## Troubleshooting
 
 ### Error: "No module named 'flask'"
 
@@ -202,11 +202,11 @@ Instala Node.js desde https://nodejs.org/
 - Backend (5000): `flask run --port 5001`
 - Frontend: El puerto será asignado automáticamente
 
-## 📄 Licencia
+## Licencia
 
 Este proyecto es parte de un Trabajo Fin de Grado.
 
-## 👤 Autor
+## Autor
 
 **Lucard2105**
 

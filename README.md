@@ -1,56 +1,57 @@
 # Project Title
 
-## Project Description
-This project is a comprehensive application that integrates both backend and frontend functionalities. It is designed to achieve specific goals and provide users with an exceptional experience.
+A brief description of your project and its purpose.
 
-## Setup Instructions
+## Backend Setup
 
-### Backend Setup
-1. **Clone the Repository**: Use the following command to clone the repository:
-   ```
+1. **Clone the repository**
+   ```bash
    git clone https://github.com/Lucard2105/TFG.git
+   cd TFG
    ```
 
-2. **Navigate to the Backend Directory**:
-   ```
-   cd TFG/backend
+2. **Create and activate a virtual environment**
+   ```bash
+   python3 -m venv venv
+   source venv/bin/activate  # On Windows use `venv\Scripts\activate`
    ```
 
-3. **Install Dependencies**: Make sure you have your dependencies installed:
+3. **Install requirements**
+   ```bash
+   pip install -r requirements.txt
    ```
+
+4. **Set up environment variables**
+   You may need to create a `.env` file in the root directory of the project and add your environment variables like this:
+   ```plaintext
+   FLASK_APP=app.py
+   FLASK_ENV=development
+   DATABASE_URL=your_database_url
+   SECRET_KEY=your_secret_key
+   ```
+
+5. **Run the backend**
+   ```bash
+   flask run
+   ```
+
+## Frontend Setup
+
+1. **Navigate to the frontend directory**
+   ```bash
+   cd frontend
+   ```
+
+2. **Install dependencies**
+   ```bash
    npm install
    ```
 
-4. **Configure Environment Variables**: Create a `.env` file in the backend directory and configure the necessary environment variables as described in the `.env.example` file.
-
-5. **Run the Backend**:
+3. **Run the development server**
+   ```bash
+   npm run dev
    ```
-   npm start
-   ```
-
-### Frontend Setup
-1. **Navigate to the Frontend Directory**:
-   ```
-   cd ../frontend
-   ```
-
-2. **Install Dependencies**:
-   ```
-   npm install
-   ```
-
-3. **Run the Frontend**:
-   ```
-   npm start
-   ```
-
-## Running Instructions
-After setting up both the backend and frontend, you can access the application by navigating to `http://localhost:3000` in your web browser for the frontend and `http://localhost:5000` for the backend (if configured to run on these ports). 
-
----
 
 ## License
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-## Acknowledgments
-- Thank you to everyone who contributed to this project, and special thanks to the contributors who have helped shape it through their input and dedication.
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.

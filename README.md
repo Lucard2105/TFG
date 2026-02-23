@@ -1,253 +1,303 @@
-# Fantasy Futsal
-
-## Project Overview
-Fantasy Futsal is a comprehensive web platform developed as a Final Degree Project (2026) that allows users to create virtual futsal teams composed of real players, earn points based on real match performance, and compete against other users in leagues and competitions.
-
-The system integrates a Flask backend, a React + Vite frontend, and a JSON-based data architecture. It includes authentication with JWT, scoring automation, player management, competition rankings, and full RESTful API integration.
-
-The main objective of the project is to implement a complete fantasy sports ecosystem while applying software engineering principles such as modular backend design, data validation, automated testing, and frontend-backend communication.
+# Fantasy Futsal  
+Final Degree Project – Computer Science (2026)
 
 ---
 
-## Installation
+## 1. Introduction
 
-### System Requirements
+Fantasy Futsal is a full-stack web application developed as a Final Degree Project in Computer Science. The system simulates a fantasy futsal league in which users create virtual teams composed of real players and earn points based on real match events.
+
+The project demonstrates applied knowledge in backend architecture, RESTful API design, authentication mechanisms, data processing, automated scoring systems, and frontend-backend integration.
+
+The application has been designed following modular and maintainable software engineering principles.
+
+---
+
+## 2. Project Scope and Objectives
+
+The primary objectives of this project are:
+
+- Design and implement a modular RESTful backend using Flask.
+- Develop a reactive frontend interface using React and Vite.
+- Implement JWT-based authentication for secure access control.
+- Create a configurable scoring engine that processes real match events.
+- Ensure separation of concerns between presentation, application, and data layers.
+- Provide testing support for core functionalities.
+
+---
+
+## 3. System Architecture
+
+The system follows a client-server architecture with clear separation of responsibilities:
+
+### 3.1 Client Layer
+- React + Vite
+- Tailwind CSS
+- Fetch-based API communication
+
+### 3.2 Application Layer
+- Flask REST API
+- Route-based modular structure
+- Middleware for authentication
+- Configurable environment-based behavior
+
+### 3.3 Data Layer
+- Structured JSON files:
+  - `Jugadores.json`
+  - `Eventos.json`
+  - `Resultados.json`
+- Scoring engine (`SistemaPuntuacion.py`)
+
+Communication between frontend and backend is performed via HTTP using RESTful conventions.
+
+---
+
+## 4. Technology Stack
+
+### Backend
+- Python 3.9+
+- Flask
+- JWT Authentication
+- Pytest (testing framework)
+- Virtual environment (venv)
+
+### Frontend
+- React
+- Vite
+- Tailwind CSS
+- npm
+
+---
+
+## 5. Installation and Execution
+
+### 5.1 System Requirements
+
 - Python 3.9 or higher
 - Node.js v16 or higher
 - npm v8 or higher
-- Modern web browser
-
-### Installation Steps
-
-1. Clone the repository:
-```bash
-git clone https://github.com/Lucard2105/TFG.git
-```
-
-2. Navigate to the project directory:
-```bash
-cd TFG
-```
-
-3. Backend Setup:
-```bash
-cd WebPage/backend
-python -m venv venv
-```
-
-Activate virtual environment:
-
-Windows:
-```bash
-.\venv\Scripts\activate
-```
-
-macOS/Linux:
-```bash
-source venv/bin/activate
-```
-
-Install dependencies:
-```bash
-pip install -r requirements.txt
-```
-
-Create a `.env` file inside `backend`:
-```bash
-DB_MODE=demo
-FLASK_ENV=development
-FLASK_DEBUG=True
-SECRET_KEY=your-secret-key-here
-```
-
-Run backend:
-```bash
-flask run
-```
-
-4. Frontend Setup:
-```bash
-cd ../frontend
-npm install
-```
-
-Create `.env.local`:
-```bash
-VITE_API_URL=http://localhost:5000
-VITE_APP_NAME=Fantasy Futsal
-```
-
-Start development server:
-```bash
-npm run dev
-```
+- Windows PowerShell (recommended for backend setup)
 
 ---
 
-## Usage
+## 6. Running the Application
 
-### Running the Application
+### 6.1 Backend Execution
 
-Backend:
-```bash
+Navigate to the backend directory:
+
+```powershell
 cd WebPage/backend
+```
+
+Activate the virtual environment and set the execution mode:
+
+```powershell
+.\venv\Scripts\activate
+$env:DB_MODE="demo"
 flask run
 ```
 
-Frontend:
+The backend server will run at:
+
+```
+http://localhost:5000
+```
+
+The environment variable `DB_MODE="demo"` configures the application to use JSON-based storage instead of an external database.
+
+---
+
+### 6.2 Frontend Execution
+
+Open a new terminal and navigate to the frontend directory:
+
 ```bash
 cd WebPage/frontend
 npm run dev
 ```
 
-Access the application at:
+The frontend application will be available at:
+
 ```
-http://localhost:5173
-```
-
----
-
-## Features Overview
-
-- User authentication with JWT tokens
-- Player database stored in JSON format
-- Fantasy team creation and management
-- Real match event tracking
-- Automatic scoring engine
-- Competition standings and rankings
-- RESTful API structure
-- Unit and integration testing support
-
----
-
-## Example Use Case
-
-1. Register and log into the platform.
-2. Browse available players.
-3. Create a fantasy team selecting five players.
-4. Wait for match events to be processed.
-5. Check team score and leaderboard position.
-
----
-
-## Configuration
-
-### Backend Configuration
-
-Configuration is managed in `config.py` and environment variables:
-
-```python
-DB_MODE = "demo"
-FLASK_ENV = "development"
-SECRET_KEY = "your-secret-key"
-```
-
-### Frontend Configuration
-
-`.env.local`:
-
-```javascript
-VITE_API_URL=http://localhost:5000
-VITE_APP_NAME=Fantasy Futsal
-```
-
-### Scoring Rules
-
-Modify scoring rules in `SistemaPuntuacion.py`:
-
-```python
-SCORING_RULES = {
-    'gol': 3,
-    'asistencia': 1,
-    'tarjeta_amarilla': -1,
-    'tarjeta_roja': -3,
-    'clean_sheet': 2,
-    'destacado': 2
-}
+https://localhost:5173/
 ```
 
 ---
 
-## API Documentation
+## 7. Project Structure
 
-### Authentication Endpoints
-
-**POST** `/api/usuarios/registro`  
-Registers a new user.
-
-**POST** `/api/usuarios/login`  
-Returns JWT token.
-
----
-
-### Team Endpoints
-
-**GET** `/api/jugadores`  
-Retrieve all players.
-
-**POST** `/api/equipo`  
-Create a new team.
-
-**GET** `/api/equipo/{equipo_id}`  
-Retrieve team details.
-
-**PUT** `/api/equipo/{equipo_id}`  
-Update team information.
-
----
-
-### Match and Scoring Endpoints
-
-**GET** `/api/resultados`  
-Retrieve match results.
-
-**GET** `/api/eventos`  
-Retrieve match events.
-
-**GET** `/api/puntuacion/{equipo_id}`  
-Retrieve team score.
-
-**GET** `/api/clasificacion/{competicion_id}`  
-Retrieve competition leaderboard.
+```
+TFG/
+│
+├── WebPage/
+│   ├── backend/
+│   │   ├── app.py
+│   │   ├── config.py
+│   │   ├── routes/
+│   │   ├── models/
+│   │   ├── middleware/
+│   │   └── requirements.txt
+│   │
+│   └── frontend/
+│       ├── src/
+│       ├── pages/
+│       ├── components/
+│       ├── services/
+│       └── main.jsx
+│
+├── Jugadores.json
+├── Eventos.json
+├── Resultados.json
+├── SistemaPuntuacion.py
+├── JugadoresCadaEquipo.py
+├── Test.py
+├── Prueba.py
+└── README.md
+```
 
 ---
 
-## Contributing
+## 8. Core Functionalities
 
-1. Fork the repository.
-2. Create a feature branch:
+### 8.1 Authentication
+- User registration
+- Login with JWT token generation
+- Protected routes using token validation middleware
+
+### 8.2 Team Management
+- Retrieve available players
+- Create fantasy teams
+- Update team composition
+- Retrieve team data
+
+### 8.3 Match and Event Management
+- Retrieve match results
+- Retrieve event data
+- Automatic scoring updates
+
+### 8.4 Ranking System
+- Calculate total team points
+- Compute standings per competition
+- Provide structured leaderboard output
+
+---
+
+## 9. Scoring Engine
+
+The scoring system is implemented in `SistemaPuntuacion.py`.
+
+The engine processes match events from `Eventos.json` and assigns points according to predefined rules:
+
+| Event Type              | Points |
+|-------------------------|--------|
+| Goal                    | +3     |
+| Assist                  | +1     |
+| Yellow Card             | -1     |
+| Red Card                | -3     |
+| Clean Sheet             | +2     |
+| Outstanding Performance | +1 to +3 |
+
+### Scoring Workflow
+
+1. Match event is recorded.
+2. Event is parsed by the scoring engine.
+3. Points are calculated based on event type.
+4. Team totals are updated.
+5. Leaderboard is recalculated.
+
+The scoring configuration can be modified directly within the engine to adapt rule parameters.
+
+---
+
+## 10. Testing
+
+### Backend Testing
+
+Run backend tests:
+
 ```bash
-git checkout -b feature/YourFeature
+cd WebPage/backend
+python -m pytest tests/ -v
 ```
-3. Commit changes clearly.
-4. Push your branch.
-5. Open a Pull Request.
 
-Code standards:
-- Python follows PEP 8
-- JavaScript uses ES6+
-- Include tests for new features
+### Script-Based Validation
+
+Additional validation scripts:
+
+```bash
+python Test.py
+python Prueba.py
+```
+
+These scripts validate:
+- Data integrity
+- Scoring correctness
+- Event parsing logic
 
 ---
 
-## License
+## 11. Configuration
 
-This project is licensed under the MIT License.
-See the `LICENSE` file for details.
+Backend behavior can be modified using environment variables:
+
+```
+DB_MODE=demo
+FLASK_ENV=development
+```
+
+Frontend API endpoint configuration is managed in:
+
+```
+WebPage/frontend/.env.local
+```
+
+Example:
+
+```
+VITE_API_URL=http://localhost:5000
+```
 
 ---
 
-## Acknowledgments
+## 12. Design Considerations
 
-- Futsal community
-- Flask, React, Vite
-- Open-source contributors
+- Modular route-based backend structure
+- Separation of authentication middleware
+- Clear division between data processing and presentation
+- JSON-based storage for simplified deployment
+- Extensible scoring logic
+
+---
+
+## 13. Limitations
+
+- JSON storage limits scalability
+- No production database integration
+- No real-time event streaming
+- No containerization or cloud deployment implemented
+
+---
+
+## 14. Future Improvements
+
+- Migration to relational database (PostgreSQL)
+- Docker containerization
+- Continuous Integration pipeline
+- Real-time scoring updates via WebSockets
+- Cloud deployment (AWS/Azure)
+
+---
+
+## 15. Conclusion
+
+Fantasy Futsal demonstrates the implementation of a full-stack web application following modular design principles and RESTful architecture. The project integrates authentication, event-driven scoring logic, structured data processing, and client-server communication within a cohesive and maintainable system.
+
+The application reflects applied software engineering knowledge and practical system design skills consistent with final-year academic standards.
 
 ---
 
 ## Author
 
 Lucard2105  
-Computer Science Final Degree Project – 2026  
-Status: Active Development  
-Last Updated: February 23, 2026
+Final Degree Project – Computer Science (2026)
